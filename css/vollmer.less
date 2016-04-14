@@ -1,0 +1,111 @@
+@red: #db2c3b;
+@black: #000;
+@white: #fff;
+@gray: #404040;
+@darkGray: #232323;
+@acumin-pro: "acumin-pro",sans-serif;
+@semi-condensed: "acumin-pro-semi-condensed",sans-serif;
+@regular: 400;
+@medium: 500;
+@semiBold: 600;
+@bold: 700;
+
+body {
+  background-color: @darkGray;
+  font-family: @acumin-pro;
+  font-weight: @regular;
+}
+
+.logo-img {
+  padding: 10px 10px 10px 0;
+}
+a:hover {
+  text-decoration: none;
+  color: @gray; 
+}
+
+.white-section {
+  width: 60%;
+  height: auto;
+  .box-logo {
+    width: 20%;
+    float: left; 
+  }
+  .box-logo-img {
+    max-width: 200px;
+    display: inline-block;
+    height: auto;
+    margin: 10px;
+  }
+  .box-text {
+    width: 80%;
+    height: 100%;
+    position: relative; 
+    float: right;
+  }
+  h1 {
+    font-weight: @medium;
+    font-size: 38px;
+    margin-right: 0;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+
+  }
+}
+
+.pink-box {
+  text-align: left;
+}
+.row {
+  width: 100%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div {
+  display: block;
+}
+.bottom-align {
+
+}
+
+#nav2 a:hover {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 90%;
+}
+
+#mainImage {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 0px;
+  img {
+    width: auto;
+  }
+}
+.bg-img2 {
+  width: auto;  
+}
+
+#content {
+  text-align: center;
+  background-color: @white;
+  padding-top: 30px;
+  a {
+    color: @red;
+    &:hover {
+      color: @gray;
+    }
+  }
+}
+
+.main h2 {
+  color: @red;
+}
+

@@ -1,0 +1,85 @@
+body {
+  background-color: #232323;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 400;
+}
+.logo-img {
+  padding: 10px 10px 10px 0;
+}
+a:hover {
+  text-decoration: none;
+  color: #404040;
+}
+.white-section {
+  width: 60%;
+  height: auto;
+}
+.white-section .box-logo {
+  width: 20%;
+  float: left;
+}
+.white-section .box-logo-img {
+  max-width: 200px;
+  display: inline-block;
+  height: auto;
+  margin: 10px;
+}
+.white-section .box-text {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  float: right;
+}
+.white-section h1 {
+  font-weight: 500;
+  font-size: 38px;
+  margin-right: 0;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+.pink-box {
+  text-align: left;
+}
+.row {
+  width: 100%;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+div {
+  display: block;
+}
+#nav2 a:hover {
+  text-decoration: none;
+}
+.wrapper {
+  width: 90%;
+}
+#mainImage {
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+#mainImage img {
+  width: auto;
+}
+.bg-img2 {
+  width: auto;
+}
+#content {
+  text-align: center;
+  background-color: #fff;
+  padding-top: 30px;
+}
+#content a {
+  color: #db2c3b;
+}
+#content a:hover {
+  color: #404040;
+}
+.main h2 {
+  color: #db2c3b;
+}

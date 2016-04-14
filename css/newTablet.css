@@ -1,0 +1,369 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mobileSocial a{
+	float:left;
+	padding:0px 8px;
+}
+
+#mobileSocial{
+	padding: 10px 10px 10px 40px;
+}
+
+#mobileSocial a:nth-child(1){
+	padding:0px 8px 0px 0px;
+	}
+
+
+.languageToggle{
+	z-index:10;
+	top:87px;
+	color:#fff;
+	}
+
+.languageToggle ul li:nth-child(1)::after{
+	color:#fff;
+}
+
+.topContent p{padding:5px 10px;}
+
+#productTabs li{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:5px 0px;
+	width:100%;}
+	
+#productTabs li:nth-child(1) a{
+	padding-left:8px !important;
+	}	
+	
+.portfolio img{
+	margin-bottom:20px;
+	width:100%;}	
+	
+.rightColumn #tabs .section ul li{width:100%;}	
+
+
+#resources .leftColumn .dd, .leftColumn .relative,
+#contact2 .leftColumn .dd{width:90% !important;}
+
+.blueStrip{
+	display:none;
+	}
+
+.aboutLeftText{
+	width:100%;
+	border-right:0px;
+	}
+
+.aboutRightText{
+	float:left;
+	display:block;
+	margin-top:20px;	
+}
+
+#about .caged{
+	width:100%;
+}
+
+#contactPod button{
+	right:-4px !important;
+	bottom:1px;
+}
+
+#resources .ui-state-default{
+	text-transform:uppercase;
+	display:block !important;
+}
+
+#tabs2 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active{
+	text-transform:uppercase;
+	margin-bottom:20px;
+}
+
+.ui-accordion-content-active{
+	padding-left:10px;
+ 	margin-bottom:20px;
+	}
+
+#resources h3{
+	font-size:1.5rem;
+	margin-top:0px;
+	padding:5px 20px;
+	color:#fff;
+	background-color:#0099D8;
+	border-bottom:1px solid #fff;
+}
+
+#faqAccord h3{
+	font-size:1rem !important;
+	padding:0px;
+	text-transform: initial !important;
+	color:#000;
+	background-color:transparent;
+	}
+
+#faqAccord .ui-state-active{
+	margin-bottom:5px;
+	font-weight:bold !important;
+	color:#000 !important;
+	text-transform: initial !important;
+}
+
+#faqAccord .ui-accordion-content-active{
+	margin-bottom:10px;
+}
+
+
+#tabs-2694 h3, #tabs-2695 h3{
+	font-size:1.3rem;
+	background-color:transparent;
+	color:#000;
+	padding:0px 0px;
+	}
+
+.contained h1{
+	margin-bottom:10px;
+	}
+
+.hideCaseOrSomething{
+	display:none;
+}
+
+.productFinderIndustry{
+	width:100%;
+	}
+
+
+
+/*IPAD PORTRAIT*/	
+@media(min-width:750px) and (max-width:800px){
+	
+	.headnav{
+	width:100% !important;
+	}
+	
+	.headnav ul{
+	margin-top:29px;
+	}
+
+	#tabs #accordion h3{
+	padding:5px 10px;
+	display:block;
+	border-bottom:1px solid #ccc;
+	}
+
+	#tabs #accordion .section h3{
+	padding:5px 0px;
+	}
+
+	.rightColumn #tabs .dd{
+	width:100% !important;
+	}
+	
+	#logo{
+	width:330px;
+		}
+
+	#productTabs{
+	display:none;
+	}
+
+	#tabs #accordion{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	}
+
+
+	#tabs #accordion .ui-state-active{
+	text-transform:uppercase !important;
+	}
+
+	.rightColumn #tabs #tabs-1, .rightColumn #tabs #tabs-2, .rightColumn #tabs #tabs-3{
+	padding:20px;
+	}
+	
+	.rightColumn #tabs .section{
+	width:100%;
+	}
+
+	.rightColumn #tabs .section h3{
+	padding:5px 0px;
+	}
+
+	.navBar ul li{
+		padding:	10px 2px 10px 0px;}
+		
+	#nav li a{
+		padding:2px 5px 0px 4px;}		
+		
+	.arrowShift .arrow{
+		margin-left:6px;
+		}
+
+
+	}	
+	
+@media(min-width:667px) and (max-width:750px){
+
+	#tabs #accordion h3{
+	padding:5px 0px;
+	display:block;
+	border-bottom:1px solid #ccc;
+	}
+
+	.headnav{
+	width:100% !important;
+	}
+	
+	.headnav ul{
+	display:none;
+	}
+
+	.languageToggle ul{
+	display:block;
+	}
+	
+	#logo{
+	width:330px;
+		}
+	#productTabs{
+	display:none;
+	}
+
+	#tabs #accordion h3{
+	display:block;
+	}
+	
+	.navBar{
+		display:none;
+		}
+	
+	.header{
+		display:block;
+		}
+		
+	.navBar{
+		display:none;
+		}
+	
+	.header{
+		display:block;
+		}
+		
+	#contact{
+		display:none;
+		}	
+		
+	.productFinder{width:100%;}	
+	
+	.productFinder .dd{
+		width:31% !important;
+		}	
+	
+	#podRight{display:none;}	
+	
+	#dropdowns{width:100% !important;}
+	
+	footer #leftside{
+		width:390px;
+		float:right;}
+		
+	footer #rightSide{
+		float:left;
+		}	
+		
+	footer #rightSide ul li{display:block;}
+	
+	.podcage{ 
+		min-height:372px !important; 
+		}
+
+	#productTabs ul li{
+		width:100%;
+		padding:5px 0px;}
+		
+
+	
+	.rightColumn #tabs ul li a{padding-left:0px;}	
+	
+	.rightColumn #tabs ul{padding-bottom:0px;}
+	
+	.topContent p{float:left;}
+		
+	#productTabs li:nth-child(1) a, #productTabs li a{
+		padding-left:20px !important;
+		}	
+		
+	.leftColumn{margin-top:-162px;}	
+	
+	.colorSelections{margin-top:-30px;}
+	
+	#colorSelect li{width:31.9%;}	
+
+	#pfResults .section ul{
+	margin-bottom:10px;
+	width:58%;
+	float:left;
+	}	
+
+	#pfResults .leftSide ul{
+	width:100%;
+	}
+
+	#pfResults .section .rightSide{
+	width:90% !important;
+	margin:0 auto;
+	float:none;}
+
+	#pfResults .section button{
+	float:left;
+	}
+
+	#productTabs{
+	display:none;
+	}
+
+	#tabs #accordion{
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	}
+
+	#tabs #accordion h3{
+	padding:5px 10px;
+	display:block;
+	border-bottom:1px solid #ccc;
+	}
+
+	#tabs #accordion .ui-state-active{
+	text-transform:uppercase !important;
+	}
+
+	.rightColumn #tabs #tabs-1, .rightColumn #tabs #tabs-2, .rightColumn #tabs #tabs-3{
+	padding:20px;
+	}
+	
+	.rightColumn #tabs .section{
+	width:100%;
+	}
+
+	.rightColumn #tabs .section h3{
+	padding:5px 0px;
+	}
+
+	#noStudy img{
+	width:60px;
+	}
+
+	#cases .padding{
+	padding:20px 10px;
+	}
+
+	.hideCaseOrSomething{
+	display:none;
+	}
+	
+	}	

@@ -1,0 +1,203 @@
+
+
+<html>
+  <head>
+  <meta charset="utf-8" />
+
+  <meta name="description" content="AD Fire Home Page" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:801px) and (max-width:1100px), only screen and (max-device-width: 1100px)" href="css/newTablet.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (max-width:800px), only screen and (max-device-width: 800px)" href="css/Phone.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link type="text/css" rel="stylesheet" href="css/demo.css" />
+  <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="scripts/jquery-1.11.0.min.js"></script>
+  <script src="scripts/slick.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/vollmer.css"/>
+<!--load fonts-->
+  <script src="https://use.typekit.net/rjn3are.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  
+  
+  </head>
+  <body>
+    <div id="header">
+      <div class="wrapper">
+      <!-- Mobile Nav -->
+      <a id="themenu" href="#menu"><div class="burg"></div><div class="burg"></div><div class="burg"></div></a>
+        <nav id="menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+              <li><a href="/about-us/">About Us</a></li>
+              <li><a href="/products/">Products</a></li>
+              <li><a href="/projects/">Projects</a></li>
+              <li><a href="/links/">Links</a></li>
+          </ul>
+        </nav>
+
+        <!-- LogoTitle -->
+      <div id="nav1"><a href="/">
+        <div class="logo-div">
+          <img src="images/logo.svg" class="logo-img" />
+        </div>
+        <div class="logo-div">
+          <h1 id="top-title">Fire Protection Systems</h1></div>
+        </a>
+      </div>
+      <!-- News, Contact, Search -->
+      <div id="nav2">
+        <div class="menu">
+          
+          <div id="form">
+            <input type="search" id="searchBox" placeholder="Search AD Fire" />
+            <span><i class="fa fa-search" id="m-glass"></i></span>
+          </div>
+          <ul class="news-contact">
+                <li class="top-li"><a href="/news/">News</a></li>
+                <li class="top-li">|</li>
+                <li class="top-li"><a href="/contact-us/">Contact Us</a></li>
+          </ul>
+        </div>
+          
+        <!-- Main Nav -->
+<div class="menu">
+          <ul>
+            <li class="main-li">
+              <a href="adfire.html">Home</a>
+            </li>
+            <li class="main-li">
+              <a href="about-us.html">About Us</a>
+            </li>
+            <li class="main-li">
+              <a href="products.html">Products</a>
+            </li>
+            <li class="main-li">
+              <a href="projects.html">Projects</a>
+            </li>
+            <li class="main-li">
+              <a href="links.html">Links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <script type="text/javascript">
+        ( function() {
+          var open = false;
+          $('#m-glass').on('click', function(e) {
+          e.preventDefault();
+            var searched = $("#searchBox").val();
+            if(searched.length > 2)
+            {
+              window.location.href = "/search-results/?ap-q="+searched;
+            }
+          });
+          $('#searchBox').on('keyup', function(e){
+            if(e.keyCode == 13){
+              var searched = $("#searchBox").val();
+              if(searched.length > 2)
+              {
+                window.location.href = "/search-results/?ap-q="+searched;
+              }
+            }
+          });
+          
+        } () );
+      </script>
+
+      </div>
+    </div>
+    
+    
+<div id="mainImage">
+    <img src="images/header-1.jpg" class="bg-img2">
+
+  <section class="pink-box">
+    <h1>Links</h1>
+  </section>
+</div>
+<div id="content">
+  <div class="wrapper">
+    <p>Links</p>
+  </div>
+</div>
+        
+      <footer>
+    <div id="foot-wrap">
+      <section id="foot1">
+        <p>Copyright 2016 A/D Fire Protection Systems</p>
+      </section>
+      <section id="foot2">
+        <ul>
+            <li class="bottom-li">
+              <a href="/" class="bottom-a">AD Fire</a>
+            </li>
+            <li class="bottom-li">
+              <a href="/contact-us/" class="bottom-a">Contact Us</a>
+            </li>
+        </ul>
+      </section>
+      <section id="foot3">
+        <p>A/D Fire Protection Systems is part of the Carboline Company.</p>
+      </section>
+    </div>
+    </footer>
+
+
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slideshow').slick({
+        lazyLoad: 'ondemand', 
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        slide: 'div',
+        cssEase: 'linear',
+        autoplay: true,
+          autoplaySpeed: 2000,
+        arrows:true
+      });
+        });
+    </script>
+    
+<script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('nav#menu').mmenu();
+    });
+  </script> 
+    
+  <script type="text/javascript">
+  $(document).ready(function() {
+    
+    $("#my-menu").mmenu({
+     // options
+    }, {
+     // configuration
+     offCanvas: {
+      pageNodetype: "section"
+     } 
+     
+   }); //mmenu close
+   var api = $("#my-menu").data( "mmenu" );
+   
+    window.onresize = function closeMenu(e) {
+      
+       var windowWidth = window.innerWidth;
+       if(windowWidth > 800) 
+        {
+          
+          api.close();
+          
+        }
+     } // end window resize
+    
+  });
+  </script>
+  
+  </body>
+</html>
