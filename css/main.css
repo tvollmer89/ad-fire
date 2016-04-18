@@ -163,10 +163,10 @@ a .box {
   /*margin-bottom: 20px;*/
 }
 .contact-header {
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 }
 .contact {
-  padding-left: 40px;
+  /*padding-left: 40px;*/
 }
 .contact p {
   color: #fff;
@@ -437,7 +437,7 @@ footer p {
 
 .white-section ul {
   /*width:  70%;*/
-  margin: 0 auto 10px auto;
+  margin: 0 auto 14px auto;
   text-align: center;
 }
 
@@ -454,13 +454,13 @@ footer p {
     font-size: 42px;
     color: white;
     text-shadow: 2px 2px 2px #1f1f1f;
-    margin: 65px 0 0 0;
-    float: left;
+/*    margin: 65px 0 0 0;
+*/    float: left;
 }
 
 .white-section img {
     float: left;
-    width: 200px !important;
+    /*width: 200px !important;*/
 }
 #content {
   background-color: #fff;
@@ -674,4 +674,5 @@ footer p {
 /* ======= MEDIA QUERIES ======= */
 
 @media (max-width: ) {
+}
     
