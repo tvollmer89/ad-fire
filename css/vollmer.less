@@ -2,6 +2,7 @@
 @red: #db2c3b;
 @black: #000;
 @white: #fff;
+@lgray: #e5e5e5;
 @gray: #404040;
 @lightGray: #666666;
 @darkGray: #232323;
@@ -35,9 +36,6 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-.content-wrapper {
-
 }
 
 .row {
@@ -97,58 +95,6 @@ a:hover {
   color: @gray; 
 }
 
-/*navigation*/
-.navbar-brand {
-  float: left;
-  height: auto;
-  padding: 15px 15px;
-}
-.navbar {
-  border: none !important;
-  margin: 0;
-}
-.navbar-toggle {
-  border-color: transparent;
-}
-.nav-info {
-  display: block;
-  margin-top: 15px;
-  margin-bottom: 1px;
-  float: right;
-  clear: both;
-  color: @white;
-  font-size: 12px;
-  a {
-    color: @white;
-  }
-}
-.nav>li {
-  position: relative;
-  display: block;
-}
-#navbar {
-  position: static !important;
-  margin-top: 10px !important;
-  clear: both;
-  right: 0;
-}
-.menu-main-menu {
-  .main-menu {
-    a {
-      color: @white;
-      font-size: 18px;
-    }
-  }
-}
-.main-menu a{
-  color: @white !important;
-  font-size: 18px !important;
-}
-/*buttom*/
-button {
-  text-transform: none;
-  overflow: visible;
-}
 /*home page*/
 .white-section {
   width: 60%;
@@ -182,10 +128,6 @@ button {
 
 .pink-box {
   text-align: left;
-}
-
-.bottom-align {
-
 }
 
 /*navigation*/
@@ -284,7 +226,7 @@ button {
     margin: 0 auto;
   }
   .content-inner {
-    padding-top: 30px;
+    padding: 30px 15px;
   }
   h1 {
     font-size: 36px;
@@ -303,10 +245,11 @@ button {
     border-bottom-color: @lightGray;
     background-color: @lightGray;
     margin-top: 40px;
+/*    max-height: 300px;*/
   }
 }
 #news {
-  width: 49%;
+  border-right: 2px solid @lightGray;
   .row {
     padding-left: 35px;
     margin-bottom: 30px;
@@ -328,6 +271,7 @@ button {
 }
 
 #contact {
+  width: 49%;
   h1 {
     padding-left: 50px;
   }
@@ -346,6 +290,69 @@ button {
   }
 }
 
+/*products page*/
+.products {
+  padding-bottom: 30px;
+  .container {
+    /*margin: 20px auto;*/
+  }
+  h2 {
+    font-family: @semi-condensed;
+    font-size: 36px;
+    font-weight: @bold;
+  }
+  h3 {
+    font-size: 32px;
+    color: @lightGray;
+    font-weight: @regular;
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .col-md-6 {
+    padding: 0;
+    h3 {
+      margin-bottom: 26px;
+    }
+  }
+  li, p {
+    display: inline-block;
+    font-size: 24px;
+    margin: auto 40px;
+    padding-bottom: 14px;
+  }
+}
+.fire-prod>li{
+  display: block;
+  font-size: 21px;
+  margin: auto 10px;
+  padding-bottom: 14px;
+}
+.southwest {
+
+}
+#sw-prod {
+  height: 200px;
+  max-width: 400px;
+  margin:auto;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2; /*3 in those rules is just placeholder -- can be anything*/
+  -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 0px; /* Firefox */
+  column-gap: 0px;
+  li {
+    display: inline-block; /*necessary*/
+    font-size: 21px;
+    margin: auto 10px;
+    padding-bottom: 14px;
+  }
+}
+.gray {
+  background-color: @lgray !important;
+}
+.southwest {
+  padding: 0;
+}
 /*media*/
 @media (min-width: 1600px) {
   .container {
@@ -368,34 +375,3 @@ button {
     float: left;
   }
 }
-
-/*@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}*/
-
-/*@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-  .container>.navbar-header {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .navbar-header {
-    float: left;
-  }
-  .navbar>.container .navbar-brand {
-    margin-left: -15px;
-  }
-  .col-sm-12 {
-    width: 100%;
-  }
-  .col-sm-6 {
-    width: 50%;
-  }
-  .col-sm-6, .col-sm-12 {
-    float: left;
-  }
-}*/

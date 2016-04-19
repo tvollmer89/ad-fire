@@ -1,7 +1,5 @@
-
-
 <html>
-  <head>
+<head>
   <meta charset="utf-8" />
 
   <meta name="description" content="AD Fire Home Page" />
@@ -16,54 +14,73 @@
   <script src="scripts/jquery-1.11.0.min.js"></script>
   <script src="scripts/slick.js"></script>
   <link rel="stylesheet" type="text/css" href="css/vollmer.css"/>
-<!--load fonts-->
+  <!--load fonts-->
   <script src="https://use.typekit.net/rjn3are.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-  
-  
-  </head>
-  <body>
-    <div id="header">
-      <div class="wrapper">
+</head>
+<body>
+  <div id="header">
+    <div class="wrapper">
       <!-- Mobile Nav -->
-      <a id="themenu" href="#menu"><div class="burg"></div><div class="burg"></div><div class="burg"></div></a>
-        <nav id="menu">
-          <ul>
-            <li><a href="/">Home</a></li>
-              <li><a href="/about-us/">About Us</a></li>
-              <li><a href="/products/">Products</a></li>
-              <li><a href="/projects/">Projects</a></li>
-              <li><a href="/links/">Links</a></li>
-          </ul>
-        </nav>
+      <a id="themenu" href="#menu">
+        <div class="burg"></div>
+        <div class="burg"></div>
+        <div class="burg"></div>
+      </a>
+      <nav id="menu">
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about-us/">About Us</a>
+          </li>
+          <li>
+            <a href="/products/">Products</a>
+          </li>
+          <li>
+            <a href="/projects/">Projects</a>
+          </li>
+          <li>
+            <a href="/links/">Links</a>
+          </li>
+        </ul>
+      </nav>
 
-        <!-- LogoTitle -->
-      <div id="nav1"><a href="/">
-        <div class="logo-div">
-          <img src="images/logo.svg" class="logo-img" />
-        </div>
-        <div class="logo-div">
-          <h1 id="top-title">Fire Protection Systems</h1></div>
+      <!-- LogoTitle -->
+      <div id="nav1">
+        <a href="/">
+          <div class="logo-div">
+            <img src="images/logo.svg" class="logo-img" />
+          </div>
+          <div class="logo-div">
+            <h1 id="top-title">Fire Protection Systems</h1>
+          </div>
         </a>
       </div>
       <!-- News, Contact, Search -->
       <div id="nav2">
         <div class="menu">
-          
+
           <div id="form">
             <input type="search" id="searchBox" placeholder="Search AD Fire" />
-            <span><i class="fa fa-search" id="m-glass"></i></span>
+            <span> <i class="fa fa-search" id="m-glass"></i>
+            </span>
           </div>
           <ul class="news-contact">
-                <li class="top-li"><a href="/news/">News</a></li>
-                <li class="top-li">|</li>
-                <li class="top-li"><a href="/contact-us/">Contact Us</a></li>
+            <li class="top-li">
+              <a href="/news/">News</a>
+            </li>
+            <li class="top-li">|</li>
+            <li class="top-li">
+              <a href="/contact-us/">Contact Us</a>
+            </li>
           </ul>
         </div>
-          
+
         <!-- Main Nav -->
-<div class="menu">
+        <div class="menu">
           <ul>
             <li class="main-li">
               <a href="adfire.html">Home</a>
@@ -107,59 +124,99 @@
         } () );
       </script>
 
-      </div>
     </div>
-    
-    
-<div id="mainImage">
-    <img src="images/header-1.jpg" class="bg-img2">
-
-<section class="pink-box">
-  <h1>Products</h1>
-</section>
   </div>
 
-<section id="white-wrapper">
-      <div class="wrapper push">
-        <h2>Thin Film Intumescent Fire Resistive Coatings</h2>
-              <p><a href="/products/thin-film-intumescent-fire-resistive-coatings/ad-firefilm-iii/">A/D Firefilm III</a></p>
-        <h2>Fireproofing, Insulation and Thermal Barriers</h2>
-              <h3>Southwest Fireproofing</h3>
-              <ul>
-                  <li><a href="/products/fireproofing-insulation-and-thermal-barriers/southwest-fireproofing/type-5gp/">Type 5GP</a></li>
-              </ul>
-              <h3>A/D Fire Protection</h3>
-              <ul>
-                  <li><a href="/products/fireproofing-insulation-and-thermal-barriers/ad-fire-protection/ad-type-fp/">A/D Type FP</a></li>
-              </ul>
-    </div>
+  <div id="mainImage">
+    <img src="images/header-1.jpg" class="bg-img2">
 
-</section>
-        
-      <footer>
+    <section class="pink-box">
+      <h1>Products</h1>
+    </section>
+  </div>
+
+  <div id="content" class="content-row products">
+    <div class="content-inner container">
+      <h2>Thin Film Intumescent Fire Resistive Coatings</h2>
+      <ul>
+        <li><a href="#">A/D Firefilm III</a></li>
+        <li><a href="#">A/D Firefilm III</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="content" class="content-row products gray">
+    <div class="content-inner container">
+      <h2>Firestopping</h2>
+      <p>
+        <a href="/products/thin-film-intumescent-fire-resistive-coatings/ad-firefilm-iii/">A/D Firebarrier</a>
+      </p>
+    </div>
+  </div>
+  <div id="content" class="content-row products">
+    <div class="content-inner container">
+      <h2>Fireproofing, Insulation and Thermal Barriers</h2>
+      <div class="row">
+        <div class="col-md-6 southwest">
+          <h3>Southwest Fireproofing</h3>
+          <ul id="sw-prod">
+            <li><a href="">Type 5GP</a></li>
+            <li><a href="">Type 5MD</a></li>
+            <li><a href="">Type 5AR</a></li>
+            <li><a href="">Type A-20</a></li>
+            <li><a href="">Type 7GP</a></li>
+            <li><a href="">Type 7HD</a></li>
+            <li><a href="">Type 7TB</a></li>
+            <li><a href="">Type DK</a></li>
+            <li><a href="">Type HC</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>A/D Fire Protection</h3>
+          <ul class="fire-prod">
+            <li><a href="">A/D Type FP</a></li>
+            <li><a href="">A/D Type 1</a></li>
+            <li><a href="">A/D Thermal Barrier</a></li>
+            <li><a href="">A/D TC-55 Sealer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="content" class="content-row products gray">
+    <div class="content-inner container">
+      <h2>LEED Green Building Rating System</h2>
+      <ul class="leed">
+        <li><a href="">Fireproofing: USA</a></li>
+        <li><a href="">Fireproofing: International & Canada</a></li>
+        <li><a href="">Firestopping</a></li>
+      </ul>
+    </div>
+  </div>
+      
+  <footer>
     <div id="foot-wrap">
       <section id="foot1">
         <p>Copyright 2016 A/D Fire Protection Systems</p>
       </section>
       <section id="foot2">
         <ul>
-            <li class="bottom-li">
-              <a href="/" class="bottom-a">AD Fire</a>
-            </li>
-            <li class="bottom-li">
-              <a href="/contact-us/" class="bottom-a">Contact Us</a>
-            </li>
+          <li class="bottom-li">
+            <a href="/" class="bottom-a">AD Fire</a>
+          </li>
+          <li class="bottom-li">
+            <a href="/contact-us/" class="bottom-a">Contact Us</a>
+          </li>
         </ul>
       </section>
       <section id="foot3">
-        <p>A/D Fire Protection Systems is part of the Carboline Company.</p>
+        <p>
+          A/D Fire Protection Systems is part of the Carboline Company.
+        </p>
       </section>
     </div>
-    </footer>
+  </footer>
 
-
-
-<script type="text/javascript">
+  <script type="text/javascript">
         $(document).ready(function(){
             $('.slideshow').slick({
         lazyLoad: 'ondemand', 
@@ -175,14 +232,14 @@
       });
         });
     </script>
-    
-<script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
+
+  <script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
   <script type="text/javascript">
     $(function() {
       $('nav#menu').mmenu();
     });
-  </script> 
-    
+  </script>
+
   <script type="text/javascript">
   $(document).ready(function() {
     
@@ -210,6 +267,6 @@
     
   });
   </script>
-  
-  </body>
+
+</body>
 </html>
