@@ -1227,20 +1227,6 @@ a:hover {
   font-weight: 600;
   text-transform: uppercase;
 }
-#news-contact hr {
-  width: 0;
-  height: 90%;
-  margin: 0;
-  padding: 0;
-  float: left;
-  border-right-color: #666666;
-  border-left-color: #eeeeee;
-  border-top-color: #666666;
-  border-bottom-color: #666666;
-  background-color: #666666;
-  margin-top: 40px;
-  /*    max-height: 300px;*/
-}
 #news {
   border-right: 2px solid #666666;
 }
@@ -1313,36 +1299,47 @@ a:hover {
   margin: auto 40px;
   padding-bottom: 14px;
 }
-.fire-prod > li {
+.products:nth-child(2n+0) {
+  background-color: #e5e5e5 !important;
+}
+/*.fire-prod>li{
   display: block;
   font-size: 21px;
   margin: auto 10px;
   padding-bottom: 14px;
 }
-#sw-prod {
-  height: 200px;
+*/
+#sw-prod,
+.fire-prod {
   max-width: 400px;
   margin: auto;
-  -webkit-column-count: 2;
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  columns: 2 200px;
+  -moz-column-fill: balance;
+  column-fill: balance;
+  /*  -webkit-column-count: 2;
   -moz-column-count: 2;
-  column-count: 2;
-  /*3 in those rules is just placeholder -- can be anything*/
+  column-count: 2; /*3 in those rules is just placeholder -- can be anything*/
+  /**/
   -webkit-column-gap: 0px;
   /* Chrome, Safari, Opera */
   -moz-column-gap: 0px;
   /* Firefox */
   column-gap: 0px;
 }
-#sw-prod li {
+#sw-prod li,
+.fire-prod li {
+  width: 200px;
   display: inline-block;
   /*necessary*/
   font-size: 21px;
   margin: auto 10px;
   padding-bottom: 14px;
 }
-.gray {
-  background-color: #e5e5e5 !important;
-}
+/*.gray {
+  background-color: @lgray !important;
+}*/
 .southwest {
   padding: 0;
 }

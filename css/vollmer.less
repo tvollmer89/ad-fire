@@ -233,20 +233,6 @@ a:hover {
     font-weight: @semiBold;
     text-transform: uppercase;
   }
-  hr {
-    width: 0;
-    height: 90%;
-    margin: 0;
-    padding: 0;
-    float: left;
-    border-right-color: @lightGray;
-    border-left-color: rgb(238,238,238);    
-    border-top-color: @lightGray;
-    border-bottom-color: @lightGray;
-    background-color: @lightGray;
-    margin-top: 40px;
-/*    max-height: 300px;*/
-  }
 }
 #news {
   border-right: 2px solid @lightGray;
@@ -321,35 +307,43 @@ a:hover {
     padding-bottom: 14px;
   }
 }
-.fire-prod>li{
+.products:nth-child(2n+0) {
+  background-color: @lgray !important;
+}
+/*.fire-prod>li{
   display: block;
   font-size: 21px;
   margin: auto 10px;
   padding-bottom: 14px;
 }
-.southwest {
-
-}
-#sw-prod {
-  height: 200px;
+*/
+#sw-prod, .fire-prod {
   max-width: 400px;
   margin:auto;
-  -webkit-column-count: 2;
+  -webkit-columns: 2 200px;
+  -moz-columns: 2 200px;
+  columns: 2 200px;
+  -moz-column-fill: balance;
+  column-fill: balance;
+/*  -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2; /*3 in those rules is just placeholder -- can be anything*/
+/**/  
   -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
   -moz-column-gap: 0px; /* Firefox */
   column-gap: 0px;
   li {
+    width: 200px;
     display: inline-block; /*necessary*/
     font-size: 21px;
     margin: auto 10px;
     padding-bottom: 14px;
   }
 }
-.gray {
+/*.gray {
   background-color: @lgray !important;
-}
+}*/
+
 .southwest {
   padding: 0;
 }
