@@ -1,0 +1,42 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using Archetype.Models;
+
+  @{
+    var home = CurrentPage.AncestorOrSelf("Home");
+    var logoImage = Umbraco.Media(home.logoImage);
+    var boxes = Model.Content.GetPropertyValue<ArchetypeModel>("multiText");
+
+    string [] ids = CurrentPage.Slideshow.Split(new char [] {',' , '.'});
+
+    <div id="homeSlide">
+      <div class="slideshow">
+        @foreach (var id in ids)
+        {
+          var slideImage = Umbraco.Media(id);
+          <div class="slideImg">
+            <img src="@slideImage.Url">
+
+            <section class="white-section">
+              <section class="no-opacity">
+                <section class="clearfix">
+                  <a href="#">
+                    <img src="@logoImage.Url" class="logo-img"/>
+                    <h1>@home.logoText</h1>
+                  </a>
+                </section>
+                <ul>
+                  @foreach (var box in boxes)
+                  {
+                    if (box.HasValue("text"))
+                    {
+                      <li><a href="#" class="bold-links">@Html.Raw(box.GetValue("text"))</a></li>
+                    }
+                  }
+                </ul>
+              </section>
+            </section>
+          </div>
+        }
+      </div>
+    </div>
+  }

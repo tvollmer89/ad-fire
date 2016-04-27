@@ -33,7 +33,7 @@ a:hover {
   width: 34%;
   vertical-align: top;
   padding: 0 1%;
-  
+
 }
 
 .rightBorderGrey {
@@ -103,13 +103,13 @@ a .box {
 
 
 #header {
-  width: 100%; 
-  background-color: #232323; 
-  height: 70px; 
+  width: 100%;
+  background-color: #232323;
+  height: 70px;
   padding: 15px 0px;
 }
 
-.wrapper {width: 80%; margin: 0 auto; 
+.wrapper {width: 80%; margin: 0 auto;
 }
 
 #data {
@@ -146,7 +146,7 @@ a .box {
 
 .news-info {
   display: inline-block;
-  max-width: 500px;   
+  max-width: 500px;
 }
 .dataSheet {
   float: left;
@@ -171,7 +171,7 @@ a .box {
 .contact p {
   color: #fff;
 }
-  
+
 #mainImage {
   position: relative;
   height: 330px;
@@ -192,7 +192,7 @@ a .box {
   font-weight: 600;
   font-size: 36px;
 }
-  
+
 #homeSlide img {
   width: 100%;
   /*height: 100%;*/
@@ -273,7 +273,7 @@ a {
     width: 100%;
     margin: 0;
     text-align: right;
-    
+
 }
 .menu:nth-child(2){
     margin-top: 10px;
@@ -325,7 +325,7 @@ li {
   color: #fff;
     text-transform: uppercase;
     font-size: 12px;
-    
+
 }
 .main-li a {
     display: block;
@@ -416,7 +416,7 @@ footer p {
 }
 /*#bg-img {
     background: url(../img/edmonton_art_gallery.png) no-repeat center;
-    background-size: cover; 
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -427,9 +427,6 @@ footer p {
 .white-section {
     top: 55%;
     left: 8%;
-    background-color: #e5e5e5;
-    opacity: 0.85;
-    filter: alpha(opacity=85);
     position: absolute;
     width: 45%;
     min-width: 700px;
@@ -460,7 +457,7 @@ footer p {
 
 .white-section img {
     float: left;
-    /*width: 200px !important;*/
+    min-width: 140px !important;
 }
 #content {
   background-color: #fff;
@@ -612,7 +609,7 @@ footer p {
 }
 .tech-data {
     width: 45%;
-    float: left; 
+    float: left;
     margin-left: 2.5%;
     margin-right: 2.5%;
 }
@@ -675,4 +672,3 @@ footer p {
 
 @media (max-width: ) {
 }
-    
