@@ -1,0 +1,29 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+  @{
+    <div><ul class="crumbs"><li>Products</li><li></li><li>Product Name</li></ul></div>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="caseHistory">
+      <tbody>
+        <tr>
+          @foreach (var caseStudy in CurrentPage.Children)
+          {
+            <h1>@caseStudy.Name</h1>
+
+            foreach (var cs in caseStudy.Children)
+            {
+              <td class="rightBorderGrey">
+                <a href="@Umbraco.Media(cs.caseStudy).Url">
+                <div class="photoThing">
+                  <img src="@Umbraco.Media(cs.casePicture).Url" width="318" height="212" alt="" />
+                  <h3>@cs.caseName</h3>
+                  <p class ="redText">@cs.caseCityState</p>
+                  <small>@cs.caseAddress</small>
+                </div>
+                </a>
+              </td>
+            }
+          }
+        </tr>
+      </tbody>
+    </table>
+  }

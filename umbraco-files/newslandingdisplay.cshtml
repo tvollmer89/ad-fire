@@ -1,0 +1,29 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+  @{
+    <div><ul class="crumbs"><li>News</li><li></li><li>News</li></ul></div>
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" id="caseHistory">
+      <tbody>
+        <tr>
+          @foreach (var newsPage in CurrentPage.Children)
+          {
+            <h1>@newsPage.Name</h1>
+
+            foreach (var n in newsPage.Children)
+            {
+              <td class="rightBorderGrey">
+                <a href="@Umbraco.Media(n.newsLink).Url">
+                <div class="photoThing">
+                  <img src="@Umbraco.Media(n.newsPicture).Url" width="318" height="212" alt="" />
+                  <h3>@n.newsName</h3>
+                  <p class ="redText">@n.newsDescription</p>
+                  <small></small>
+                </div>
+                </a>
+              </td>
+            }
+          }
+        </tr>
+      </tbody>
+    </table>
+  }

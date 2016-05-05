@@ -168,6 +168,7 @@ a:hover {
 }
 
 #content {
+  overflow: scroll;
   text-align: center;
   background-color: @white;
   padding-bottom: 30px;
@@ -252,11 +253,10 @@ a:hover {
   padding: 0 !important;
   border-right: 2px solid @lightGray;
   .row {
-    padding-left: 35px;
     margin-bottom: 30px;
   }
-  h1 {
-    padding-left: 20px;
+  .box {
+    text-align: center;
   }
   p {
     padding-top: 0;
@@ -275,7 +275,7 @@ a:hover {
   padding: 0 !important;
   width: 49%;
   h1 {
-    padding-left: 50px;
+    padding-left: 30px;
   }
   h2 {
     padding-left: 65px;
@@ -344,13 +344,8 @@ a:hover {
 /*projects*/
 #projects {
   #project {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    border-right: 2px solid @lgray;
     padding: 0px 35px;
   }
-
   .photoThing {
     text-align: center;
     h3, .location, p {
@@ -377,52 +372,77 @@ a:hover {
   img {
     text-align: center;
     border: 1px solid @lgray;
-/*    max-width: 317px;
-    max-height: 212px;
-*/  }
-  /*ul {
-    display: table;
-    width: 100%;
-    margin: 0;
+  }
+}
+
+#project, #news-item {
     padding: 0;
-    li {
-      background: @white;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*news page*/
+#news-page {
+  #news-item {
+    text-align: left;
+    padding: 0px 10px 20px 20px;
+    margin: 0px auto 20px auto;
+    height: auto;
+    display: inline-block;
+    &:nth-child(even) {
+      border-left: 2px solid @lgray;
+    }
+    h3 {
+      font-size: 24px;
+      font-weight: @bold;
+      margin: 10px auto;
+    }
+    p {
+      margin-top: 10px;
+    }
+    .date {
+      color: @red;
+      margin: 0px auto;
+      line-height: 18px;
+    }
+    .box {
+      text-align: center;
+      color: @red;
+      background-color: @lgray;
+      border: 1px solid @lgray;
+    }
+    .box:hover {
+      color: @white;
+      background-color: @red;
+    }
+    img {
+      width: 200px;
       display: inline-block;
-      box-sizing: border-box;
-      padding: 0px 35px;
-      border-right: 2px solid @lgray;
-      text-align: left;
-      img {
-        text-align: center;
-        border: 1px solid @lgray;
-      }
-      h3 {
-        text-transform: uppercase;
-        font-size: 18px;
-        font-weight: @semiBold;
-        padding: 6px 10px;
-      }
-      .location {
-        font-size: 16px;
-        font-weight: @regular;
-        color: @red;
-      }
-      p {
-        font-size: 14px;
-        color: @gray;
-        padding-left: 10px;
-        padding-right: 40px;
-      }
+      float: right;
+      margin: 10px 0px 10px 10px;
+      border: 1px solid @red;
     }
-    li:last-child {
-      border: none;
+  }
+  .photoThing {
+    text-align: center;
+    .location {
+      font-size: 16px;
+      font-weight: @regular;
+      color: @red;
     }
-    li:nth-child(3n+3) {
-      border: none;
+    p {
+      font-size: 14px;
+      color: @gray;
+      padding-left: 10px;
+      padding-right: 40px;
     }
-    li:nth-child(4n) {
-    }
-  }*/
+  }
+  img {
+    text-align: center;
+    border: 1px solid @lgray;
+  }
 }
 
 /*links*/
@@ -595,6 +615,9 @@ tbody.collapse.in {
   .container {
     width: 1170px;
   }
+  .box {
+    width: 40%
+  }
   #projects #project:nth-child(3n) {
       border: none;
   }
@@ -607,6 +630,10 @@ tbody.collapse.in {
 }
 /* Medium Devices, Desktops */
 @media (min-width : 992px) and (max-width: 1199px) {
+  .box {
+    margin: 0px 30px;
+    padding: 10px 2px;
+  }
   #projects {
     #project:nth-child(3n) {
       border: none;
@@ -626,7 +653,7 @@ tbody.collapse.in {
   #content {
     padding-top: 0px !important;
   }
-  #projects {
+  #projects{
     ul {
       li {
         padding: 0px 35px !important;
@@ -645,17 +672,18 @@ tbody.collapse.in {
       }
     }
   }
-  #projects #project {
+  #projects #project{
     padding: 0px 35px !important;
   }
+
 }
 /* Extra Small Devices, Phones */
 @media (min-width : 480px) and (max-width: 766px){
   #content {
     padding-top: 0;
   }
-  #projects {
-    #project {
+  #projects{
+    #project{
       border-right: 0px !important;
       padding: 15px;
     }
@@ -674,7 +702,14 @@ tbody.collapse.in {
       margin-left: auto;
     }
   }
-
+  #news-page #news-item {
+    border-left: none !important;
+    border-bottom: 2px solid @lgray;
+    img {
+      height: 100px;
+      width: auto;
+    }
+  }
 }
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) and (max-width: 479px){

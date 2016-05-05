@@ -113,7 +113,7 @@
       <h1>About</h1>
     </section>
   </div>
-  
+
  <div id="content">
     <div class="content-row" id="about">
       <div class="content-inner container">
@@ -141,7 +141,7 @@
   <div class="content-row" id="news-contact">
     <div class="content-inner container">
       <div class="col-sm-12 col-md-12">
-        <div class="column-container col-sm-6 col-md-6" id="news">
+        <div class="col-sm-12 col-md-6" id="news">
           <h1>Recent News</h1>
           <div class="row">
             <div class="col-xs-8 col-sm-8 title">
@@ -168,10 +168,10 @@
             </div>
             <div class="col-xs-4 col-sm-4 read-more">
               <a href="#"><div class="box">Read More</div></a>
-            </div>                            
+            </div>
           </div>
         </div>
-        <div class="colum-container col-sm-6 col-md-6" id="contact">
+        <div class="col-sm-12 col-md-6" id="contact">
           <h1>Contact Us</h1>
           <h2>Corporate Headquarters</h2>
           <p>420 Tapscott Road<br />Scarborough, ON M1B 1Y4<br />Tel: (416) 292-2361<br />Tel: (800)263-4087<br />Fax: (416) 298-5887</p>
@@ -206,7 +206,7 @@
   <script type="text/javascript">
         $(document).ready(function(){
             $('.slideshow').slick({
-        lazyLoad: 'ondemand', 
+        lazyLoad: 'ondemand',
         dots: true,
         infinite: true,
         speed: 500,
@@ -229,29 +229,29 @@
 
   <script type="text/javascript">
   $(document).ready(function() {
-    
+
     $("#my-menu").mmenu({
      // options
     }, {
      // configuration
      offCanvas: {
       pageNodetype: "section"
-     } 
-     
+     }
+
    }); //mmenu close
    var api = $("#my-menu").data( "mmenu" );
-   
+
     window.onresize = function closeMenu(e) {
-      
+
        var windowWidth = window.innerWidth;
-       if(windowWidth > 800) 
+       if(windowWidth > 800)
         {
-          
+
           api.close();
-          
+
         }
      } // end window resize
-    
+
   });
   </script>
 
