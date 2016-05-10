@@ -439,21 +439,42 @@ a:hover {
     font-family: @acumin-pro;
     font-weight: @semiBold;
     color: @black;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     margin-top: 0px;
+  }
+  li {
+    box-sizing: border-box;
+  }
+  #location {
+    box-sizing: border-box;
+    border-right: 2px solid @white;
+    h3 {
+      margin: 0px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid @black;
+    }
+    h4 {
+      margin: 16px auto;
+    }
+    .details {
+      font-size: 14px;
+      font-weight: @regular
+    }
   }
 }
 .hq {
   h1 {
     text-align: center;
   }
+  .row {
+    border-bottom: 2px solid @red;
+    background-color: @lgray;
+  }
 }
 .locations {
-  background-color: @lgray !important;
+  /*background-color: @darkGray !important;*/
 }
-#location {
-  box-sizing: border-box;
-}
+
 
 
 /*links*/

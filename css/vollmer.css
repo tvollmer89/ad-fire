@@ -1430,17 +1430,37 @@ a:hover {
   font-family: "acumin-pro", sans-serif;
   font-weight: 600;
   color: #000;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-top: 0px;
+}
+#contact-page li {
+  box-sizing: border-box;
+}
+#contact-page #location {
+  box-sizing: border-box;
+  border-right: 2px solid #fff;
+}
+#contact-page #location h3 {
+  margin: 0px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #000;
+}
+#contact-page #location h4 {
+  margin: 16px auto;
+}
+#contact-page #location .details {
+  font-size: 14px;
+  font-weight: 400;
 }
 .hq h1 {
   text-align: center;
 }
-.locations {
-  background-color: #e5e5e5 !important;
+.hq .row {
+  border-bottom: 2px solid #db2c3b;
+  background-color: #e5e5e5;
 }
-#location {
-  box-sizing: border-box;
+.locations {
+  /*background-color: @darkGray !important;*/
 }
 /*links*/
 .links {
