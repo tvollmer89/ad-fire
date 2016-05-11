@@ -39,6 +39,10 @@ body {
     font-size: 28px;
     font-weight: @regular;
   }
+  p {
+    text-align: left;
+    line-height: 18px;
+  }
 }
 /*layout defaults*/
 .container {
@@ -433,7 +437,6 @@ a:hover {
 
 /*contact us*/
 #contact-page {
-  text-align: left;
   h2 {
     font-size: 24px;
     font-family: @acumin-pro;
@@ -446,12 +449,13 @@ a:hover {
     box-sizing: border-box;
   }
   #location {
+    text-align: left;
     box-sizing: border-box;
     border-right: 2px solid @white;
     h3 {
       margin: 0px;
       padding-bottom: 10px;
-      border-bottom: 2px solid @black;
+      border-bottom: 2px solid @lgray;
     }
     h4 {
       margin: 16px auto;
@@ -468,7 +472,9 @@ a:hover {
   }
   .row {
     border-bottom: 2px solid @red;
-    background-color: @lgray;
+  }
+  p:last-child {
+    margin-bottom: 30px;
   }
 }
 .locations {

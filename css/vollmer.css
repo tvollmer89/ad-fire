@@ -1030,6 +1030,10 @@ body h3 {
   font-size: 28px;
   font-weight: 400;
 }
+body p {
+  text-align: left;
+  line-height: 18px;
+}
 /*layout defaults*/
 .container {
   margin-left: auto;
@@ -1422,9 +1426,6 @@ a:hover {
   border: 1px solid #e5e5e5;
 }
 /*contact us*/
-#contact-page {
-  text-align: left;
-}
 #contact-page h2 {
   font-size: 24px;
   font-family: "acumin-pro", sans-serif;
@@ -1437,13 +1438,14 @@ a:hover {
   box-sizing: border-box;
 }
 #contact-page #location {
+  text-align: left;
   box-sizing: border-box;
   border-right: 2px solid #fff;
 }
 #contact-page #location h3 {
   margin: 0px;
   padding-bottom: 10px;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #e5e5e5;
 }
 #contact-page #location h4 {
   margin: 16px auto;
@@ -1457,7 +1459,9 @@ a:hover {
 }
 .hq .row {
   border-bottom: 2px solid #db2c3b;
-  background-color: #e5e5e5;
+}
+.hq p:last-child {
+  margin-bottom: 30px;
 }
 .locations {
   /*background-color: @darkGray !important;*/

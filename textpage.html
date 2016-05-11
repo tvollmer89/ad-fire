@@ -14,8 +14,9 @@
   <script src="scripts/jquery-1.11.0.min.js"></script>
   <script src="scripts/slick.js"></script>
   <link rel="stylesheet" type="text/css" href="css/vollmer.css"/>
+  <!--load fonts-->
   <script src="https://use.typekit.net/rjn3are.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
 </head>
 <body>
@@ -33,16 +34,16 @@
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="about-us.html">About Us</a>
+            <a href="/about-us/">About Us</a>
           </li>
           <li>
-            <a href="products.html">Products</a>
+            <a href="/products/">Products</a>
           </li>
           <li>
-            <a href="projects.html">Projects</a>
+            <a href="/projects/">Projects</a>
           </li>
           <li>
-            <a href="links.html">Links</a>
+            <a href="/links/">Links</a>
           </li>
         </ul>
       </nav>
@@ -54,7 +55,7 @@
             <img src="images/logo.svg" class="logo-img" />
           </div>
           <div class="logo-div">
-            <h1 id="top-title">fire protection systems</h1>
+            <h1 id="top-title">Fire Protection Systems</h1>
           </div>
         </a>
       </div>
@@ -64,7 +65,8 @@
 
           <div id="form">
             <input type="search" id="searchBox" placeholder="Search AD Fire" />
-            <span><i class="fa fa-search" id="m-glass"></i></span>
+            <span> <i class="fa fa-search" id="m-glass"></i>
+            </span>
           </div>
           <ul class="news-contact">
             <li class="top-li">
@@ -99,61 +101,48 @@
         </div>
       </div>
       <script type="text/javascript">
-( function() {
-var open = false;
-$('#m-glass').on('click', function(e) {
-e.preventDefault();
-var searched = $("#searchBox").val();
-if(searched.length > 2)
-{
-window.location.href = "/search-results/?ap-q="+searched;
-}
-});
-$('#searchBox').on('keyup', function(e){
-if(e.keyCode == 13){
-var searched = $("#searchBox").val();
-if(searched.length > 2)
-{
-window.location.href = "/search-results/?ap-q="+searched;
-}
-}
-});
+        ( function() {
+          var open = false;
+          $('#m-glass').on('click', function(e) {
+          e.preventDefault();
+            var searched = $("#searchBox").val();
+            if(searched.length > 2)
+            {
+              window.location.href = "/search-results/?ap-q="+searched;
+            }
+          });
+          $('#searchBox').on('keyup', function(e){
+            if(e.keyCode == 13){
+              var searched = $("#searchBox").val();
+              if(searched.length > 2)
+              {
+                window.location.href = "/search-results/?ap-q="+searched;
+              }
+            }
+          });
 
-} () );
-</script>
+        } () );
+      </script>
 
     </div>
   </div>
 
-  <div id="homeSlide">
+  <div id="mainImage">
+    <img src="images/header-1.jpg" class="bg-img2">
 
-    <div class="slideshow">
-      <div class="slideImg">
-        <img src="images/slide-1-lg.jpg"></div>
-      <div class="slideImg">
-        <img src="images/slide-2-lg.jpg"></div>
-      <div class="slideImg">
-        <img src="images/slide-3-lg.jpg"></div>
-
-      <section class="white-section">
-        <div class="row">
-          <section class="clearfix">
-            <div class="box-logo"><img src="images/logo.svg" class="box-logo-img" /></div><!--give white section logo new class-->
-            <div class="box-text"><h1>Fire Protection Systems</h1></div>
-          </section>
-        </div>
-        <div class="row">
-          <ul>
-            <li class="bold-links">Fireproofing</li>
-            <li class="bold-links">Firestopping</li>
-            <li class="bold-links">Insulation</li>
-            <li class="bold-links">Acoustics</li>
-          </ul>
-        </div>
-      </section>
-    </div>
-
+    <section class="pink-box">
+      <h1>Links</h1>
+    </section>
   </div>
+ <div id="content">
+  <div class="content-inner container">
+    <div class="col-md-12">
+      <h2>[PAGE TITLE]</h2>
+      <div class="row">
+      </div>
+    </div>
+  </div>
+</div>
 
   <footer>
     <div id="foot-wrap">
@@ -188,56 +177,56 @@ window.location.href = "/search-results/?ap-q="+searched;
   </footer>
 
   <script type="text/javascript">
-$(document).ready(function(){
-$('.slideshow').slick({
-lazyLoad: 'ondemand',
-dots: true,
-infinite: true,
-speed: 500,
-fade: true,
-slide: 'div',
-cssEase: 'linear',
-autoplay: true,
-autoplaySpeed: 2000,
-arrows:true
-});
-});
-</script>
+        $(document).ready(function(){
+            $('.slideshow').slick({
+        lazyLoad: 'ondemand',
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        slide: 'div',
+        cssEase: 'linear',
+        autoplay: true,
+          autoplaySpeed: 2000,
+        arrows:true
+      });
+        });
+    </script>
 
   <script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
   <script type="text/javascript">
-$(function() {
-$('nav#menu').mmenu();
-});
-</script>
+    $(function() {
+      $('nav#menu').mmenu();
+    });
+  </script>
 
   <script type="text/javascript">
-$(document).ready(function() {
+  $(document).ready(function() {
 
-$("#my-menu").mmenu({
-// options
-}, {
-// configuration
-offCanvas: {
-pageNodetype: "section"
-}
+    $("#my-menu").mmenu({
+     // options
+    }, {
+     // configuration
+     offCanvas: {
+      pageNodetype: "section"
+     }
 
-}); //mmenu close
-var api = $("#my-menu").data( "mmenu" );
+   }); //mmenu close
+   var api = $("#my-menu").data( "mmenu" );
 
-window.onresize = function closeMenu(e) {
+    window.onresize = function closeMenu(e) {
 
-var windowWidth = window.innerWidth;
-if(windowWidth > 800)
-{
+       var windowWidth = window.innerWidth;
+       if(windowWidth > 800)
+        {
 
-api.close();
+          api.close();
 
-}
-} // end window resize
+        }
+     } // end window resize
 
-});
-</script>
+  });
+  </script>
 
 </body>
 </html>
