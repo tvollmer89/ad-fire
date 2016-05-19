@@ -207,8 +207,8 @@ a {
     background-color: transparent;
     text-decoration: none;
 }
-.active {
-    color: #db2c3b !important;
+a.active {
+    color: #db2c3b;
 }
 
 .logo-img {
@@ -350,10 +350,7 @@ li {
 #foot-wrap {
     display: block;
     width: 100%;
-    float: left;
     background: #232323;
-    text-align: center;
-    padding: 5px 0;
     margin-top: 0px;
 }
 footer p {
@@ -361,14 +358,14 @@ footer p {
     color: #666666;
 }
 #foot1 {
+  text-align: left;
+  box-sizing: border-box;
     display: block;
-    float: left;
-    width: 33.3%;
 }
 #foot2 {
+  text-align: center;
+  box-sizing: border-box;
     display: block;
-    float: left;
-    width: 33.3%;
 }
 #foot2 ul {
     display: block;
@@ -376,18 +373,21 @@ footer p {
 }
 
 #foot3 {
-    display: block;
-    float: left;
-    width: 33.3%;
+  box-sizing: border-box;
+  display: block;
+}
+#foot3 p {
+  text-align: right;
 }
 
 .bottom-li {
   height: 30px;
   text-align: center;
-  line-height: 30px;
+  line-height: 18px;
+  margin-top: 10px;
 }
 #foot2 ul li a {
-    margin-left: 4px;
+    margin: auto 4px;
 }
 .bottom-a {
     text-transform: uppercase;
