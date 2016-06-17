@@ -156,3 +156,140 @@
     line-height: 24px;
   }
 }
+#firefilm {
+  thead {
+    td {
+    background-color: @lgray;
+    }
+    td.red {
+      background-color: @red;
+    }
+  }
+  tbody {
+    th {
+      background-color: @lgray;
+    }
+  }
+}
+#firebarrier {
+    h3{
+    border-bottom: 2px solid @lgray;
+    padding-bottom: 10px;
+    margin: 10px auto;
+    }
+    h4{
+      font-size: 22px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 8px 0px;
+      line-height: 24px;
+      font-weight: @semiBold;
+    }
+    .table caption {
+      border-bottom: none !important;
+    }
+    tr.red td{
+      background-color: @red;
+      a {
+        color: @white;
+        &:hover {
+          color: @black;
+        }
+        &:visitied {
+          color: @white;
+        }
+      }
+    }
+    ul {
+      li {
+        padding-bottom: 6px;
+        display: block;
+        font-size: 14px;
+        line-height: 16px;
+        break-inside: avoid;
+        font-weight: @regular;
+      }
+    }
+    tbody {
+      th {
+        background-color: @lgray;
+        border-top: 2px solid @white;
+        border-bottom: none;
+        border-right: 2px solid @white;
+        font-size: 14px;
+        padding: 4px;
+        /*border-left: 2px solid @lgray;*/
+      }
+      td {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 2px;
+      }
+      td.red {
+        background-color: @lightGray;
+        padding: 8px 0;
+        font-size: 14px;
+        font-weight: @semiBold;
+      }
+      tr:first-child th:last-child {
+        border-right: none;
+      }
+      td:first-child {
+        border-left: 2px solid @lgray;
+      }
+    }
+    tfoot {
+      text-align: center;
+    }
+}
+table tbody.legend {
+  th {
+    border: 2px solid @lgray;
+  }
+  tr {
+    td {
+      vertical-align: top;
+      padding: 0px;
+
+      border-bottom: 2px solid @lgray;
+      ul {
+        padding-left: 10px;
+      }
+      li {
+        text-align: left;
+      }
+    }
+    td:last-child{
+      border-right: 2px solid @lgray;
+    }
+  }
+}
+/*#legend {
+  border-left: 2px solid @lgray;
+  text-align: left;
+  padding-right: 0 !important;
+  h4 {
+    text-align: left !important;
+  }
+  .col-md-12 {
+    padding-left: 0px !important;
+    padding-right: 0 !important;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 4px 0px;
+    border-bottom: 2px solid @lgray;
+  }
+  ul {
+    margin-bottom: 10px;
+  }
+}*/
+ul.columns {
+  columns: 4;
+  padding-bottom: 10px;
+  li {
+    display: block;
+    font-size: 14px;
+  }
+}

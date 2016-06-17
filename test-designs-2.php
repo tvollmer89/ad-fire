@@ -23,11 +23,11 @@
                 <th colspan="5" scope="colgroup">Ratings</th>
               </tr>
               <tr>
-                <td>1</td>
-                <td>1.5</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
+                <td class="gray">1</td>
+                <td class="gray">1.5</td>
+                <td class="gray">2</td>
+                <td class="gray">3</td>
+                <td class="gray">4</td>
               </tr>
             </thead>
             <tbody>

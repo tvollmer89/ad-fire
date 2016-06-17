@@ -483,6 +483,14 @@ h3.links {
   width: 129px;
   height: 43px;
 }
+.designs {
+
+  h4 {
+    text-align: left;
+    border-bottom: 2px solid @lgray;
+    padding-bottom: 10px;
+  }
+}
 
 /*table*/
 #sw-table {
@@ -502,6 +510,14 @@ h3.links {
     border: 1px solid @lgray;
   }
 }
+#simple tbody {
+  tr th{
+    border-bottom: 2px solid @lgray;
+  }
+  tr td:first-child {
+    border-left: 2px solid @lgray;
+  }
+}
 .table-responsive {
     min-height: .01%;
     overflow-x: auto;
@@ -516,6 +532,13 @@ h3.links {
     margin: 0px auto 10px auto;
     text-transform: uppercase;
     font-family: @semi-condensed;
+  }
+  caption {
+    border-bottom: 2px solid @lgray;
+    p {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
   thead {
 
@@ -534,12 +557,11 @@ h3.links {
     }
     td {
       vertical-align: bottom;
-      background-color: @lgray;
       border-right: 2px solid @white;
       border-bottom: none;
     }
-    td.red {
-      background-color: @red;
+    td.gray {
+      background-color: @lgray;
     }
     td.red:last-child {
       border-right: none;
@@ -549,14 +571,14 @@ h3.links {
     text-align: center;
     vertical-align: top;
     th {
-      background-color: @lgray;
+      /*background-color: @lgray;*/
       font-weight: @semiBold;
       border-bottom: 2px solid @white;
       font-size: 16px;
       max-width: 25%;
     }
     th:last-child {
-      border-right: none !important;
+      /*border-right: none !important;*/
     }
     tr:nth-child(10)>th {
       border-bottom: 2px solid @lgray;

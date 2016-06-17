@@ -11,6 +11,7 @@
     <div class="col-md-12">
       <div class="row">
         <h2>A/D&reg; Firefilm III</h2>
+        <div id="firefilm">
         <div class="table-responsive">
           <table class="table">
             <caption><h3>Fire Test Design Summary</h3></caption>
@@ -181,6 +182,7 @@
         <div class="disclaimer">
           <p>This summary contains information we believe to be accurate and current as of <strong>April 8, 2015.</strong><br />Please <a href="contact.php">contact</a> your A/D representative for the latest design information.</p>
         </div>
+      </div>
       </div>
     </div>
   </div>
