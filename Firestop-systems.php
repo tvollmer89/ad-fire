@@ -149,7 +149,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -738,7 +738,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -1075,7 +1075,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -1446,7 +1446,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -1637,7 +1637,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -1933,7 +1933,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -2352,7 +2352,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -2644,7 +2644,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -3362,7 +3362,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -3711,7 +3711,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />
@@ -4327,7 +4327,7 @@
                   <th rowspan="3">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="3">
                     Max. Size
                     <br />
@@ -4422,7 +4422,7 @@
                   <th rowspan="2">
                     Max. Size Penetration
                     <br>(In., Sch.)</th>
-                  <th colspan="2">Rating (h)</th>
+                  <th colspan="2" style="border-bottom: none;">Rating (h)</th>
                   <th rowspan="2">
                     Max. Size
                     <br />

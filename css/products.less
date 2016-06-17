@@ -189,16 +189,7 @@
       border-bottom: none !important;
     }
     tr.red td{
-      background-color: @red;
-      a {
-        color: @white;
-        &:hover {
-          color: @black;
-        }
-        &:visitied {
-          color: @white;
-        }
-      }
+      background-color: @lgray;
     }
     ul {
       li {
@@ -211,19 +202,22 @@
       }
     }
     tbody {
+      th, td {
+        border-right: 2px solid @lightGray;
+        border-bottom: 2px solid @lightGray;
+        font-size: 14px;
+      }
       th {
         background-color: @lgray;
-        border-top: 2px solid @white;
-        border-bottom: none;
-        border-right: 2px solid @white;
-        font-size: 14px;
+        border-top: 2px solid @lightGray;
         padding: 4px;
-        /*border-left: 2px solid @lgray;*/
+      }
+      th:first-child {
+        border-left: 2px solid @lightGray;
       }
       td {
-        font-size: 14px;
         line-height: 16px;
-        padding: 2px;
+        padding: 4px;
       }
       td.red {
         background-color: @lightGray;
@@ -231,11 +225,8 @@
         font-size: 14px;
         font-weight: @semiBold;
       }
-      tr:first-child th:last-child {
-        border-right: none;
-      }
       td:first-child {
-        border-left: 2px solid @lgray;
+        border-left: 2px solid @lightGray;
       }
     }
     tfoot {
@@ -243,15 +234,15 @@
     }
 }
 table tbody.legend {
-  th {
-    border: 2px solid @lgray;
-  }
   tr {
+    th {
+      border-right: 2px solid @lightGray;
+      border-left: 2px solid @lightGray;
+    }
     td {
       vertical-align: top;
       padding: 0px;
-
-      border-bottom: 2px solid @lgray;
+      border-bottom: 2px solid @lightGray;
       ul {
         padding-left: 10px;
       }
@@ -260,31 +251,10 @@ table tbody.legend {
       }
     }
     td:last-child{
-      border-right: 2px solid @lgray;
+      border-right: 2px solid @lightGray;
     }
   }
 }
-/*#legend {
-  border-left: 2px solid @lgray;
-  text-align: left;
-  padding-right: 0 !important;
-  h4 {
-    text-align: left !important;
-  }
-  .col-md-12 {
-    padding-left: 0px !important;
-    padding-right: 0 !important;
-  }
-  h5 {
-    font-size: 14px;
-    line-height: 16px;
-    margin: 4px 0px;
-    border-bottom: 2px solid @lgray;
-  }
-  ul {
-    margin-bottom: 10px;
-  }
-}*/
 ul.columns {
   columns: 4;
   padding-bottom: 10px;
