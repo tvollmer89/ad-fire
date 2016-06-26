@@ -185,6 +185,13 @@
       line-height: 24px;
       font-weight: @semiBold;
     }
+    h5 {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: @semiBold;
+      margin: 8px 0px;
+      line-height: 20px;
+    }
     .table caption {
       border-bottom: none !important;
     }
@@ -199,6 +206,12 @@
         line-height: 16px;
         break-inside: avoid;
         font-weight: @regular;
+      }
+    }
+    table.wrap {
+      width: 100%;
+      tr td {
+        white-space: normal;
       }
     }
     tbody {
@@ -216,7 +229,7 @@
         border-left: 2px solid @lightGray;
       }
       td {
-        line-height: 16px;
+        line-height: 14px;
         padding: 4px;
       }
       td.red {
@@ -224,6 +237,9 @@
         padding: 8px 0;
         font-size: 14px;
         font-weight: @semiBold;
+      }
+      td.nbl {
+        border-left: none !important;
       }
       td:first-child {
         border-left: 2px solid @lightGray;
@@ -256,9 +272,12 @@ table tbody.legend {
   }
 }
 ul.columns {
-  columns: 4;
+  columns: 3;
+  column-fill: balance;
+  column-gap: 0;
   padding-bottom: 10px;
   li {
+    break-inside: avoid;
     display: block;
     font-size: 14px;
   }

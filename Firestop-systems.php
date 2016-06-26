@@ -23,10 +23,10 @@
                 <h4>Quick Links to Penetration Types</h4>
                 <ul class="columns">
                   <li>
-                    <a href="#iron">Iron Pipe</a>
+                    <a href="#steel">Steel Pipe</a>
                   </li>
                   <li>
-                    <a href="#steel">Steel Pipe</a>
+                    <a href="#iron">Iron Pipe</a>
                   </li>
                   <li>
                     <a href="#copper">Copper Pipe or Tube</a>
