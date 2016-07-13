@@ -1,10 +1,19 @@
-
+<?php include("header.html"); ?>
+<div id="mainImage">
+  <img src="images/header-1.jpg" class="bg-img2">
+  <section class="pink-box">
+    <h1>Links</h1>
+  </section>
+</div>
+<div id="content">
+  <div class="content-inner container">
+    <div class="col-xs-12 col-sm-12 col-md-12">
       <h2>A/D FIREBARRIER Firestopping Materials</h2>
       <div class="row">
         <div id="firebarrier">
           <h3>
             <a name="top"></a>
-            Firestop Systems and Designs for USA – by Trade: Electrical
+            Firestop Systems and Designs for Canada – by Trade: Electrical
           </h3>
           <div class="table-responsive">
             <table class="table wrap">
@@ -28,7 +37,7 @@
                   </li>
                 </ul>
                 <h4>
-                  <a name="#conduit"></a>
+                  <a name="conduit"></a>
                   Conduit &amp; EMT
                 </h4>
               </caption>
@@ -52,15 +61,15 @@
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">6&quot; Conduit &amp; 4&quot; EMT or smaller</td>
+                  <td rowspan="2"> 152mm (6&quot;) Conduit &amp; 102mm (4”) EMT or smaller</td>
                   <td rowspan="2">3</td>
-                  <td rowspan="2">0&quot; to 2&quot; annulus</td>
+                  <td rowspan="2"> 0 to 51mm (2&quot;) annulus</td>
                   <td rowspan="2">
                     Floor, Concrete Wall, Concrete, Concrete Block or Precast&nbsp; (hollow core) Conc.
                   </td>
                   <td>Intumescent Sealant</td>
                   <td>
-                    Min. ¼&quot; thick within annulus flush with top of floor or both surfaces of wall
+                    Min. 6mm (.25&quot;) ¼&quot; thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
                     <a href="/media/1329/c-aj-1557_021207.pdf" target="_blank">C-AJ-1557</a>
@@ -69,55 +78,48 @@
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
                   <td>
-                    Min. 4¼&quot; thick packed into opening&nbsp; (wall both sides)
+                    Min. 108mm (4.25&quot;) thick packed into opening&nbsp; (wall both sides)
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">6&quot; Conduit &amp; EMT or smaller</td>
-                  <td rowspan="2">3</td>
-                  <td rowspan="2">0&quot; to 1-1/8&quot; annulus</td>
+                  <td rowspan="2"> &nbsp; 102mm (4&quot;) Conduit &nbsp;152mm (6&quot;) EMT or smaller</td>
+                  <td rowspan="2">2</td>
+                  <td rowspan="2"> 0 to 98mm (3-7/8&quot;) annulus</td>
                   <td rowspan="2">Floor, Concrete Wall, Concrete, or Concrete Block</td>
-                  <td>Silicone</td>
-                  <td>
-                    Min. ½“ thick within annulus flush with top of floor or both surfaces of wall
+                  <td>Silicone Silicone SL</td>
+                  <td>Min. 6mm (¼“) thick within annulus flush with either top of floor or slab underface. For walls, apply on both surfaces.
                   </td>
                   <td rowspan="2">
-                    <a href="/media/1520/c-aj-1497.pdf" target="_blank">C-AJ-1497</a>
+                    <a href="/media/1320/c-aj-1299_112403.pdf" target="_blank">C-AJ-1229</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>
-                    Min. 4&quot; thick packed into opening&nbsp; (wall both sides)
-                  </td>
+                  <td>Min. 4 inch thick packed into opening (wall both sides)</td>
                 </tr>
                 <tr>
-                  <td rowspan="2">4&quot; Conduit and 6&quot; EMT or smaller &nbsp; &nbsp;</td>
-                  <td rowspan="2">2</td>
-                  <td rowspan="2">0&quot; to 3¼&quot; annulus</td>
+                  <td rowspan="2"> 152mm (6”) Conduit &nbsp;&amp; EMT or smaller</td>
+                  <td rowspan="2">3</td>
+                  <td rowspan="2"> 0 to 28mm (0 to 1-1/8”) annulus</td>
                   <td rowspan="2">
                     Floor, Concrete Wall, Concrete, Concrete Block
                     <br />
                     or Precast Units
                   </td>
                   <td>Silicone or Silicone SL</td>
-                  <td>
-                    Min. ½&quot; thick within annulus flush with top of floor or both surfaces of wall
-                  </td>
+                  <td>Min. 13mm (½”)&nbsp; thick within annulus flush with top of floor or both surfaces of wall </td>
                   <td rowspan="2">
-                    <a href="/media/1320/c-aj-1299_112403.pdf" target="_blank">C-AJ-1299</a>
+                    <a href="/media/1638/sp880.pdf" target="_blank">SP880</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>
-                    Min. 4¼&quot; thick packed into opening&nbsp; (wall both sides)
-                  </td>
+                  <td>Min. 100mm (4”)&nbsp; thick packed into opening (wall both sides)</td>
                 </tr>
                 <tr>
-                  <td>1½&quot; Conduit &amp; EMT or smaller</td>
+                  <td>38mm (1½&quot;) Conduit &amp; EMT or smaller</td>
                   <td>3</td>
-                  <td>3/8&quot; to ¾&quot; annulus</td>
+                  <td>9.5mm to 19mm (3/8” to ¾&quot;) annulus</td>
                   <td>
                     Floor, Concrete Wall, Concrete, Concrete Block
                     <br />
@@ -125,7 +127,7 @@
                   </td>
                   <td>Putty II</td>
                   <td>
-                    Min. 2&quot; thick within annulus flush with top of floor or both surfaces of wall
+                    Min. 51mm 2&quot; thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td>
                     <a href="/media/1327/c-aj-1559_021207.pdf" target="_blank">C-AJ-1559</a>
@@ -137,45 +139,84 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>4&quot; diameter or smaller</td>
+                  <td>102 mm 4&quot; diameter or smaller</td>
                   <td>1&amp; 2</td>
-                  <td>0&quot; to 1-7/8&quot; annulus</td>
-                  <td>Wall&nbsp;, Gypsum Board as rated for 1 &amp; 2 hr</td>
+                  <td>0 to 48mm (1-7/8&quot;) annulu</td>
+                  <td>Wall - Gypsum Board as rated for 1 &amp; 2 hr</td>
                   <td>Intumescent Sealant</td>
                   <td>
-                    Min. ½&quot; or 5/8&quot; thick within annulus, flush both surfaces of wall Foam Backer optional
+                    Min. 13mm or 16mm (½” or 5/8”) thick within annulus, flush both surfaces of wall Foam Backer optional
                   </td>
                   <td>
                     <a href="/media/1458/w-l-1416_021207.pdf" target="_blank">W-L-1416</a>
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">6 &quot; conduit or smaller 4&quot; EMT</td>
+                  <td rowspan="2"> 152mm (6”) conduit or smaller 102mm (4”) EMT</td>
                   <td rowspan="2">2</td>
-                  <td rowspan="2">0&quot; to 7/8&quot; annulus</td>
-                  <td rowspan="2">Wall&nbsp;, Gypsum Board</td>
+                  <td rowspan="2">0 to 22mm (7/8”) annulus</td>
+                  <td rowspan="2">Wall - Gypsum Board</td>
                   <td>Intumescent Sealant or Acrylic</td>
-                  <td>Min. ½“ thick within annulus, flush both surfaces of wall</td>
+                  <td>Min.13mm (½“) thick within annulus, flush both surfaces of wall </td>
                   <td rowspan="2">
                     <a href="/media/1457/w-l-1417_021207.pdf" target="_blank">W-L-1417</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. ½&quot; thick packed into opening both sides of wall</td>
+                  <td>Min. 13mm (0.5“) thick packed into opening both sides of wall</td>
                 </tr>
                 <tr>
-                  <td>2&quot; Conduit &amp; EMT or smaller</td>
+                  <td>51mm (2&quot;) Conduit &nbsp;&amp; EMT or smaller</td>
                   <td>1 &amp; 2</td>
-                  <td>0&quot; to 1- 7/8&quot; annulus</td>
+                  <td>0 to 48mm (1- 7/8&quot;) annulus</td>
                   <td>Wall, Gypsum Board</td>
                   <td>Silicone</td>
-                  <td>
-                    Min. 5/8&quot; thick within annulus, flush both surfaces of wall
-                  </td>
+                  <td>Min. 16mm (5/8”) inch thick within annulus, flush both surfaces of wall</td>
                   <td>
                     <a href="/media/1460/w-l-1198.pdf" target="_blank">W-L-1198</a>
                   </td>
+                </tr>
+                <tr>
+                  <td rowspan="2"> 152mm (6&quot;) Conduit &nbsp;&amp; EMT or smaller</td>
+                  <td rowspan="2">2</td>
+                  <td rowspan="2"> 0 to 25mm (1&quot;) annulus</td>
+                  <td rowspan="2">Wall - Gypsum Board</td>
+                  <td>Seal NS</td>
+                  <td>Min. 3mm (1/8”) thick flush on both surfaces of wall, with 13mm (½”) overlap</td>
+                  <td rowspan="2">
+                    <a href="/media/1627/sp1080.pdf" target="_blank">SP1080</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: none;">Mineral Wool</td>
+                  <td>Min. 16mm (5/8”)&nbsp; thick packed into opening on both sides of wall</td>
+                </tr>
+                <tr>
+                  <td>114mm (4.5“) galv. conduit or smaller</td>
+                  <td>2</td>
+                  <td> 6mm (¼”) annulus</td>
+                  <td>Wall, Gypsum Board</td>
+                  <td>Silicone</td>
+                  <td> Min. 25mm (1”) thick within annulus, flush both surfaces of wall</td>
+                  <td>
+                    <a href="/media/1630/sp324.pdf" target="_blank">SP324</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2"> 203mm (8&quot;) Steel &amp; Iron 152 (6”) Conduit &nbsp;&amp; EMT or smaller 102mm (4”) Copper with steel sleeve</td>
+                  <td rowspan="2">1 &amp; 2</td>
+                  <td rowspan="2"> 0 to 51mm (2&quot;) or 6mm to 51mm (¼” to 51”) annulus</td>
+                  <td rowspan="2">Wall - Gypsum Board</td>
+                  <td>Acrylic Sealant</td>
+                  <td>Min.25mm (1“) thick within annulus, flush one surface of wall Min. 10mm (3/8”) bead at point contact</td>
+                  <td rowspan="2">
+                    <a href="/media/1462/w-l-1419_021207.pdf" target="_blank">W-L-1419</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: none;">Mineral Wool</td>
+                  <td>Recess.10mm (3/8“) from one side of wall and flush with the other side of wall</td>
                 </tr>
                 <tr>
                   <td colspan="7">
@@ -183,46 +224,29 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>4&quot; Conduit &amp; EMT or smaller</td>
+                  <td>102mm (4&quot;) Conduit &nbsp;&amp; EMT or smaller</td>
                   <td>1</td>
-                  <td>¼&quot; annulus</td>
+                  <td>6mm (¼&quot;) annulus</td>
                   <td>Floor, Lumber Ceiling, Gypsum Board</td>
                   <td>Silicone</td>
-                  <td>
-                    Min.1-1/8&quot; thick within annulus on top of floor
-                    <br />
-                    Min. ½&quot; thick within annulus on bottom surface of ceiling
-                  </td>
+                  <td> Min. 29 mm (1-1/8”)&nbsp; thick within annulus on top of floor <br /> Min. 13 mm (½”)&nbsp; thick within annulus on bottom surface of ceiling</td>
                   <td>
                     <a href="/media/1381/fc-1011.pdf" target="_blank">F-C-1011</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>6&quot; Conduit &amp; 4&quot; EMT or smaller</td>
+                  <td>152mm (6&quot;) Conduit &amp; 102mm (4”) EMT or smaller</td>
                   <td>1 &amp; 2</td>
-                  <td>0&quot; to 7/8&quot; annulus</td>
+                  <td>0 to 22mm (7/8”) annulus</td>
                   <td>Floor, Lumber Ceiling, Gypsum Board</td>
                   <td>Intumescent Sealant</td>
                   <td>
-                    Min. 5/8&quot; thick within annulus on top at floor
+                    Min. 16mm (5/8”) thick within annulus on top at floor
                     <br />
-                    Min. 5/8&quot; thick within annulus on bottom surface ceiling- ½&quot; crown
+                    Min.16mm (5/8”) thick within annulus on bottom surface ceiling- 13mm (½” )crown
                   </td>
                   <td>
                     <a href="/media/1369/f-c-1149_021207.pdf" target="_blank">F-C-1149</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td>4&quot; Conduit &amp; EMT or smaller</td>
-                  <td>1</td>
-                  <td>¼&quot; annulus</td>
-                  <td>Floor, Lumber Ceiling, Gypsum Board, In Wall</td>
-                  <td>Silicone</td>
-                  <td>
-                    Min.1-1/8&quot; thick within annulus on top of floor generous bead, flush with bottom surface lower top plate
-                  </td>
-                  <td>
-                    <a href="/media/1527/fc-1034.pdf" target="_blank">F-C-1034</a>
                   </td>
                 </tr>
               </tbody>
@@ -235,12 +259,13 @@
               </tfoot>
             </table>
           </div>
+          <!-- Non-Metallic -->
           <div class="table-responsive">
             <table class="table wrap">
               <caption>
                 <h4>
                   <a name="non-metallic"></a>
-                  Non-Metallic Conduit
+                  Non-Metallic Conduit*
                 </h4>
               </caption>
               <tbody>
@@ -248,7 +273,7 @@
                   <th>Max. Size  Penetration  Diameter</th>
                   <th>Rating (h)</th>
                   <th>Max Size  Opening</th>
-                  <th>Floor or Wall System</th>
+                  <th>Construction Type(s)</th>
                   <th>
                     A/D FIREBARRIER
                     <br />
@@ -263,15 +288,13 @@
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">
-                    2”, PVC, CPVC &amp; Rigid Conduit &amp; 1½&quot; ENT or smaller
-                  </td>
+                  <td rowspan="2">51mm (2”), PVC, CPVC &amp; Rigid Conduit &amp; 38mm (1½&quot;) ENT or smaller</td>
                   <td rowspan="2">2</td>
-                  <td rowspan="2">¾&quot; to 1-3/8&quot; annulus</td>
+                  <td rowspan="2"> 9.5mm to 35mm (3/4&quot; - 1-3/8&quot;) annulus</td>
                   <td rowspan="2">Floor, Concrete Wall, Concrete or Concrete Block</td>
                   <td>Silicone or Silicone SL</td>
                   <td>
-                    Min. 1&quot; thick within annulus flush with top of floor or both surfaces of wall
+                    Min. 25mm 1&quot; thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
                     <a href="/media/1332/c-aj-2150_112403.pdf" target="_blank">C-AJ-2150</a>
@@ -279,50 +302,44 @@
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. 4&quot; thick packed into opening (wall both sides)</td>
+                  <td>Min. 102mm (4&quot;) thick packed into opening (wall both sides)</td>
                 </tr>
                 <tr>
-                  <td>3&quot; PVC, CPVC &amp; rigid conduit or smaller</td>
+                  <td>76mm (3&quot;) PVC, CPVC &amp; rigid conduit or smaller</td>
                   <td>2</td>
-                  <td>¾&quot; to 7/8&quot; annulus</td>
+                  <td> 19mm to 22mm (3/4&quot; - 7/8”) annulus</td>
                   <td>
                     Floor, Concrete Wall, Concrete Concrete Block or Precast&nbsp; (hollow core) Conc.
                   </td>
                   <td>Intumescent Sealant (Foam Backer optional)</td>
                   <td>
-                    Min. 2&quot; thick within annulus flush with top of floor or both surfaces of wall (Foam Backer Optional)
+                    Min. 51mm 2&quot; thick within annulus flush with top of floor or both surfaces of wall (Foam Backer Optional)
                   </td>
                   <td>
                     <a href="/media/1337/c-aj-2581_021207.pdf" target="_blank">C-AJ-2581</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>4”, PVC, CPVC, &amp; rigid conduit or smaller</td>
+                  <td>102mm (4&quot;), PVC, CPVC, &amp; rigid conduit or smaller</td>
                   <td>1</td>
-                  <td>0&quot; to 1½&quot; annulus</td>
+                  <td>0&quot; to 38mm (1-3/4&quot;) annulus</td>
                   <td>Floor, Concrete (4½&quot; min. thick Concrete)</td>
-                  <td>&nbsp; Intumescent Sealant(Foam Backer optional)</td>
-                  <td>
-                    Min. ½&quot; thick within annulus flush with top of floor add ½&quot; crown (Foam Backer Optional)
-                  </td>
+                  <td>Intumescent Sealant(Foam Backer optional)</td>
+                  <td>Min. 13mm (1/2&quot;) thick within annulus flush with top of floor add 13mm (1/2&quot;) crown (Foam Backer Optional)</td>
                   <td>
                     <a href="/media/1496/f-a-2168.pdf" target="_blank">F-A-2168</a>
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">6“ Conduit or 4“ EMT</td>
-                  <td rowspan="2">2</td>
-                  <td rowspan="2">0&quot; to 2”</td>
-                  <td rowspan="2">Wall concrete (steel sleeve optional)</td>
-                  <td>Intumescent Sealant</td>
-                  <td>Min. 1“ thick within annulus flush with one surface of wall</td>
-                  <td rowspan="2">
-                    <a href="/media/1438/w-j-1204_021207.pdf" target="_blank">W-J-1204</a>
+                  <td>19mm (¾”) PEX or smaller, 25mm (1”) ENT or smaller</td>
+                  <td>2</td>
+                  <td>6 to 11mm (¼” - 7/16”) annulus</td>
+                  <td>Floor, Concrete (4-1/2&quot; min. thick Concrete)</td>
+                  <td>Intumescent Sealant(Foam Backer optional)</td>
+                  <td>Min.13mm (½”) thick within annulus flush with top of floor add 6mm (¼”) crown (Foam Backer Optional)</td>
+                  <td>
+                    <a href="/media/1338/c-aj-2582_021207.pdf" target="_blank">C-AJ-2582</a>
                   </td>
-                </tr>
-                <tr>
-                  <td style="border-left: none;"">Mineral Wool</td>
-                  <td>Min. 5“ thick packed into opening recessed from one side</td>
                 </tr>
                 <tr>
                   <td colspan="7">
@@ -330,33 +347,42 @@
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">2”, PVC, CPVC &amp; rigid conduit or smaller</td>
+                  <td rowspan="2">51mm (2”) PVC, CPVC &amp; rigid conduit or smaller</td>
                   <td rowspan="2">2</td>
-                  <td rowspan="2">½&quot; to 1-1/8&quot; annulus &nbsp;</td>
-                  <td rowspan="2">Wall&nbsp;, Gypsum Board Wood</td>
+                  <td rowspan="2">13mm to 29mm (1/2&quot; – 1-1/8&quot;) annulus</td>
+                  <td rowspan="2">Wall - Gypsum Board Wood</td>
                   <td>Silicone</td>
-                  <td>
-                    Min. ¾&quot; thick within annulus, flush on both surfaces of wall
-                  </td>
+                  <td>Min. 19mm (¾”) thick within annulus, flush on both surfaces of wall</td>
                   <td rowspan="2">
                     <a href="/media/1464/w-l-2157.pdf" target="_blank">W-L-2157</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. 2&quot; thick packed into opening each side of wall</td>
+                  <td>Min. 51mm (2”) thick packed into opening each side of wall</td>
                 </tr>
                 <tr>
-                  <td>2”, PVC, CPVC, ABS rigid NM conduit or smaller.</td>
+                  <td>51mm (2”) PVC, CPVC, ABS rigid NM conduit or smaller.</td>
                   <td>1 &amp; 2</td>
-                  <td>¼&quot; to 1-3/8&quot; annulus</td>
-                  <td>Wall&nbsp;, Gypsum Board</td>
-                  <td>&nbsp; Intumescent Sealant</td>
+                  <td>6mm to 35mm (1/4” - 1-3/8”) annulus</td>
+                  <td>Wall - Gypsum Board</td>
+                  <td>Intumescent Sealant</td>
                   <td>
-                    Min.5/8&quot; thick within annulus flush on both surfaces of wall Plus a ¼&quot; crown around
+                    Min. 16mm (5/8&quot;) thick within annulus flush on both surfaces of wall Plus a 6mm (1/4&quot;) crown around
                   </td>
                   <td>
                     <a href="/media/1467/w-l-2486_021207.pdf" target="_blank">W-L-2486</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>19mm (¾”) PEX or smaller, 25mm (1”) ENT or smaller</td>
+                  <td>1 &amp; 2</td>
+                  <td>6 to 10mm (1/4” – 3/8”) annulus</td>
+                  <td>Wall - Gypsum Board Wood</td>
+                  <td>Intumescent Sealant</td>
+                  <td>Min.13mm (½”) thick within annulus flush with top of floor (Foam Backer Optional)</td>
+                  <td>
+                    <a href="/media/1470/w-l-2487_021207.pdf" target="_blank">W-L-2487</a>
                   </td>
                 </tr>
                 <tr>
@@ -365,45 +391,56 @@
                   </td>
                 </tr>
                 <tr>
+                  <td>51mm (2”) PVC</td>
+                  <td>1</td>
+                  <td>305 mm (12”) diameter</td>
+                  <td>Floor – concrete Wall – Concrete Or Concrete Block</td>
+                  <td>Mortar</td>
+                  <td>Min. depth of 115mm (4-1/2”)</td>
                   <td>
-                    4&quot; Metallic tubing &amp; 6&quot; steel conduit or smaller
+                    <a href="/media/1615/sp758.pdf" target="_blank">SP758</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    102mm (4&quot;) Metallic tubing &amp; 152mm (6&quot;) steel conduit or smaller
                   </td>
                   <td>1</td>
-                  <td>0&quot; to 7/8”</td>
+                  <td>0&quot; to 22mm (7/8&quot;)</td>
                   <td>Floor, Lumber Ceiling, Gypsum Board (chase wall optional)</td>
                   <td>Intumescent Sealant (Foam Backer optional)</td>
                   <td>
-                    Min. 5/8&quot; thick within annulus flush with top at floor Added. ½&quot; thick crown &amp; 1¼&quot; lapping beyond opening Optional Foam Backer
+                    Min. 5/8&quot; thick within annulus flush with top at floor Added. 13mm (½”) thick crown &amp; 32mm (1¼”) lapping beyond opening (Optional Foam Backer)
                   </td>
                   <td>
                     <a href="/media/1369/f-c-1149_021207.pdf" target="_blank">F-C-1149</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>4&quot; EMT or conduit or smaller</td>
+                  <td>102mm (4&quot;) EMT or conduit or smaller</td>
                   <td>1</td>
-                  <td>0&quot; to 7/8”</td>
+                  <td>0&quot; to 22mm (7/8&quot;)</td>
                   <td>Floor, Lumber Ceiling, Gypsum Board (chase wall)</td>
                   <td>Intumescent Sealant (Foam Backer optional)</td>
                   <td>
-                    Min. ½“ thick within annulus on top at floor Min. ½&quot; thick within annulus on bottom surface ceiling and ¼&quot; at point of contact Foam Backer
+                    Min. 13mm (1/2&quot;) thick within annulus on top at floor Min. 13mm (1/2&quot;) thick within annulus on bottom surface ceiling and 6mm( 1/4&quot;) at point of contact Foam Backer
                   </td>
                   <td>
                     <a href="/media/1371/f-c-1150_021207.pdf" target="_blank">F-C-1150</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>4”, PVC, CPVC, ABS 4&quot; NM conduit or smaller &nbsp;</td>
+                  <td>102mm (4&quot;), PVC, CPVC, ABS 4&quot; NM conduit or smaller</td>
                   <td>1</td>
-                  <td>0&quot; to ½&quot; annulus</td>
+                  <td>0 to 13mm (1/2&quot;) annulus</td>
                   <td>
                     Floor, Lumber Ceiling, Gypsum Board (water closet Config C only)
                   </td>
                   <td>
-                    Intumescent Sealant&nbsp; &amp; (Acrylic Foam Backer optional)
+                    Intumescent Sealant (Acrylic Foam Backer optional)
                   </td>
                   <td>
-                    Min. ¾&quot; thick within annulus, top Min. 5/8“ thick within annulus, bottom
+                    Min. 19mm (3/4&quot;) thick within annulus - top Min. 16mm (5/8&quot;) thick within annulus - bottom
                   </td>
                   <td>
                     <a href="/media/1528/f-c-2347.pdf" target="_blank">F-C-2347</a>
@@ -412,13 +449,17 @@
               </tbody>
               <tfoot>
                 <tr>
-                  <td colspan="16">
+                  <td colspan="7"><p>*Note: No extra 50Pa pressure test required in these cases</p></td>
+                </tr>
+                <tr>
+                  <td colspan="7">
                     <a href="#top">Scroll to Top</a>
                   </td>
                 </tr>
               </tfoot>
             </table>
           </div>
+          <!-- Multiple -->
           <div class="table-responsive">
             <table class="table wrap">
               <caption>
@@ -432,7 +473,7 @@
                   <th>Type of Penetration</th>
                   <th>Rating (h)</th>
                   <th>Max Size  Opening</th>
-                  <th>Floor or Wall System</th>
+                  <th>Construction Type(s)</th>
                   <th>
                     A/D FIREBARRIER
                     <br />
@@ -447,62 +488,75 @@
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">
-                    3&quot; Conduit &amp; EMT or smaller, Cables &amp; Cable Tray
-                  </td>
+                  <td rowspan="2">90 mm (3&quot; nom.) Conduit &amp; EMT or smaller, Cables &amp; Cable Tray</td>
                   <td rowspan="2">3</td>
-                  <td rowspan="2">2.2 sq. ft.</td>
+                  <td rowspan="2">660mm x 280mm (2.2 sq.ft.)</td>
                   <td rowspan="2">
                     Floor, Concrete Wall, Concrete Concrete Block or Precast Units
                   </td>
                   <td>Silicone or Silicone SL</td>
                   <td>
-                    Min. ¼&quot; thick within annulus flush with top of floor or both surfaces of wall
+                    Min. 6mm (.25&quot;) thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="/media/1365/c-aj-8028.pdf" target="_blank">C-AJ-8028</a>
+                    <a href="/media/1549/sp163.pdf" target="_blank">SP163</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. 4&quot; thick packed into opening (wall both sides)</td>
+                  <td>Min. 102mm (4&quot;) thick packed into opening (wall both sides)</td>
                 </tr>
                 <tr>
+                  <td rowspan="2">90 mm (3&quot; nom.) Conduit, 56mm (2” mon.) EMT or smaller, Cables &amp; Cable Tray</td>
+                  <td rowspan="2">3</td>
+                  <td rowspan="2">660mm x 280mm (2.2 sq.ft.)</td>
+                  <td rowspan="2">Floor – Concrete Wall - Concrete</td>
+                  <td>Seal or Seal NS</td>
                   <td>
-                    3&quot; Conduit &amp; EMT or smaller, Cables &amp; Cable Tray
+                    Min. 6mm (.25&quot;) thick within annulus flush with top of floor or both surfaces of wall
                   </td>
+                  <td rowspan="2">
+                    <a href="/media/1592/sp218.pdf" target="_blank">SP218</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: none;">Mineral Wool</td>
+                  <td>Min. 102mm (4&quot;) thick packed into opening (wall both sides)</td>
+                </tr>
+                <tr>
+                  <td>90 mm (3” nom.) Conduit or smaller, Cables &amp; Cable Tray</td>
                   <td>3</td>
-                  <td>2.2 sq. ft.</td>
+                  <td>1525mm x 1460mm (24 sq. ft.)</td>
+                  <td>Floor - Concrete Wall - Concrete Concrete Block</td>
+                  <td>Mortar</td>
+                  <td>Fill opening to min. depth of 76mm (3&quot;) For Concrete Block wall apply 76mm (3&quot;) depth on both sides of wall.</td>
+                  <td>
+                    <a href="/media/1590/sp341.pdf" target="_blank">SP341</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>90 mm (3&quot; nom.) Conduit, &amp; EMT or smaller, Cables &amp; Cable Tray</td>
+                  <td>3</td>
+                  <td>710 mm x 280 mm (2.2 sq. ft.)</td>
                   <td>Floor, Concrete Wall, Concrete or Concrete Block</td>
                   <td>Mortar</td>
                   <td>
-                    Min. 3&quot; thick flush with top of floor &amp; both sides of wall
+                    Min. 76mm (3&quot;) thick flush with top of floor &amp; both sides of wall
                   </td>
                   <td>
                     <a href="/media/1364/c-aj-8029.pdf" target="_blank">C-AJ-8029</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>2&quot; Conduit or smaller, Cables &amp; Cable Tray</td>
-                  <td>3</td>
-                  <td>24 sq. ft.</td>
-                  <td>Floor / Wall / Concrete</td>
-                  <td>Mortar</td>
-                  <td>Fill opening to min. depth 3”</td>
-                  <td>
-                    <a href="/media/1291/adphv-180-01.pdf" target="_blank">AD/PHV 180-01</a>
-                  </td>
-                </tr>
-                <tr>
-                  <td rowspan="2">¾”, conduit, EMT or smaller + cables &nbsp;</td>
-                  <td rowspan="2">2 &nbsp;</td>
-                  <td rowspan="2">3½&quot; max opening with ½&quot; between pipes &amp; cables</td>
+                  <td rowspan="2">19mm (3/4&quot;), conduit, EMT or smaller + cables</td>
+                  <td rowspan="2">2</td>
+                  <td rowspan="2">3-1/2&quot; max opening with 1/2&quot; between pipes &amp; cables</td>
                   <td rowspan="2">
                     Floor, Concrete Wall, Concrete Concrete Block or Precast&nbsp; (hollow core) Conc.
                   </td>
                   <td>Intumescent Sealant</td>
                   <td>
-                    Min. 1&quot; thick within annulus, flush top of floor, both surfaces of wall-force sealant into interstices to max. possible, when floor hollow core, fill both sides of floor flush
+                    Min. 25mm (1&quot;) thick within annulus, flush top of floor, both surfaces of wall-force sealant into interstices to max. possible, when floor hollow core, fill both sides of floor flush
                   </td>
                   <td rowspan="2">
                     <a href="/media/1368/c-aj-8183_021207.pdf" target="_blank">C-AJ-8183</a>
@@ -511,12 +565,12 @@
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
                   <td>
-                    Min. 3½&quot; thick packed into opening and into interstices, with hollow core pack both surfaces of floor
+                    Min. 89mm (3-1/2&quot;) thick packed into opening and into interstices, with hollow core pack both surfaces of floor
                   </td>
                 </tr>
                 <tr>
                   <td rowspan="2">
-                    4&quot; Steel, iron, &nbsp; 4&quot; Conduit, 2&quot; Copper pipe &amp; tubing
+                    102mm (4&quot;) Steel, iron, 102mm (4&quot;) Conduit 51mm (2&quot;) Copper pipe &amp; tubing
                   </td>
                   <td rowspan="2">3</td>
                   <td rowspan="2">
@@ -526,12 +580,12 @@
                     <br>
                     0&quot; to 3-3/8&quot; &amp; periphery
                     <br>
-                    Annulus for Insulated ½&quot; to 1”
-                    <br>Annulus between all penetrants ½&quot; to 5/8”</td>
+                    Annulus for Insulated 1/2&quot; to 1”
+                    <br>Annulus between all penetrants 1/2&quot; to 5/8”</td>
                   <td rowspan="2">Floor, Concrete Wall, Concrete or Concrete Block</td>
                   <td>Intumescent Sealant</td>
                   <td>
-                    Min. ½&quot; thick within annulus flush with top of floor or both surfaces of wall
+                    Min. 13mm (1/2&quot;) thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
                     <a href="/media/1367/c-aj-8184_021207.pdf" target="_blank">C-AJ-8184</a>
@@ -539,7 +593,7 @@
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. 4&quot; thick packed into opening (wall both sides)</td>
+                  <td>Min. 102mm (4&quot;) thick packed into opening (wall both sides)</td>
                 </tr>
                 <tr>
                   <td colspan="7">
@@ -548,19 +602,60 @@
                 </tr>
                 <tr>
                   <td rowspan="2">
-                    4&quot; Conduit &amp; EMT or smaller, Cables &amp; Cable Tray
+                    102mm (4&quot;) Conduit &amp; EMT or smaller, Cables &amp; Cable Tray
                   </td>
                   <td rowspan="2">1 &amp; 2</td>
-                  <td rowspan="2">1.9 sq. ft.</td>
-                  <td rowspan="2">Wall&nbsp;, Gypsum Board</td>
+                  <td rowspan="2">575mm x 300mm (1.9 sq. ft.)</td>
+                  <td rowspan="2">Wall - Gypsum Board</td>
                   <td rowspan="2">Mortar</td>
-                  <td>2 hr- min. 4½&quot; flush with &nbsp;both surfaces of wall</td>
+                  <td>To be installed flush With both surfaces of wall </td>
                   <td rowspan="2">
                     <a href="/media/1487/w-l-8005.pdf" target="_blank">W-L-8005</a>
                   </td>
                 </tr>
                 <tr>
-                  <td style="border-left:none;">1 hr, min. 3½&quot; flush with both surfaces of wall</td>
+                  <td style="border-left:none;">For 2 hr: min. 114mm (4½”)<br />For 1 hr: min. 89mm (3½”) </td>
+                </tr>
+                <tr>
+                  <td>51 mm (2” nom.) Conduit &amp; EMT or smaller, Cables &amp; Cable Tray</td>
+                  <td>2</td>
+                  <td>600mm x 300mm (2 sq.ft.)</td>
+                  <td>Wall – Gypsum Board</td>
+                  <td>Mortar</td>
+                  <td>To be installed flush With both surfaces of wall Min 114mm (4-1/2&quot;) thick</td>
+                  <td>
+                    <a href="/media/1587/sp326.pdf" target="_blank">SP326</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">80 mm (3” nom.) conduit pipe, Cables &amp; Cable Tray</td>
+                  <td rowspan="2">1.5</td>
+                  <td rowspan="2">600mm x 300mm (2 sq.ft.)</td>
+                  <td rowspan="2">Wall – Gypsum Board</td>
+                  <td>Silicone</td>
+                  <td>Min. 6mm (1/4&quot;) thick within annulus flush with top of floor or both surfaces of wall</td>
+                  <td rowspan="2">
+                    <a href="/media/1589/sp325.pdf" target="_blank">SP325</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: none;">Mineral Wool</td>
+                  <td>Min. 102mm (4&quot;) thick packed into opening (wall both sides)</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">51mm (2”) Steel, iron &amp; conduit or smaller</td>
+                  <td rowspan="2">1 &amp; 2</td>
+                  <td rowspan="2">0 to 19mm (3/4&quot;) annulus</td>
+                  <td rowspan="2">Wall – Gypsum Board</td>
+                  <td>Intumescent Sealant or Acrylic Sealant</td>
+                  <td>Min. 13mm (1/2&quot;) thick within annulus flush with top of floor </td>
+                  <td rowspan="2">
+                    <a href="/media/1461/w-l-1418_021207.pdf" target="_blank">W-L-1418</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: none;">Mineral Wool</td>
+                  <td>Min. 64mm (2-1/2&quot;) thick packed into opening (wall both sides)</td>
                 </tr>
               </tbody>
               <tfoot>
@@ -572,6 +667,7 @@
               </tfoot>
             </table>
           </div>
+          <!-- Cables -->
           <div class="table-responsive">
             <table class="table wrap">
               <caption>
@@ -587,7 +683,7 @@
                     <br>Penetration Diameter</th>
                   <th>Rating (h)</th>
                   <th>Max Size Opening</th>
-                  <th>Floor or Wall System</th>
+                  <th>Construction Type(s)</th>
                   <th>
                     A/D FIREBARRIER
                     <br />
@@ -604,37 +700,33 @@
                 <tr>
                   <td>Coaxial, Fiber Optic &amp; 24 AWG</td>
                   <td>3</td>
-                  <td>288 sq. in.</td>
+                  <td>610mm x 305mm (2 sq.ft.)</td>
                   <td>Floor, Concrete Wall, Concrete or Concrete Block</td>
                   <td>Pillows</td>
+                  <td>Installed with the 200 mm dimension projecting through floor or wall &amp; centered within opening</td>
                   <td>
-                    Installed with 8&quot; dimension projecting through floor or wall &amp; centered within opening
-                  </td>
-                  <td>
-                    <a href="/media/1347/c-aj-4046.pdf" target="_blank">C-AJ-4046</a>
+                    <a href="/media/1599/sp918.pdf" target="_blank">SP918</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>Coaxial, Fiber Optic &amp; 24 AWG &amp; Data Cable</td>
+                  <td>Coaxial, Fiber Optic, 24 AWG &amp; Data Cable</td>
                   <td>3</td>
-                  <td>288 sq. in.</td>
+                  <td>610mm x 305mm (2 sq.ft.)</td>
                   <td>Floor, Concrete Wall, Concrete or Concrete Block</td>
                   <td>Pillows</td>
+                  <td>Installed with the 200 mm dimension projecting through floor or wall &amp; centered within opening</td>
                   <td>
-                    Installed with 8&quot; dimension projecting through floor or wall &amp; centered within opening
-                  </td>
-                  <td>
-                    <a href="/media/1342/c-aj-4052_51002.pdf" target="_blank">C-AJ-4052</a>
+                    <a href="/media/1585/sp963.pdf" target="_blank">SP963</a>
                   </td>
                 </tr>
                 <tr>
                   <td rowspan="2">C-2/0 AWG 24 AWG 350 kcmil 62.5/48 fiber optic</td>
-                  <td rowspan="2">2 &nbsp;</td>
-                  <td rowspan="2">½&quot; to 1&quot; annulus</td>
+                  <td rowspan="2">2</td>
+                  <td rowspan="2">12mm to 25mm (1/2&quot; - 1&quot;) annulus</td>
                   <td rowspan="2">Floor, Concrete Wall, Concrete or Concrete Block Pre-Cast</td>
                   <td>Putty II</td>
                   <td>
-                    Min. 1&quot; thick within annulus flush with top or bottom of floor or both surfaces of wall
+                    Min. 25mm (1&quot;) thick within annulus flush with top or bottom of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
                     <a href="/media/1343/c-aj-3274_021207.pdf" target="_blank">C-AJ-3274</a>
@@ -642,7 +734,7 @@
                 </tr>
                 <tr>
                   <td style="border-left: none">Mineral Wool</td>
-                  <td>Min. 3½&quot; mineral wool packed into opening</td>
+                  <td>Min. 89mm (3-1/2&quot;) mineral wool packed into opening</td>
                 </tr>
                 <tr>
                   <td>24 AWG &amp; Romex</td>
@@ -651,7 +743,7 @@
                   <td>Floor, Concrete Wall, Concrete or Concrete Block</td>
                   <td>Putty II</td>
                   <td>
-                    Min. 3&quot; thick within annulus flush with top of floor or both surfaces of wall
+                    Min. 76mm (3&quot;) thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td>
                     <a href="/media/1344/c-aj-3275_021207.pdf" target="_blank">C-AJ-3275</a>
@@ -659,14 +751,14 @@
                 </tr>
                 <tr>
                   <td rowspan="2">
-                    Cable tray- 24&quot; X 6&quot; Cables- fiber optic, coaxial, 24 AWG,metal clad cable
+                    Cable tray- 24&quot; X 6&quot; Cables- fiber optic, coaxial, 24 AWG, metal clad cable
                   </td>
                   <td rowspan="2">2</td>
                   <td rowspan="2">Max opening 300 sq in (max dimension 30 in)</td>
                   <td rowspan="2">Wall -Concrete or Concrete Block</td>
                   <td>Intumescent Sealant</td>
                   <td>
-                    Min 1&quot; by 1¼&quot; depth around outer diameter or each optic raceway
+                    Min 25mm x 32mm (1&quot; by 1-1/4&quot;) depth around outer diameter or each optic raceway
                   </td>
                   <td rowspan="2">
                     <a href="/media/1459/w-j-4064_021207.pdf" target="_blank">W-J-4064</a>
@@ -675,17 +767,17 @@
                 <tr>
                   <td style="border-left: none;">Putty II</td>
                   <td>
-                    Min ¾&quot; thick packed against all four sides of opening and between each layer of cables
+                    Min 19mm (3/4&quot;) thick packed against all four sides of opening and between each layer of cables
                   </td>
                 </tr>
                 <tr>
                   <td rowspan="2">500 KCMIL, 24, 12, 10 AWG or smaller, RG / U</td>
                   <td rowspan="2">2</td>
-                  <td rowspan="2">¼&quot; nom. annulus</td>
+                  <td rowspan="2">6mm (1/4&quot;) nom. annulus</td>
                   <td rowspan="2">Wall -Concrete or Concrete Block</td>
                   <td>Silicone</td>
                   <td>
-                    Min. ¾&quot; thick within annulus, flush with both surfaces of wall
+                    Min. 19mm (3/4&quot;) thick within annulus, flush with both surfaces of wall
                   </td>
                   <td rowspan="2">
                     <a href="/media/1447/w-j-3087_71502.pdf" target="_blank">W-J-3087</a>
@@ -693,7 +785,24 @@
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. 2&quot; thick packed into opening on both sides of wall</td>
+                  <td>Min. 51mm (2&quot;) thick packed into opening on both sides of wall</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">500 KCMIL, 24, 12, 10 AWG or smaller, RG / U</td>
+                  <td rowspan="2">2</td>
+                  <td rowspan="2">19mm to 81mm (¾&quot; to 3-3/16&quot;) nom. annulus</td>
+                  <td rowspan="2">Wall -Concrete or Concrete Block</td>
+                  <td>Intumescent Sealant</td>
+                  <td>
+                    Min. 19mm (3/4&quot;) thick within annulus, flush with both surfaces of wall
+                  </td>
+                  <td rowspan="2">
+                    <a href="/media/1346/c-aj-3273_021207.pdf" target="_blank">C-AJ-3273</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: none;">Mineral Wool</td>
+                  <td>Min. 51mm (2&quot;) thick packed into opening on both sides of wall</td>
                 </tr>
                 <tr>
                   <td colspan="7">
@@ -701,59 +810,64 @@
                   </td>
                 </tr>
                 <tr>
+                  <td>500 KCMIL, 24 AWG, RG 11/ U</td>
+                  <td>2</td>
+                  <td>6mm (1/4&quot;) nom. annulus</td>
+                  <td>Wall -Gypsum Board</td>
+                  <td>Silicone</td>
+                  <td>Min. 25mm (1&quot;) thick within annulus on both surfaces of wall</td>
+                  <td>
+                    <a href="/media/1630/sp324.pdf" target="_blank">SP324</a>
+                  </td>
+                </tr>
+                <tr>
                   <td>24, 12, 8, 6 &amp; 2 AWG Metal clad, flexible metal conduit</td>
                   <td>1 &amp; 2</td>
-                  <td>¼&quot; to 1&quot; max annulus within sleeve</td>
+                  <td>6mm to 25mm (1/4&quot; to 1&quot;) max annulus within sleeve</td>
                   <td>Wall – Gypsum Board</td>
                   <td>Intumescent Sealant (Foam Backer optional)</td>
                   <td>
-                    Min. 5/8 inch thick within annulus, flush each surface of wall, fill all interstices between cables, add 3/8&quot; crown &amp; 3/8&quot; beyond periphery
+                    Min. 16mm (5/8&quot;) thick within annulus, flush each surface of wall, fill all interstices between cables, add 9.5mm (3/8&quot;) crown &amp; 9.5mm (3/8&quot;) beyond periphery
                   </td>
                   <td>
                     <a href="/media/1478/w-l-3322_021207.pdf" target="_blank">W-L-3322</a>
                   </td>
                 </tr>
                 <tr>
-                  <td rowspan="2">500 KCMIL, 24 AWG, RG 11/ U</td>
-                  <td rowspan="2">1 &amp; 2</td>
-                  <td rowspan="2">¼&quot; nom. annulus</td>
-                  <td rowspan="2">Wall -Gypsum Board</td>
-                  <td rowspan="2">Silicone</td>
-                  <td>2 hr- min. 1&quot; within annulus on both surfaces of wall</td>
-                  <td rowspan="2">
+                  <td>500 KCMIL, 24 AWG, RG 11/ U</td>
+                  <td>1</td>
+                  <td>6mm (1/4&quot;) nom. annulus</td>
+                  <td>Wall -Gypsum Board</td>
+                  <td>Silicone</td>
+                  <td>Min. 13mm (1/2&quot;) thick within annulus on both surfaces of wall</td>
+                  <td>
                     <a href="/media/1473/w-l-3042.pdf" target="_blank">W-L-3042</a>
                   </td>
                 </tr>
                 <tr>
-                  <td style="border-left: none;">1 hr, min. ½&quot; within annulus on both surfaces of wall</td>
-                </tr>
-                <tr>
                   <td rowspan="2">500 KCMIL, 24, 12, 10 AWG or smaller, RG / U</td>
                   <td rowspan="2">1 &amp; 2</td>
-                  <td rowspan="2">¼&quot; nom. annulus</td>
-                  <td rowspan="2">Wall -Gypsum Board</td>
+                  <td rowspan="2">6mm (1/4&quot;) nom. annulus</td>
+                  <td rowspan="2">Wall -Gypsum Board Cables passing through a steel sleeve</td>
                   <td>Silicone</td>
-                  <td>
-                    Min. ¾&quot; thick within annulus, flush on both surfaces of wall
-                  </td>
+                  <td>Min. 19mm (3/4&quot;) thick within annulus, flush on both surfaces of wall</td>
                   <td rowspan="2">
                     <a href="/media/1474/w-l-3207_71502.pdf" target="_blank">W-L-3207</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
-                  <td>Min. 2 inch thick packed into opening on both sides of wall</td>
+                  <td>Min. 51mm (2&quot;) thick packed into opening on both sides of wall</td>
                 </tr>
                 <tr>
-                  <td rowspan="2">
-                    &nbsp; 24, 12, 3/0, 2/0 AWG, fiber optic, 8 AWG, coaxial, 350 kcmil.
+                  <td rowspan="2">24, 12, 3/0, 2/0 AWG, fiber optic, 8 AWG, coaxial, 350 kcmil.
                   </td>
                   <td rowspan="2">1 &amp; 2</td>
-                  <td rowspan="2">¼&quot; to 1½”</td>
+                  <td rowspan="2">6mm to 12mm (1/4&quot; - 1/2”) annulus</td>
                   <td rowspan="2">Wall-Gypsum Board (metal sleeve)</td>
                   <td>Intumescent Sealant or Acrylic</td>
                   <td>
-                    Min. ½ “ thickness applied within annulus, flush with each end of sleeve
+                    Min. 13mm (1/2&quot;) thickness applied within annulus, flush with each end of sleeve
                   </td>
                   <td rowspan="2">
                     <a href="/media/1479/w-l-3324_021207.pdf" target="_blank">W-L-3324</a>
@@ -762,7 +876,7 @@
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
                   <td>
-                    Min. 1&quot; thick packed into opening in 1 or 2 hr walls, flush both surfaces of wall
+                    Min. 25mm (1&quot;) thick packed into opening in 1 or 2 hr walls, flush both surfaces of wall
                   </td>
                 </tr>
                 <tr>
@@ -773,38 +887,38 @@
                 <tr>
                   <td>500 KCMIL, 10, 12, 40,24 AWG &amp; RG 11/ U</td>
                   <td>1</td>
-                  <td>1/8&quot; nom. annulus</td>
+                  <td>3mm (1/8&quot;) nom. annulus</td>
                   <td>Floor, Lumber Ceiling, Gypsum Board -Out of Wall</td>
                   <td>Silicone</td>
                   <td>
-                    Min.1-1/8&quot; thick within annulus on top of floor Min. ½&quot; thick within annulus on bottom surface of ceiling
+                    Min. 29mm (1-1/8&quot;) thick within annulus on top of floor Min. 13mm (1/2&quot;) thick within annulus on bottom surface of ceiling
                   </td>
                   <td>
                     <a href="/media/1384/fc3014.pdf" target="_blank">F-C-3014</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>500 KCMIL, 24, 12 AWG, RG 11/ U</td>
-                  <td>1</td>
-                  <td>1/8&quot; nom. annulus</td>
-                  <td>Floor, Lumber Ceiling, Gypsum Board -In Wall</td>
-                  <td>Silicone</td>
+                  <td>CABLES BX armored Cable</td>
+                  <td>2</td>
+                  <td>6mm to 12mm (¼&quot; - ½”) annulus</td>
+                  <td>Floor / Lumber Ceiling / Gypsum Board</td>
+                  <td>Intumescent Sealant (Foam Backer optional)</td>
+                  <td>Min. 16mm (5/8&quot;) thick within annulus flush with top of floor</td>
                   <td>
-                    Min.1-1/8&quot; thick within annulus flush with top of floor A generous bead within annulus flush bottom surface of lower top plate
-                  </td>
-                  <td>
-                    <a href="/media/1531/f-c-3027.pdf" target="_blank">F-C-3027</a>
+                    <a href="/media/1373/f-c-3099_021207.pdf" target="_blank">F-C-3099</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>CABLES</td>
-                  <td>2</td>
-                  <td>¼&quot; to ½&quot; annulus</td>
-                  <td>Floor / Lumber Ceiling / Gypsum Board</td>
-                  <td>Intumescent Sealant (Foam Backer optional)</td>
-                  <td>Min.5/8&quot; thick within annulus flush with top of floor</td>
+                  <td>500 MCM, 24 AWG, RG 11/ U</td>
+                  <td>1</td>
+                  <td>3mm (1/8&quot;) nom. annulus</td>
+                  <td>Floor - Lumber Ceiling - Gypsum Board (chase wall optional)</td>
+                  <td>Silicone</td>
                   <td>
-                    <a href="/media/1373/f-c-3099_021207.pdf" target="_blank">F-C-3099</a>
+                    Min. 29mm (1-1/8&quot;) thick within annulus flush with top of floor A generous bead within annulus flush bottom surface of lower top plate
+                  </td>
+                  <td>
+                    <a href="/media/1637/sp365.pdf" target="_blank">SP365</a>
                   </td>
                 </tr>
               </tbody>
@@ -817,6 +931,7 @@
               </tfoot>
             </table>
           </div>
+          <!-- Wall Openings -->
           <div class="table-responsive">
             <table class="table wrap">
               <caption>
@@ -854,7 +969,7 @@
                   <td>Putty Pads II</td>
                   <td>See CLIV Report</td>
                   <td>
-                    <a href="/media/1532/cliv.pdf" target="_blank">CLIV</a>
+                    <a href="/media/1533/cliv7.pdf" target="_blank">CLIV7</a>
                   </td>
                 </tr>
                 <tr>
@@ -865,7 +980,7 @@
                   <td>Inserts (Single)</td>
                   <td>See CLIV Report</td>
                   <td>
-                    <a href="/media/1532/cliv.pdf" target="_blank">CLIV</a>
+                    <a href="/media/1533/cliv7.pdf" target="_blank">CLIV7</a>
                   </td>
                 </tr>
                 <tr>
@@ -891,3 +1006,7 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+<?php include("footer.php"); ?>

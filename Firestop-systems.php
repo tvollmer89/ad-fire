@@ -4370,7 +4370,7 @@
                   <td>F- C W –see design</td>
                   <td>SA &amp; MW</td>
                   <td>
-                    <a href="#" target="_blank">AD/JS 120-01</a>
+                    <a href="/media/1500/ad-js-120-01.pdf" target="_blank">AD/JS 120-01</a>
                   </td>
                   <td>ITS</td>
                 </tr> -->

@@ -43,7 +43,7 @@
                   <td>A/D Firebarrier Acrylic</td>
                   <td>Min. 1/2 inch thick, installed on each side of the wall.</td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-0467</a>
+                    <a href="/media/1497/hw-d-0467_021207.pdf" target="_blank">HW-D-0467</a>
                   </td>
                 </tr>
                 <tr>
@@ -62,7 +62,7 @@
                     Min. 1/8 inch wet thickness, sprayed or brushed on each side of the wall. Overlap a min. ½ inch onto gypsum board and steel deck.
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-0282</a>
+                    <a href="/media/1422/hw-d-0282_22603.pdf" target="_blank">HW-D-0282</a>
                   </td>
                 </tr>
                 <tr>
@@ -83,7 +83,7 @@
                     Min. 1/8 inch wet thickness, sprayed or brushed on each side of the wall. Overlap a min. ½ inch onto gypsum board and steel deck.
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-0247</a>
+                    <a href="/media/1414/hw-d-0247.pdf" target="_blank">HW-D-0247</a>
                   </td>
                 </tr>
                 <tr>
@@ -102,7 +102,7 @@
                     Min, bead diameter of 3/8” cauked into the corner between ends of gypsum wallboard around the entire perimeter of the fire rated wall assembly.
                   </td>
                   <td>
-                    <a href="#" target="_blank">AD/PHV 120-02</a>
+                    <a href="/media/1290/adphv-120-02.pdf" target="_blank">AD/PHV 120-02</a>
                   </td>
                 </tr>
                 <tr>
@@ -113,7 +113,7 @@
                   <td>A/D Firebarrier Silicone</td>
                   <td>Min. 1/4 “ and 5/8” thickness (see fire test design)</td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">AD/PV 60-01</a>
+                    <a href="/media/1305/adpv-60-01.pdf" target="_blank">AD/PV 60-01</a>
                   </td>
                 </tr>
                 <tr>
@@ -130,7 +130,7 @@
                   <td>A/D Firebarrier Silicone</td>
                   <td>Min. 1/4 “ and 1” thickness (see fire test design)</td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">AD/PV 120-01</a>
+                    <a href="/media/1306/adpv-120-01.pdf" target="_blank">AD/PV 120-01</a>
                   </td>
                 </tr>
                 <tr>
@@ -149,7 +149,7 @@
                     Min, bead diameter of 3/8” cauked into the corner between ends of gypsum wallboard around the entire perimeter of the fire rated wall assembly.
                   </td>
                   <td>
-                    <a href="#" target="_blank">AD/PHV 120-02</a>
+                    <a href="/media/1290/adphv-120-02.pdf" target="_blank">AD/PHV 120-02</a>
                   </td>
                 </tr>
                 <tr>
@@ -162,7 +162,7 @@
                     Min. 1/8 inch. wet thickness, sprayed on each side of the wall. And ½” overlap
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-0468</a>
+                    <a href="/media/1425/hw-d-0468_021207.pdf" target="_blank">HW-D-0468</a>
                   </td>
                 </tr>
                 <tr>
@@ -181,7 +181,7 @@
                     Min. 1/8 inch wet thickness, sprayed on each side of the wall. Overlap a min. 1inch onto gypsum board and steel deck. When Spray Fireproofing is applied overlap a min. 2” on both sides onto fireproofing
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-0471</a>
+                    <a href="/media/1429/hw-d-0471_021207.pdf" target="_blank">HW-D-0471</a>
                   </td>
                 </tr>
                 <tr>
@@ -207,7 +207,7 @@
                     Min. 1/4 inch thick applied within the joint, flush with each surface of wall.
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-1017</a>
+                    <a href="/media/1428/hw-d-1017_052803.pdf" title="hw-d-1017.pdf" target="_blank">HW-D-1017</a>
                   </td>
                 </tr>
                 <tr>
@@ -228,7 +228,7 @@
                     Min. 1/8 inch wet thickness, sprayed or brushed on each side of the wall. Overlap a min. ½ inch onto concrete wall and steel deck.
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-0250</a>
+                    <a href="/media/1417/hw-d-0250_41502.pdf" target="_blank">HW-D-0250</a>
                   </td>
                 </tr>
                 <tr>
@@ -247,7 +247,7 @@
                     Min. 1/8 inch wet thickness, sprayed or brushed on each side of the wall. Overlap a min. ½ inch onto the bottom surface of the floor and each side of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">HW-D-1029</a>
+                    <a href="/media/1430/hw-d-1029_032904.pdf" target="_blank">HW-D-1029</a>
                   </td>
                 </tr>
                 <tr>

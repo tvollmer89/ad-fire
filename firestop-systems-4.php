@@ -31,7 +31,7 @@
                     <a href="#plastic">Plastic &amp; Glass Pipe</a>
                   </li>
                   <li>
-                    <a href="#insulate">Insulated Pipe</a>
+                    <a href="#insulated">Insulated Pipe</a>
                   </li>
                   <li>
                     <a href="#ducts">Ducts</a>
@@ -41,7 +41,7 @@
                   </li>
                 </ul>
                 <h4>
-                  <a name="#steel"></a>
+                  <a name="steel"></a>
                   Steel &amp; Iron Pipe
                 </h4>
               </caption>
@@ -76,7 +76,7 @@
                     Min. 1/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan=2>
-                    <a href="#" target="_blank">C-AJ-1557</a>
+                    <a href="/media/1329/c-aj-1557_021207.pdf" target="_blank">C-AJ-1557</a>
                   </td>
                 </tr>
                 <tr>
@@ -93,7 +93,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1497</a>
+                    <a href="/media/1520/c-aj-1497.pdf" target="_blank">C-AJ-1497</a>
                   </td>
                 </tr>
                 <tr>
@@ -112,7 +112,7 @@
                     Min. 1 inch thick within annulus flush with both surfaces of floor or wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1561</a>
+                    <a href="/media/1331/c-aj-1561_021207.pdf" target="_blank">C-AJ-1561</a>
                   </td>
                 </tr>
                 <tr>
@@ -131,7 +131,7 @@
                     Min. 1/4 inch thick within annulus flush with top or bottom of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1229</a>
+                    <a href="/media/1322/c-aj-1229_090904.pdf" target="_blank">C-AJ-1229</a>
                   </td>
                 </tr>
                 <tr>
@@ -153,7 +153,7 @@
                     Min.1/2” or 5/8” inch thick within annulus, flush both surfaces of wall Foam Bakker optional
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-1416</a>
+                    <a href="/media/1458/w-l-1416_021207.pdf" target="_blank">W-L-1416</a>
                   </td>
                 </tr>
                 <tr>
@@ -166,7 +166,7 @@
                     Min. 1/2 inch thick within annulus, flush both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">W-L-1417</a>
+                    <a href="/media/1457/w-l-1417_021207.pdf" target="_blank">W-L-1417</a>
                   </td>
                 </tr>
                 <tr>
@@ -183,7 +183,7 @@
                     Min.5/8 inch thick within annulus, flush both surfaces of wall
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-1198</a>
+                    <a href="/media/1460/w-l-1198.pdf" target="_blank">W-L-1198</a>
                   </td>
                 </tr>
                 <tr>
@@ -201,7 +201,7 @@
                     Min.5/8 inch thick within annulus on top at floor Min. 5/8 inch thick within annulus on bottom surface ceiling- ½” crown
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-1149</a>
+                    <a href="/media/1369/f-c-1149_021207.pdf" target="_blank">F-C-1149</a>
                   </td>
                 </tr>
                 <tr>
@@ -214,7 +214,7 @@
                     Min.1 1/8 inch thick within annulus on top at floor Min. 1/2 inch thick within annulus on bottom surface ceiling
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-1011</a>
+                    <a href="/media/1381/fc-1011.pdf" target="_blank">F-C-1011</a>
                   </td>
                 </tr>
                 <tr>
@@ -227,7 +227,7 @@
                     Min.1/2 inch thick within annulus on top at floor Min. 1/2 inch thick within annulus on bottom surface ceiling and ¼” at point of contact Foam Bakker Rod
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-1150</a>
+                    <a href="/media/1371/f-c-1150_021207.pdf" target="_blank">F-C-1150</a>
                   </td>
                 </tr>
               </tbody>
@@ -245,7 +245,7 @@
             <table class="table wrap">
               <caption>
                 <h4>
-                  <a name="#copper"></a>
+                  <a name="copper"></a>
                   Copper Pipe &amp; Tube
                 </h4>
               </caption>
@@ -280,7 +280,7 @@
                     Min. 1/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1557</a>
+                    <a href="/media/1329/c-aj-1557_021207.pdf" target="_blank">C-AJ-1557</a>
                   </td>
                 </tr>
                 <tr>
@@ -297,7 +297,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1497</a>
+                    <a href="/media/1520/c-aj-1497.pdf" target="_blank">C-AJ-1497</a>
                   </td>
                 </tr>
                 <tr>
@@ -316,7 +316,7 @@
                     Min. 3/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1557</a>
+                    <a href="/media/1329/c-aj-1557_021207.pdf" target="_blank">C-AJ-1557</a>
                   </td>
                 </tr>
                 <tr>
@@ -335,7 +335,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td>
-                    <a href="#" target="_blank">C-AJ-1557</a>
+                    <a href="/media/1329/c-aj-1557_021207.pdf" target="_blank">C-AJ-1557</a>
                   </td>
                 </tr>
                 <tr>
@@ -353,7 +353,7 @@
                     Min.1/2” or 5/8” inch thick within annulus, flush both surfaces of wall and its rating Foam Bakker Rod Optional
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-1416</a>
+                    <a href="/media/1458/w-l-1416_021207.pdf" target="_blank">W-L-1416</a>
                   </td>
                 </tr>
                 <tr>
@@ -366,7 +366,7 @@
                     Min. 1/2 inch thick within annulus, flush both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">W-L-1417</a>
+                    <a href="/media/1457/w-l-1417_021207.pdf" target="_blank">W-L-1417</a>
                   </td>
                 </tr>
                 <tr>
@@ -383,7 +383,7 @@
                     Min.5/8 inch thick within annulus, flush both surfaces of wall
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-1198</a>
+                    <a href="/media/1460/w-l-1198.pdf" target="_blank">W-L-1198</a>
                   </td>
                 </tr>
                 <tr>
@@ -401,7 +401,7 @@
                     Min.1 1/8 inch thick within annulus on top at floor Min. 1/2 inch thick within annulus on bottom surface ceiling
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-1011</a>
+                    <a href="/media/1381/fc-1011.pdf" target="_blank">F-C-1011</a>
                   </td>
                 </tr>
                 <tr>
@@ -414,7 +414,7 @@
                     Min.1/2 inch thick within annulus on top at floor Min. 1/2 inch thick within annulus on bottom surface ceiling and ¼” at point of contact Foam Bakker Rod
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-1150</a>
+                    <a href="/media/1371/f-c-1150_021207.pdf" target="_blank">F-C-1150</a>
                   </td>
                 </tr>
               </tbody>
@@ -432,7 +432,7 @@
             <table class="table wrap">
               <caption>
                 <h4>
-                  <a name="#plastic"></a>
+                  <a name="plastic"></a>
                   Plastic &amp; Glass Pipe
                 </h4>
               </caption>
@@ -467,7 +467,7 @@
                     Min. 2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td>
-                    <a href="#" target="_blank">C-AJ-2581</a>
+                    <a href="/media/1337/c-aj-2581_021207.pdf" target="_blank">C-AJ-2581</a>
                   </td>
                 </tr>
                 <tr>
@@ -482,7 +482,7 @@
                     Min. 1/2 inch thick within annulus flush with both surfaces of floor or wall (Foam backer rod optiona)
                   </td>
                   <td>
-                    <a href="#" target="_blank">C-AJ-2582</a>
+                    <a href="/media/1338/c-aj-2582_021207.pdf" target="_blank">C-AJ-2582</a>
                   </td>
                 </tr>
                 <tr>
@@ -495,7 +495,7 @@
                     Min. 3/8 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-2186</a>
+                    <a href="/media/1333/c-aj-2186.pdf" target="_blank">C-AJ-2186</a>
                   </td>
                 </tr>
                 <tr>
@@ -509,7 +509,7 @@
                   <td>Collar</td>
                   <td></td>
                   <td>
-                    <a href="#" target="_blank">C-AJ-2187</a>
+                    <a href="/media/1335/c-aj-2187.pdf" target="_blank">C-AJ-2187</a>
                   </td>
                 </tr>
                 <tr>
@@ -522,7 +522,7 @@
                     Min. 1 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-2150</a>
+                    <a href="/media/1332/c-aj-2150_112403.pdf" target="_blank">C-AJ-2150</a>
                   </td>
                 </tr>
                 <tr>
@@ -539,7 +539,7 @@
                     Min. ½” inch thick within annulus flush with top of floor add ½” crown Foam Bakker Optional
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-A-2168</a>
+                    <a href="/media/1496/f-a-2168.pdf" target="_blank">F-A-2168</a>
                   </td>
                 </tr>
                 <tr>
@@ -550,7 +550,7 @@
                   <td>A/D Firebarrier Wrap Strip</td>
                   <td>1&quot; wide Wrap Strip</td>
                   <td>
-                    <a href="#" target="_blank">W-J-2128</a>
+                    <a href="/media/1442/w-j-2128_70703.pdf" target="_blank">W-J-2128</a>
                   </td>
                 </tr>
                 <tr>
@@ -567,7 +567,7 @@
                     3) 0 to 1” PEX – 1” Wrap Strip 1 layer, 1 hr rating 4) 2” ABS – 2” Wrap Strip 2 hr fating
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-J-2141</a>
+                    <a href="/media/1530/w-j-2141.pdf" target="_blank">W-J-2141</a>
                   </td>
                 </tr>
                 <tr>
@@ -585,7 +585,7 @@
                     Min.1 inch thick within annulus flush on both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">WL - 2155</a>
+                    <a href="/media/1463/w-l-2155.pdf" target="_blank">W-L-2155</a>
                   </td>
                 </tr>
                 <tr>
@@ -603,7 +603,7 @@
                     Min.5/8 inch thick within annulus flush on both surfaces of wall Plus a ¼” crown around
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-2486</a>
+                    <a href="/media/1467/w-l-2486_021207.pdf" target="_blank">W-L-2486</a>
                   </td>
                 </tr>
                 <tr>
@@ -614,7 +614,7 @@
                   <td>Silicone</td>
                   <td>Min. 3/4 inch thick within annulus, flush with both ends</td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">W-L-2157</a>
+                    <a href="/media/1464/w-l-2157.pdf" target="_blank">W-L-2157</a>
                   </td>
                 </tr>
                 <tr>
@@ -631,7 +631,7 @@
                     Min.1/2 inch thick within annulus flush on both surfaces of wall Foam Bakker Optional, required for 2 hr F
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-2487</a>
+                    <a href="/media/1470/w-l-2487_021207.pdf" target="_blank">W-L-2487</a>
                   </td>
                 </tr>
                 <tr>
@@ -644,7 +644,7 @@
                     Min.2 inch thick within annulus flush on both surfaces of wall 1 ½” Mineral Wool
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">W-L-2489</a>
+                    <a href="/media/1472/w-l-2489_021207.pdf" target="_blank">W-L-2489</a>
                   </td>
                 </tr>
                 <tr>
@@ -665,7 +665,7 @@
                     Fill annulus Space to max extent &amp; 1/4 &quot; crown on top
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">F-C-2194</a>
+                    <a href="/media/1517/f-c-2194.pdf" target="_blank">F-C-2194</a>
                   </td>
                 </tr>
                 <tr>
@@ -681,7 +681,7 @@
                     Min. 1/2 inch thick within annulus (top &amp; bottom) and ¼” crown Foam Bakker Optional
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-2346</a>
+                    <a href="/media/1529/f-c-2346.pdf" target="_blank">F-C-2346</a>
                   </td>
                 </tr>
                 <tr>
@@ -694,7 +694,7 @@
                     Min. 3/4 inch thick within annulus – top Min. 5/8 inch thick within annulus - bottom
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-2347</a>
+                    <a href="/media/1528/f-c-2347.pdf" target="_blank">F-C-2347</a>
                   </td>
                 </tr>
               </tbody>
@@ -712,7 +712,7 @@
             <table class="table wrap">
               <caption>
                 <h4>
-                  <a name="#insulated"></a>
+                  <a name="insulated"></a>
                   Insulated Pipe
                 </h4>
               </caption>
@@ -745,7 +745,7 @@
                     Min. 1/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-5064</a>
+                    <a href="/media/1351/c-aj-5064.pdf" target="_blank">C-AJ-5064</a>
                   </td>
                 </tr>
                 <tr>
@@ -762,7 +762,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-1560</a>
+                    <a href="/media/1330/c-aj-1560_021207.pdf" target="_blank">C-AJ-1560</a>
                   </td>
                 </tr>
                 <tr>
@@ -779,7 +779,7 @@
                     Min. ½ inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-5027</a>
+                    <a href="/media/1350/c-aj-5027.pdf" target="_blank">C-AJ-5027</a>
                   </td>
                 </tr>
                 <tr>
@@ -796,7 +796,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-5303</a>
+                    <a href="/media/1353/c-aj-5303_021207.pdf" target="_blank">C-AJ-5303</a>
                   </td>
                 </tr>
                 <tr>
@@ -815,7 +815,7 @@
                     Min. 1 inch thick within annulus flush with top of floor or both surfaces of wall with ¼” crown
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-5304</a>
+                    <a href="/media/1349/c-aj-5304_021207.pdf" target="_blank">C-AJ-5304</a>
                   </td>
                 </tr>
                 <tr>
@@ -833,7 +833,7 @@
                     Min. 1 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-5306</a>
+                    <a href="/media/1354/c-aj-5306_021207.pdf" target="_blank">C-AJ-5306</a>
                   </td>
                 </tr>
                 <tr>
@@ -856,7 +856,7 @@
                     Min 5/8 inch thick within annulus, flush both surfaces of wall plus a 3/8” crown
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L - 5267</a>
+                    <a href="/media/1483/w-l-5267_021207.pdf" target="_blank">W-L-5267</a>
                   </td>
                 </tr>
                 <tr>
@@ -869,7 +869,7 @@
                     Min 5/8 inch thick within annulus, flush both surfaces of wall - ¼” bead to pipe insulation/wallboard at point of contact
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-5266</a>
+                    <a href="/media/1482/w-l-5266_021207.pdf" target="_blank">W-L-5266</a>
                   </td>
                 </tr>
                 <tr>
@@ -882,7 +882,7 @@
                     1 hour rating Min. 1/2 inch thick flush both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">W-L-5031</a>
+                    <a href="/media/1480/w-l-5031.pdf" target="_blank">W-L-5031</a>
                   </td>
                 </tr>
                 <tr>
@@ -903,7 +903,7 @@
                     (2 hr) Min 3/4 inch thick within annulus, flush with top of floor (1 hr) Min 5/8 inch thick within annulus, flush with top of floor – Add material forced in annular space around penetrants &amp; 3/16” crown
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-8041</a>
+                    <a href="/media/1376/f-c-8041_021207.pdf" target="_blank">F-C-8041</a>
                   </td>
                 </tr>
                 <tr>
@@ -916,7 +916,7 @@
                     Min.1 1/8 inch thick within annulus on top at floor Min. 1/2 inch thick within annulus on bottom surface ceiling
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-5007</a>
+                    <a href="/media/1383/fc-5007.pdf" target="_blank">F-C-5007</a>
                   </td>
                 </tr>
               </tbody>
@@ -934,7 +934,7 @@
             <table class="table wrap">
               <caption>
                 <h4>
-                  <a name="#ducts"></a>
+                  <a name="ducts"></a>
                   Ducts (Mechanical)
                 </h4>
               </caption>
@@ -967,7 +967,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-7124</a>
+                    <a href="/media/1358/c-aj-7124_021207.pdf" target="_blank">C-AJ-7124</a>
                   </td>
                 </tr>
                 <tr>
@@ -984,7 +984,7 @@
                     Min. 1 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-7125</a>
+                    <a href="/media/1360/c-aj-7125_021207.pdf" target="_blank">C-AJ-7125</a>
                   </td>
                 </tr>
                 <tr>
@@ -1001,7 +1001,7 @@
                     Min. 1/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-7126</a>
+                    <a href="/media/1361/c-aj-7126_021207.pdf" target="_blank">C-AJ-7126</a>
                   </td>
                 </tr>
                 <tr>
@@ -1023,7 +1023,7 @@
                     Min. 1/4 inch thick within annulus flush both surfaces of wall
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-7073</a>
+                    <a href="/media/1484/w-l-7073_061104.pdf" target="_blank">W-L-7073</a>
                   </td>
                 </tr>
                 <tr>
@@ -1036,7 +1036,7 @@
                     Min 5/8” thick both sides of wall, Foam Bakker Rod for 2 hr F
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-7166</a>
+                    <a href="/media/1489/w-l-7166_021207.pdf" target="_blank">W-L-7166</a>
                   </td>
                 </tr>
                 <tr>
@@ -1051,14 +1051,14 @@
                     Min 1/2” thick caulk within annulus, flush both surfaces of wall – when annular exceeds ½” fill with min. thickness of 5/8”. For round ducts add 3/8” crown around.
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">W-L-7165</a>
+                    <a href="/media/1485/w-l-7165.pdf" target="_blank">W-L-7165</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">½” for rectangular</td>
                 </tr>
                 <tr>
-                  <td colspan="7">WOOD CONSTRUCTION</td>
+                  <td colspan="7"><h5>WOOD CONSTRUCTION</h5></td>
                 </tr>
                 <tr>
                   <td>4” diameter duct 30 ga or heavier</td>
@@ -1070,7 +1070,7 @@
                     5/8” thick flush with top of floor and bottom surface of ceiling
                   </td>
                   <td>
-                    <a href="#" target="_blank">F-C-7044</a>
+                    <a href="/media/1374/f-c-7044_021207.pdf" target="_blank">F-C-7044</a>
                   </td>
                 </tr></tbody>
               <tfoot>
@@ -1087,7 +1087,7 @@
             <table class="table wrap">
               <caption>
                 <h4>
-                  <a name="#multiple"></a>Multiple Penetrations
+                  <a name="multiple"></a>Multiple Penetrations
                 </h4>
               </caption>
               <tbody>
@@ -1127,7 +1127,7 @@
                     Min. 3 inch thick flush with top of floor &amp; both sides of wall
                   </td>
                   <td>
-                    <a href="#" target="_blank">C-AJ-8029</a>
+                    <a href="/media/1364/c-aj-8029.pdf" target="_blank">C-AJ-8029</a>
                   </td>
                 </tr>
                 <tr>
@@ -1144,7 +1144,7 @@
                     Min. 1/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-8028</a>
+                    <a href="/media/1365/c-aj-8028.pdf" target="_blank">C-AJ-8028</a>
                   </td>
                 </tr>
                 <tr>
@@ -1161,7 +1161,7 @@
                     Min. 1/4 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-8080</a>
+                    <a href="/media/1363/c-aj-8080.pdf" target="_blank">C-AJ-8080</a>
                   </td>
                 </tr>
                 <tr>
@@ -1178,7 +1178,7 @@
                     Min. 1/2 inch thick within annulus flush with top of floor or both surfaces of wall
                   </td>
                   <td rowspan="4">
-                    <a href="#" target="_blank">C-AJ-8184</a>
+                    <a href="/media/1367/c-aj-8184_021207.pdf" target="_blank">C-AJ-8184</a>
                   </td>
                 </tr>
                 <tr>
@@ -1200,7 +1200,7 @@
                   <td>A/D Firebarrier Mortar</td>
                   <td>Fill opening to min. depth 3 inches</td>
                   <td>
-                    <a href="#" target="_blank">AD/PHV 180-01</a>
+                    <a href="/media/1291/adphv-180-01.pdf" target="_blank">AD/PHV 180-01</a>
                   </td>
                 </tr>
                 <tr>
@@ -1217,18 +1217,13 @@
                     Min 1 inch thick within annulus, flush top of floor, both surfaces of wall-force sealant into interstices to max possible, when floor hollow core, fill both sides of floor flush
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-8183</a>
+                    <a href="/media/1368/c-aj-8183_021207.pdf" target="_blank">C-AJ-8183</a>
                   </td>
                 </tr>
                 <tr>
                   <td style="border-left: none;">Mineral Wool</td>
                   <td>
                     Min 3 1/2&quot; inch thick packed into opening and into interstices, with hollow core pack both surfaces of floor
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="7">
-                    <h5>CONCRETE CONSTRUCTION</h5>
                   </td>
                 </tr>
                 <tr>
@@ -1241,7 +1236,7 @@
                     Min 1 inch thick within annulus, flush top of floor, both surfaces of wall-force sealant around tubing to max possible, point of contact, ½” bead at tubing &amp; concrete
                   </td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">C-AJ-2583</a>
+                    <a href="/media/1336/c-aj-2583_021207.pdf" target="_blank">C-AJ-2583</a>
                   </td>
                 </tr>
                 <tr>
@@ -1263,7 +1258,7 @@
                     Min. 1/2 inch flush with both surfaces of wall added material into intersties with a1/4” crown
                   </td>
                   <td>
-                    <a href="#" target="_blank">W-L-8075</a>
+                    <a href="/media/1488/w-l-8075_021207.pdf" target="_blank">W-L-8075</a>
                   </td>
                 </tr>
                 <tr>
@@ -1276,7 +1271,7 @@
                   <td rowspan="2">Mortar &amp; Silicone</td>
                   <td>2 hr- min.4 1/2 inch flush with both surfaces of wall</td>
                   <td rowspan="2">
-                    <a href="#" target="_blank">WL - 8005</a>
+                    <a href="/media/1487/w-l-8005.pdf" target="_blank">W-L-8005</a>
                   </td>
                 </tr>
                 <tr>

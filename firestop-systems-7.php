@@ -46,7 +46,7 @@
                     Min 1/4 inch thick applied within joint, flush with top surface of floor
                   </td>
                   <td rowspan=2>
-                    <a href=# target=_blank>FF-D- 1023</a>
+                    <a href="/media/1385/ff-d-1023.pdf" title="ff-d-1023.pdf" target="_blank">FF-D-1023</a>
                   </td>
                 </tr>
                 <tr>
@@ -65,7 +65,7 @@
                     Min 1/8 inch wet thickness sprayed or brush on top surface of floor covering mineral wool &amp; lapping a min ½ “ onto concrete floor
                   </td>
                   <td rowspan="2">
-                    <a href=# target=_blank>FF-D- 1032</a>
+                    <a href="/media/1386/ff-d-1032.pdf" title="ff-d-1032.pdf" target="_blank">FF-D-1032</a>
                   </td>
                 </tr>
                 <tr>
@@ -84,7 +84,7 @@
                     Min 1/4 inch thick applied within the joint, flush with top surface of floor
                   </td>
                   <td rowspan="2">
-                    <a href=# target=_blank>FF-S-0031</a>
+                    <a href="/media/1389/ff-s-0031.pdf" target="_blank">FF-S-0031</a>
                   </td>
                 </tr>
                 <tr>
@@ -103,7 +103,7 @@
                     Min 1 inch thick applied within the joint, flush with top surface of floor
                   </td>
                   <td rowspan="2">
-                    <a href=# target=_blank>FF-S-0032</a>
+                    <a href="/media/1392/ff-s-0032.pdf" target="_blank">FF-S-0032</a>
                   </td>
                 </tr>
                 <tr>
@@ -147,7 +147,7 @@
                     Min 1/4 inch thick applied within joint, flush with top surface of floor
                   </td>
                   <td rowspan="2">
-                    <a href=# target=_blank>FW-D- 1019</a>
+                    <a href="/media/1407/fw-d-1019.pdf" title="fw-d-1019.pdf" target="_blank">FW-D-1019</a>
                   </td>
                 </tr>
                 <tr>
@@ -166,7 +166,7 @@
                     Min 1/4 inch thick applied within joint, flush with top surface of floor
                   </td>
                   <td rowspan="2">
-                    <a href=# target=_blank>FW-D- 1029</a>
+                    <a href="/media/1408/fw-d-1029.pdf" title="fw-d-1029.pdf" target="_blank">FW-D-1029</a>
                   </td>
                 </tr>
                 <tr>
@@ -185,7 +185,7 @@
                     Min 1/8 inch thick sprayed or brushed to bottom or top surface of joint, cover mineral wool &amp; overlap onto concrete surface a min of ½” on each side of joint
                   </td>
                   <td rowspan="2">
-                    <a href=# target=_blank>FW-S-0005</a>
+                    <a href="/media/1409/fw-s-0005.pdf" target="_blank">FW-S-0005</a>
                   </td>
                 </tr>
                 <tr>

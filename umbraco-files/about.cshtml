@@ -1,0 +1,29 @@
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "Master.cshtml";
+}
+
+<div id="mainImage">
+  @{Html.RenderPartial("HeaderImageDisplay");}
+  <section class="pink-box">
+    <h1>@Umbraco.Field("headerText")</h1>
+  </section>
+</div>
+<div id="content">
+<div class="content-row" id="about">
+  <div class="content-inner container">
+    <div class="col-sm-12">
+      @Umbraco.Field("bodyText")
+    </div>
+  </div>
+</div>
+</div>
+<div class="content-wrapper">
+  <div class="content-row" id="news-contact">
+    <div class="content-inner container">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+@{Html.RenderPartial("Recent News Display");}
+      </div>
+    </div>
+  </div>
+</div>
