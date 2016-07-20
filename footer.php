@@ -1,7 +1,7 @@
   <footer>
     <div class="col-md-12">
     <div id="foot-wrap" class="row">
-      <div id="foot1" class="col-md-4">
+      <div id="foot1" class="col-sm-6 col-md-4">
         <p>Copyright 2016 A/D Fire Protection Systems</p>
       </div>
       <div id="foot2" class="col-md-4">
@@ -23,7 +23,7 @@
           </li>
         </ul>
       </div>
-      <div id="foot3" class="col-md-4">
+      <div id="foot3" class="col-sm-6 col-md-4">
         <p>
           A/D Fire Protection Systems is part of the Carboline Company.
         </p>

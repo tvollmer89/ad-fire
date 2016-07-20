@@ -21,14 +21,6 @@ body {
 	margin-bottom: 8px;
 }
 
-#themenu {
-	width: 45px;
-	height: 50px;
-	float: right;
-	margin-top: 32px;
-	margin-right: 10px;
-
-}
 .wrapper h1 {
 	text-align: center;
 	color: #db2c3b;
@@ -210,9 +202,9 @@ a {
 }
 
 .logo-img {
-    width: 100px;
-    height: auto;
-    padding: 10px;
+    width: auto;
+    height: 60px;
+    /*padding: 10px;*/
 }
 
 .clearfix:after {
@@ -231,7 +223,9 @@ a {
     background: #232323;
     padding: 10px 18px 0px 25px;
 }
-
+#nav {
+  padding: 10px 0;
+}
 #nav1 {
     float: left;
     width: 40%;
@@ -241,7 +235,14 @@ a {
     width: 60%;
     display: none;
 }
-
+#themenu {
+  width: 45px;
+  height: 50px;
+  float: right;
+  /*margin-top: 32px;*/
+  /*margin-right: 10px;*/
+  padding: 10px 0;
+}
 .logo-div {
     display: block;
     float: left;
@@ -331,15 +332,15 @@ li {
     font-size: 14px;
 }
 
-
+footer {
+  background: #232323;
+}
 #foot-wrap {
     display: block;
     width: 100%;
     float: left;
-    background: #232323;
     text-align: center;
     padding: 5px 0;
-    margin-top: -10px;
 }
 footer p {
     font-size: 9px;
@@ -348,7 +349,6 @@ footer p {
 #foot1 {
     display: block;
     float: left;
-    width: 58%;
 }
 #foot2 {
     display: none;
@@ -363,7 +363,6 @@ footer p {
 #foot3 {
     display: block;
     float: left;
-    width: 33.3%;
 }
 
 .bottom-li {

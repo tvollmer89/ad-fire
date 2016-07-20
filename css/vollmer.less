@@ -1,6 +1,7 @@
 @import "grid.less";
 @import "products.less";
 @import "responsive.less";
+@import "../less/bootstrap.less";
 @red: #db2c3b;
 @black: #000;
 @white: #fff;
@@ -31,21 +32,26 @@ body {
   margin: 0;
   display: block;
   h1 {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 1.05em;
   }
   h2 {
-    color: @red;
-    font-size: 36px;
-    line-height: 1.25em;
-    font-weight: @bold;
-    font-family: @semi-condensed;
-    margin: 20px 0;
+    color: #db2c3b;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "acumin-pro-semi-condensed", sans-serif;
+    margin: 10px 0;
   }
   h3 {
     font-size: 28px;
     line-height: 1.25em;
     font-weight: @regular;
+  }
+  h4 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 300;
+    margin: 0 auto;
   }
   p {
     font-size: 16px;
@@ -53,6 +59,7 @@ body {
     line-height: 18px;
   }
 }
+
 /*layout defaults*/
 .container {
   margin-left: auto;
@@ -93,6 +100,24 @@ section {
   padding: 0;
 }
 /*homepage*/
+#header {
+  width: 100%;
+  z-index: 10000;
+  background-color: #232323;
+  min-height: 70px;
+  padding: 15px 0px 0px 0px;
+}
+.logo {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 10px 0;
+  width: 20%;
+  float: left;
+}
+.logo-text-img {
+  width: 300px;
+}
 .logo-img {
   padding: 10px 10px 10px 0;
   height: 50px;
@@ -102,7 +127,141 @@ a:hover {
   text-decoration: none;
   color: @gray;
 }
+#nav {
+  display: inline-block;
+  width: 80%;
+  float: right;
+  .menu {
+    display: inline;
+    width: 100%;
+  }
+}
+#top-nav li {
+  margin: 0 4px;
+  color: #404040;
+  font-size: 12px;
+  a {
+    display: block;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+}
+#form {
+  background: #404040;
+  border: 1px solid #000;
+  padding: 4px;
+}
+#searchBox {
+    background: #404040;
+    border: 1px none;
+  color: #fff;
+}
+input:focus {
+  outline: none !important;
+}
+#m-glass {
+    color: white;
+    z-index: 1;
+    margin-right: 5px;
+}
+#main-nav {
+  padding-bottom: 10px;
+}
+/*slider*/
+#homepage-slider {
+  max-height: 540px;
+  overflow: hidden;
+  border-bottom: 4px solid @black;
+}
+.carousel-inner img{
+  margin-bottom: -10px;
+}
+.carousel-control {
+  opacity: 1;
+  .icon-prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 80px;
+  }
+  [dir="rtl"] .icon-prev:before {
+    content: "\f104";
+    font-family: FontAwesome;
+    font-size: 80px;
+  }
+  .icon-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 80px;
+  }
+  [dir="rtl"] .icon-next:before {
+    content: "\f105";
+    font-family: FontAwesome;
+    font-size: 80px;
+  }
+}
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left {
+  left: 30%;
+}
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right {
+  right: 30%;
+}
+.carousel-control.right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+.carousel-control.left {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.0001) 100%);
+}
+.carousel-control:hover {
+  .icon-prev, .icon-next{
+    color: @red;
+  }
+}
+.main-text {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  .slide-box {
+    background: rgba(299,299,299,0.85);
+    margin-left: 20px;
+  }
+  .caption-logo {
+/*    width: 200px;*/
+    display: inline-block;
+    height: auto;
+    img {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  .caption-text {
+    display: inline-block;
+    position: relative;
+    h1 {
+      text-transform: uppercase;
+      font-size: 38px;
+      font-weight: 500;
+      padding-bottom: 0px;
+      color: @white;
+      text-shadow: 2px 2px 2px #1f1f1f;
+      margin: 38px auto;
+    }
+  }
+  ul {
+    text-align: center;
+  }
+  .bold-links {
+    font-family: "acumin-pro-semi-condensed",sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 4px 10px;
+  }
+}
+#slide-caption {
 
+}
 
 /*home page*/
 #homeSlide {
@@ -139,8 +298,7 @@ a:hover {
     width: 100%;
   }
   li {
-    padding: 4px 15px;
-    font-size: 21px;
+
   }
 }
 
@@ -219,7 +377,6 @@ a:hover {
 #about {
   background-color: @white;
   text-align: center;
-  padding: 30px 0;
   a {
     color: @red;
     &:hover {
@@ -274,15 +431,14 @@ a:hover {
     padding-top: 10px;
   }
 }
-
 #contact {
   padding: 0 !important;
-  width: 49%;
+  text-align: center;
   h1 {
-    padding-left: 30px;
+    /*padding-left: 30px;*/
   }
   h2 {
-    padding-left: 65px;
+    /*padding-left: 65px;*/
     padding-top: 0;
     margin: 0 auto;
     font-weight: @regular;
@@ -290,9 +446,15 @@ a:hover {
     color: @red;
   }
   p {
-    padding-left: 65px;
+    /*padding-left: 65px;*/
     font-size: 16px;
     line-height: 24px;
+    text-align: center;
+  }
+  h4 {
+    /*padding-left: 65px;*/
+    padding-top: 0;
+    margin: 0 auto;
   }
 }
 
@@ -730,8 +892,10 @@ tbody.collapse.in {
 
 /*footer*/
 footer {
+  background: #232323;
   p {
     font-size: 12px;
+    margin-top: 10px;
   }
 }
 

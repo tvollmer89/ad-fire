@@ -1,5 +1,11 @@
 /*media*/
 @media (min-width: 1600px) {
+  .logo-img {
+    display: none;
+  }
+  .logo-text-img {
+    display: block;
+  }
   .container {
     width: 1200px;
   }
@@ -14,11 +20,14 @@
   fieldset { display: table-cell; }
 }
 @media (min-width: 1200px) {
+  .logo-img {
+    display: none;
+  }
+  .logo-text-img {
+    display: block;
+  }
   .container {
     width: 1170px;
-  }
-  .box {
-    width: 40%
   }
   #projects #project:nth-child(3n) {
       border: none;
@@ -32,9 +41,18 @@
 }
 /* Medium Devices, Desktops */
 @media (min-width : 992px) and (max-width: 1199px) {
+  .logo-img {
+    display: none;
+  }
+  .logo-text-img {
+    display: block;
+  }
   .box {
     margin: 0px 30px;
     padding: 10px 2px;
+  }
+  #themenu {
+    display: none;
   }
   #projects {
     #project:nth-child(3n) {
@@ -52,7 +70,7 @@
 }
 /* Small Devices, Tablets */
 @media (min-width : 768px) and (max-width: 991px) {
-    body {
+  body {
     h1 {
       font-size: 40px;
       line-height: 1.125em;
@@ -72,6 +90,34 @@
     p {
       font-size: 16px;
       line-height: 1em;
+    }
+  }
+  .logo {
+    float: left;
+    width: 20%;
+  }
+  .logo-img {
+    display: block;
+    height: 60px !important;
+  }
+  .logo-text-img {
+    display: none;
+  }
+  #top-nav, #main-nav {
+    display: none !important;
+  }
+  #news {
+    border-right: none !important;
+    border-bottom: 2px solid @lightGray;
+  }
+  #contact {
+    width: 100%;
+    h1 {
+      padding-left: 0 !important;
+    }
+    h4, p {
+      text-align: center;
+      padding-left: 0 !important;
     }
   }
   #content {
@@ -131,6 +177,17 @@
       font-size: 16px;
       line-height: 1em;
     }
+  }
+  .menu {
+    display: none;
+  }
+  .logo-img {
+    display: block;
+    width: auto;
+    height: 60px;
+  }
+  .logo-text-img {
+    display: none;
   }
   #content {
     padding-top: 0;
@@ -214,6 +271,12 @@
       font-size: 16px;
       line-height: 1em;
     }
+  }
+  .logo-img {
+    display: block;
+  }
+  img.logo-text-img {
+    display: none;
   }
   #content {
     padding-top: 0;
