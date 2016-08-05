@@ -41,15 +41,18 @@
   </a>
   <!-- Static Text -->
   <div class="main-text">
-    <div id="slide-caption" class="col-md-8 col-md-offset-1">
+    <div id="slide-caption" class="col-md-12">
+      <div class="col-md-3 bold-links">Fireproofing</div>
+      <div class="col-md-3 bold-links">Firestopping</div>
+      <div class="col-md-3 bold-links">Insulation</div>
+      <div class="col-md-3 bold-links">Acoustics</div>
+    </div>
+    <!-- <div id="slide-caption" class="col-md-8 col-md-offset-1">
       <div class="slide-box">
         <div class="row">
           <div class="col-md-12 caption-logo">
             <img src="images/logo-text.svg" alt="ad-fire-logo.svg">
           </div>
-          <!-- <div class="col-md-9 caption-text">
-            <h1>Fire Protection Systems</h1>
-          </div> -->
         </div>
         <div class="row">
           <ul>
@@ -60,8 +63,8 @@
           </ul>
         </div>
       </div>
-    </div>
-</div>
+    </div> -->
+  </div>
 </div>
 <div id="content">
 <div class="content-row" id="about">
