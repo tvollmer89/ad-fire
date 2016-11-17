@@ -19,7 +19,7 @@
     <div class="item">
       <img src="images/slide-9.jpg" alt="...">
       <div class="carousel-caption">
-        ...
+        ...bbbb
       </div>
     </div>
     <div class="item">

@@ -1,0 +1,269 @@
+{
+   "data":[
+ {
+   "Design Number": "HW33",
+   "System Type": "joint",
+   "Joint Type": "head-of-wall"
+ },
+ {
+   "Design Number": "HW65",
+   "System Type": "joint",
+   "Joint Type": "head-of-wall"
+ },
+ {
+   "Design Number": "HW68",
+   "System Type": "joint",
+   "Joint Type": "head-of-wall"
+ },
+ {
+   "Design Number": "HW74",
+   "System Type": "joint",
+   "Joint Type": "head-of-wall"
+ },
+ {
+   "Design Number": "HW75",
+   "System Type": "joint",
+   "Joint Type": "head-of-wall"
+ },
+ {
+   "Design Number": "JF9",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF14",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF29",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF50",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF51",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF93",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF94",
+   "System Type": "joint",
+   "Joint Type": "floor-to-wall"
+ },
+ {
+   "Design Number": "JF121",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "JF122",
+   "System Type": "joint",
+   "Joint Type": "floor-to-floor,floor-to-wall,wall-to-wall"
+ },
+ {
+   "Design Number": "SP159",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP160",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP161",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP162",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP163",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP167",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP196",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP219",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP220",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "SP221",
+   "System Type": "pen...on",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-3207",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-3322",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-3323",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-3324",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5031",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5194",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5266",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5267",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5314",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5316",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5317",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5318",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5320",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-5326",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-7165",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-7166",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-7200",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-7201",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-7234",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-7236",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "W-L-8075",
+   "System Type": "penetration",
+   "Joint Type": ""
+ },
+ {
+   "Design Number": "WW-D-0190",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-0191",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-0192",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-0193",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-0194",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-1026",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-1179",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ },
+ {
+   "Design Number": "WW-D-0077",
+   "System Type": "penetration",
+   "Joint Type": "wall-to-wall"
+ }
+]
+}

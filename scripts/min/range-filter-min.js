@@ -1,0 +1,1 @@
+jQuery.fn.dataTableExt.afnFiltering.push(function(n,e,t){var a=this.name,i=0,r=$('input[id="range"]:selected').map(function(){return this.value}),u="-"==e[a]?0:1*e[a];return""===i&&""===r||(""===i&&u<r||(i<u&&""===r||i<u&&u<r))});
