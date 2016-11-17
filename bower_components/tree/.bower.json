@@ -1,0 +1,36 @@
+{
+  "name": "tree",
+  "version": "0.1.2",
+  "homepage": "https://github.com/tkoomzaaskz/tree",
+  "authors": [
+    "Tomasz Ducin <tomasz.ducin@gmail.com>"
+  ],
+  "description": "Provides basic tree structure for JavaScript",
+  "main": "src/tree.js",
+  "keywords": [
+    "tree",
+    "structure"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "Gruntfile.js",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "devDependencies": {
+    "underscore": "~1.7.0",
+    "qunit": "~1.15.0"
+  },
+  "_release": "0.1.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.2",
+    "commit": "fee5619615389b33d796155a160527a5c74df5bf"
+  },
+  "_source": "https://github.com/tkoomzaaskz/tree.git",
+  "_target": "^0.1.2",
+  "_originalSource": "tree",
+  "_direct": true
+}

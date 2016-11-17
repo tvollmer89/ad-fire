@@ -15,7 +15,7 @@
           <div id="accordion" class="product-list panel-group">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h3><a data-toggle="collapse" href="#collapse1" aria-expanded="true"><i class="fa fa-chevron-down"></i><span class="type">Thin Film Intumescent Fire Resistive Coatings</span></h3></a>
+                <h3><a data-toggle="collapse" href="#collapse1" aria-expanded="true"><i class="fa fa-chevron-down"></i><span class="type">Thin Film Intumescent Fire Resistive Coatings</span></a></h3>
               </div>
               <div id="collapse1" class="panel-collapse collapse in">
                 <div class="panel-body">

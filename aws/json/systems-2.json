@@ -1,0 +1,1385 @@
+{
+  "data":[
+  {
+		"designNumber": "HW33",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW65",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW68",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW74",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW75",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "JF9",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF14",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF29",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF50",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF51",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF93",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF94",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "JF121",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "JF122",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor",
+		"floor-to-wall",
+		"wall-to-wall"]
+	},
+	{
+		"designNumber": "SP159",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP160",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP161",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP162",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP163",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP167",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP196",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP219",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP220",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP221",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP229",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP230",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP324",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP325",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP326",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP341",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP365",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP383",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP384",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP385",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP386",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP394",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP395",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP396",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP421",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP422",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP423",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP424",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP624",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP757",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP758",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP760",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP762",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP763",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP764",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP765",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP767",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP768",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP880",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP881",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP882",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP916",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP917",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP918",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP926",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP927",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP928",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP929",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP930",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP931",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP963",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP985",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP986",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP987",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "SP988",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "BW-S-0025",
+		"systemType": "joint",
+		"jointType": ["bottom-of-wall"]
+	},
+	{
+		"designNumber": "C-AJ-0017",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-0029",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-0067",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-0098",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1116",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1117",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1125",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1126",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1127",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1128",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1129",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1195",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1196",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1229",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1299",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1460",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1461",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1557",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1558",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1560",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1561",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1615",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1665",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-1667",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-3207",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-3217",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-3218",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-3272",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-3273",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-3340",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-4046",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-4092",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5027",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5064",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5065",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5095",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5127",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5303",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5304",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5305",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5374",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5375",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5376",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-5377",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7029",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7030",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7124",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7125",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7126",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7157",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7158",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7172",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7173",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-7174",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8023",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8024",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8028",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8029",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8080",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8183",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8184",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8253",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "C-AJ-8254",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-A-1151",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-A-5039",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-1011",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-1049",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-1150",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-1171",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-3014",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-3099",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-3113",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-5007",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-5087",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-7044",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-7067",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-C-8041",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-1015",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-1021",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-1022",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-3010",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-3014",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-5008",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "F-E-5011",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "FF-D-0115",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-0116",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-0117",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-0118",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-1023",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-1038",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-1097",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-D-1098",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FF-S-0039",
+		"systemType": "joint",
+		"jointType": ["floor-to-floor"]
+	},
+	{
+		"designNumber": "FW-D-0057",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-0073",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-0074",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-0075",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-0076",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-0119",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-1036",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-1074",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-1105",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "FW-D-1106",
+		"systemType": "joint",
+		"jointType": ["floor-to-wall"]
+	},
+	{
+		"designNumber": "HW-D-0060",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0061",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0119",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0120",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0467",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0468",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0469",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0470",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0471",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0592",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0593",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0633",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0647",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0648",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0763",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0768",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0772",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0773",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0774",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0775",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-0776",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-1012",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-1017",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-1087",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-1093",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-D-1115",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "HW-S-0117",
+		"systemType": "joint",
+		"jointType": ["head-of-wall"]
+	},
+	{
+		"designNumber": "W-J-1064",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1085",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1203",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1204",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1220",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1223",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1251",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1254",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-1264",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-2141",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-3087",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-3163",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-3164",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-3217",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5092",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5137",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5163",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5164",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5165",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5166",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5168",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-5173",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-7093",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-7094",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-7117",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-7144",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-7145",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-7147",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-J-8041",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1051",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1066",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1151",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1198",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1416",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1417",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1418",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1419",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1459",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1460",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1509",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1522",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-1523",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-2372",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-3042",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-3207",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-3322",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-3323",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-3324",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5031",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5194",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5266",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5267",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5314",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5316",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5317",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5318",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5320",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-5326",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-7165",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-7166",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-7200",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-7201",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-7234",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-7236",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "W-L-8075",
+		"systemType": "penetration",
+		"jointType": []
+	},
+	{
+		"designNumber": "WW-D-0190",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-0191",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-0192",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-0193",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-0194",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-1026",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-1179",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	},
+	{
+		"designNumber": "WW-D-0077",
+		"systemType": "penetration",
+		"jointType": ["wall-to-wall"]
+	}
+]
+}

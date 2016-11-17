@@ -1,0 +1,400 @@
+<html>
+<head>
+  <title>AD Firestop System Search</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AD Fire Home Page" />
+
+  <!-- MMenu Styles -->
+  <link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all-min.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/5.7.0/extensions/positioning/jquery.mmenu.positioning.min.css" />
+
+  <!-- Datatable Style -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.3/pdfmake-0.1.18/dt-1.10.12/b-1.2.2/b-html5-1.2.2/b-print-1.2.2/r-2.1.0/sc-1.4.2/se-1.2.0/datatables.min.css"/>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main-min.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:801px) and (max-width:1100px), only screen and (max-device-width: 1100px)" href="css/newTablet-min.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (max-width:800px), only screen and (max-device-width: 800px)" href="css/phone-min.css" />
+  <link rel="stylesheet" type="text/css" href="css/system-search.css" />
+  <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit/MyFontsWebfontsKit-min.css">
+
+  <!-- <link rel="stylesheet" type="text/css" href="css/vollmer.css"/> -->
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="header">
+  <div class="wrapper">
+    <!-- Mobile Nav -->
+    <a id="themenu" href="#menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <nav id="menu">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="products.php">Products</a></li>
+        <li><a href="projects.php">Projects</a></li>
+        <li><a href="links.php">Links</a></li>
+        <li><a href="contact-us.php">Contact Us</a></li>
+      </ul>
+    </nav>
+    <!-- LogoTitle -->
+    <div id="nav1">
+      <div class="logo-div">
+        <a href="/"><img src="images/ad-fire-logo-white.svg" class="logo-text-img" /></a>
+      </div>
+    </div>
+    <!-- News, Contact, Search -->
+    <div id="nav2">
+      <div class="menu">
+        <div id="form">
+          <input type="search" id="searchBox" placeholder="Search AD Fire" />
+          <span><i class="fa fa-search" id="m-glass"></i></span>
+        </div>
+        <ul class="news-contact">
+          <li class="top-li"><a href="contact-us/">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Main Nav -->
+      <div class="menu">
+        <ul>
+          <li class="main-li"><a href="/">Home</a></li>
+          <li class="main-li"><a href="products.php">Products</a></li>
+          <li class="main-li"><a href="projects.php">Projects</a></li>
+          <li class="main-li"><a href="links.php">Links</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <script type="text/javascript" src="scripts/range-filter.js"></script> -->
+  <div id="mainImage">
+    <img src="images/header-1.jpg" class="bg-img2">
+  </div>
+ <div id="content">
+  <div class="content-inner container">
+    <div class="col-md-12">
+      <h2>Firestop Systems</h2>
+      <div class="row">
+        <div id="filters" class="col-md-4">
+          <!-- Text Search -->
+          <div class="row">
+            <div class="col-sm-8 search-filter">
+              <label>
+                <input id="tableSearch" type="text" class="form-control" placeholder="Search Designs">
+              </label>
+            </div>
+            <div class="col-sm-4 clear-filter">
+              <a id="clear-all" href="#" class="pull-right">Clear All</a>
+            </div>
+          </div>
+          <div class="row">
+            <form id="system-filters">
+              <div id="accordion" class="panel-group">
+              <!-- TestingAuth -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#tAuth" aria-expanded="true"><h4><i class="fa fa-chevron-down"></i><span class="type">Testing Authority</span></h4></a>
+                  </div>
+                  <div id="tAuth" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="1" id="r-filter1" value="ULC" checked>ULC/cUL</label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="1" id="r-filter2" value="UL">UL
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="1" id="r-filter3" value="Intertek">Intertek
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- System Type -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#sType" aria-expanded="false"><h4><i class="fa fa-chevron-down"></i><span class="type">System Type</span></h4></a>
+                  </div>
+                  <div id="sType" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="2" value="Joint">Joint
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="2" value="Penetration">Penetration
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Joint Type -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#jType" aria-expanded="false"><h4><i class="fa fa-chevron-down"></i><span class="type">Joint Type</span></h4></a>
+                  </div>
+                  <div id="jType" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="3" value="bottom-of-wall">Bottom-of-Wall
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="3" value="floor-to-floor">Floor-to-Floor
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="3" value="Floor-To-Wall">Floor-to-Wall
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="3" value="Head-Of-Wall">Head-of-Wall
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="3" value="wall-to-wall">Wall-to-Wall
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Joint Conditions -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#jCond" aria-expanded="false"><h4><i class="fa fa-chevron-down"></i><span class="type">Joint Conditions</span></h4></a>
+                  </div>
+                  <div id="jCond" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete Floor">Concrete Floor
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete Floor to Concrete Floor">Concrete Floor to Concrete Floor
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete Floor to Concrete/Block Wall">Concrete Floor to Concrete/Block Wall
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete Stair to Concrete/Block Wall">Concrete Stair to Concrete/Block Wall
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete/Block Wall to Concrete Metal Floor Deck-Parallel">Concrete/Block Wall to Concrete Metal Floor Deck-Parallel
+                        </label>
+                      </div>
+                     <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete/Block Wall to Concrete Metal Roof Deck-Parallel">Concrete/Block Wall to Concrete Metal Roof Deck-Parallel
+                        </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input id="filter-box" type="checkbox" name="4" value="Concrete/Block Wall to Concrete Metal Floor Deck-Perpendicular">Concrete/Block Wall to Concrete Metal Floor Deck-Perpendicular
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Max Joint Width -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#jWidth" aria-expanded="false"><h4><i class="fa fa-chevron-down"></i><span class="type">Max Joint Width</span></h4></a>
+                  </div>
+                  <div id="jWidth" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="5" value="" checked>None</label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="5" value="25">25
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="5" value="50">50
+                        </label>
+                      </div>
+<!--                       <select name="5" id="range" class="form-control">
+                        <option value="" selected>None</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="75">75</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                      </select> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Table -->
+        <div id="designs" class="col-md-8">
+          <table id="systems" class="display table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+              <tr>
+                  <th>Design Number</th>
+                  <th>Testing Authority</th>
+                  <th>System Type</th>
+                  <th>Joint Type</th>
+                  <th>Joint Conditions</th>
+                  <th>Max Joint Width (mm)</th>
+                  <th>Penetration Types</th>
+                  <th>Max Size Penetrant (mm)</th>
+                  <th>Application Method</th>
+                  <th>Movement Capabilities (%)</th>
+                  <th>F Rating (h)</th>
+                  <th>T Rating (h)</th>
+                  <th>Trade</th>
+                  <th>Minimum Annular Space</th>
+                  <th>Maximum Annular Space</th>
+                  <th>Sleeve</th>
+                  <th>Insulation Type</th>
+                  <th>L Rating</th>
+                  <th>Mold &amp; Mildew Resistance</th>
+                  <th>Seismic Performance</th>
+                  <th>Water Rating</th>
+                  <th>STC Rating</th>
+                  <th>Products</th>
+                  <th>PDF Download</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <footer>
+    <div class="col-md-12">
+    <div id="foot-wrap" class="row">
+      <div id="foot1" class="col-sm-6 col-md-4">
+        <p>Copyright 2016 A/D Fire Protection Systems</p>
+      </div>
+      <div id="foot2" class="col-md-4">
+        <ul>
+          <li class="bottom-li">
+            <a href="/" class="bottom-a">AD Fire</a>
+          </li>
+          <li> | </li>
+          <li class="bottom-li">
+            <a href="contact-us.html" class="bottom-a">Contact Us</a>
+          </li>
+          <li> | </li>
+          <li class="bottom-li">
+            <a href="privacy-policy.html" class="bottom-a">Privacy Policy</a>
+          </li>
+          <li> | </li>
+          <li class="bottom-li">
+            <a href="terms.html" class="bottom-a">Terms of Use</a>
+          </li>
+        </ul>
+      </div>
+      <div id="foot3" class="col-sm-6 col-md-4">
+        <p>
+          A/D Fire Protection Systems is part of the Carboline Company.
+        </p>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+    <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="scripts/tabcordion-min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
+
+    <!-- Datatables -->
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jq-2.2.3/pdfmake-0.1.18/dt-1.10.12/b-1.2.2/b-html5-1.2.2/b-print-1.2.2/r-2.1.0/sc-1.4.2/se-1.2.0/datatables.min.js"></script>
+  <script type="text/javascript" src="scripts/system-search-min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
+
+  <!-- MMenu -->
+  <script type="text/javascript">
+    $(function() {
+      $('nav#menu').mmenu();
+    });
+  </script>
+
+  <script type="text/javascript">
+  $(document).ready(function() {
+
+    $("#my-menu").mmenu({
+     // options
+    }, {
+     // configuration
+     offCanvas: {
+      pageNodetype: "section"
+     }
+
+   }); //mmenu close
+   var api = $("#my-menu").data( "mmenu" );
+
+    window.onresize = function closeMenu(e) {
+
+       var windowWidth = window.innerWidth;
+       if(windowWidth > 800)
+        {
+
+          api.close();
+
+        }
+     } // end window resize
+
+  });
+  </script>
+
+  <script type="text/javascript">
+    ( function() {
+      var open = false;
+      $('#m-glass').on('click', function(e) {
+      e.preventDefault();
+        var searched = $("#searchBox").val();
+        if(searched.length > 2)
+        {
+          window.location.href = "/search-results/?ap-q="+searched;
+        }
+      });
+      $('#searchBox').on('keyup', function(e){
+        if(e.keyCode == 13){
+          var searched = $("#searchBox").val();
+          if(searched.length > 2)
+          {
+            window.location.href = "/search-results/?ap-q="+searched;
+          }
+        }
+      });
+    } () );
+  </script>
+
+</body>
+</html>
