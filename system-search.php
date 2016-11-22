@@ -3,6 +3,7 @@
   $json_file = file_get_contents('json/filters.json');
   $jfo = json_decode($json_file);
   $filters = $jfo->filters;
+  $name = 3;
 ?>
 
 <!-- <script type="text/javascript" src="scripts/range-filter.js"></script> -->
@@ -39,16 +40,16 @@
                     <div class="panel-body">
                       <div class="radio">
                         <label>
-                          <input type="radio" name="1" id="r-filter1" value="ULC" checked>ULC/cUL</label>
+                          <input type="radio" name="2" id="r-filter1" value="ULC" checked>ULC/cUL</label>
                       </div>
                       <div class="radio">
                         <label>
-                          <input type="radio" name="1" id="r-filter2" value="UL">UL
+                          <input type="radio" name="2" id="r-filter2" value="UL">UL
                         </label>
                       </div>
                       <div class="radio">
                         <label>
-                          <input type="radio" name="1" id="r-filter3" value="Intertek">Intertek
+                          <input type="radio" name="2" id="r-filter3" value="Intertek">Intertek
                         </label>
                       </div>
                     </div>
@@ -56,7 +57,7 @@
                 </div>
                 <!-- Begin auto-fill -->
                 <?php foreach ($filters as $filter) {
-                  $name = $filter->name;
+                  $name = (string)$name;
                   $category = (string)$filter->category;
                   $panelID = preg_replace('/\W/', '', strtolower($category));
                   $options = $filter->options;
@@ -80,7 +81,7 @@
                     </div>
                   </div>
                 </div>
-                <?php } ?>
+                <?php $name++; } ?>
 
               </div>
             </form>
@@ -91,41 +92,46 @@
           <table id="systems" class="display table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
               <tr>
-                  <th>Design Number</th>
-                  <th>Testing Authority</th>
-                  <th>System Type</th>
-                  <th>Joint Type</th>
-                  <th>Joint Conditions</th>
-                  <th>Max Joint Width (mm)</th>
-                  <th>Penetration Construction</th>
-                  <th>Penetration Types</th>
-                  <th>Max Size Penetrant (mm)</th>
-                  <th>Application Method</th>
-                  <th>Movement Capabilities (%)</th>
-                  <th>F Rating (h)</th>
-                  <th>FT Rating (h)</th>
-                  <th>FH Rating (h)</th>
-                  <th>FTH Rating (h)</th>
-                  <th>Minimum Annular Space</th>
-                  <th>Maximum Annular Space</th>
-                  <th>Sleeve</th>
-                  <th>Insulation Type</th>
-                  <th>L Rating</th>
-                  <th>Mold &amp; Mildew Resistance</th>
-                  <th>Seismic Performance</th>
-                  <th>Water Rating</th>
-                  <th>STC Rating</th>
-                  <th>Trade</th>
-                  <th>Products</th>
-                  <th>PDF Download</th>
+                <th><input name="select_all" value="1" type="checkbox"></th>
+                <th>Design Number</th>
+                <th>Testing Authority</th>
+                <th>System Type</th>
+                <th>Joint Type</th>
+                <th>Joint Conditions</th>
+                <th>Max Joint Width (mm)</th>
+                <th>Penetration Construction</th>
+                <th>Penetration Types</th>
+                <th>Max Size Penetrant (mm)</th>
+                <th>Application Method</th>
+                <th>Movement Capabilities (%)</th>
+                <th>F Rating (h)</th>
+                <th>FT Rating (h)</th>
+                <th>FH Rating (h)</th>
+                <th>FTH Rating (h)</th>
+                <th>Minimum Annular Space</th>
+                <th>Maximum Annular Space</th>
+                <th>Sleeve</th>
+                <th>Insulation Type</th>
+                <th>L Rating</th>
+                <th>Mold &amp; Mildew Resistance</th>
+                <th>Seismic Performance</th>
+                <th>Water Rating</th>
+                <th>STC Rating</th>
+                <th>Trade</th>
+                <th>Products</th>
+                <th>PDF Download</th>
               </tr>
             </thead>
           </table>
+          <div class="pdf-download">
+            <button id="download-zip" class="btn" type="submit">Download Selected</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+<script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.0.3/js/dataTables.checkboxes.min.js"></script>
 <script type="text/javascript" src="scripts/system-search-min.js"></script>
 <?php include("footer.php"); ?>

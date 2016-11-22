@@ -1,3 +1,11 @@
+@red: #db2c3b;
+@black: #000;
+@white: #fff;
+@lgray: #e5e5e5;
+@gray: #404040;
+@lightGray: #666666;
+@darkGray: #232323;
+
 #filters {
   text-align: left;
   input[type=text] {
@@ -105,6 +113,25 @@ input[type=radio] {
   }
   .fa {
     font-size: 22px;
+  }
+}
+
+.pdf-download {
+  text-align: left;
+  button {
+    font-family: FFDINWebPro, sans-serif;
+    font-size: 16px;
+    padding: 10px 8px;
+    color: #fff;
+    background-color: @red;
+    border: 1px solid #000;
+    &:focus {
+      outline: none !important;
+    }
+    &:hover {
+      color: @red;
+      background-color: #fff;
+    }
   }
 }
 
