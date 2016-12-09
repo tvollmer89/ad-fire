@@ -98,22 +98,112 @@ input[type=radio] {
     tbody {
       border-left: 1px solid #ddd;
       border-right: 1px solid #ddd;
+      th {
+        max-width: 120px !important;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      tr:hover {
+        cursor: pointer;
+        .fa-chevron-down {
+          color: @gray;
+        }
+      }
+      tr.child:hover {
+        cursor: default;
+        .fa-chevron-down {
+          color: @red;
+        }
+      }
+      tr.parent {
+        td {
+          background-color: @lgray;
+        }
+        .fa-chevron-down{
+          transform: rotate(0deg);
+        }
+      }
+      td {
+        overflow-x: hidden;
+        word-break: break-all;
+        background-color: #fff;
+        border-right: none;
+        font-size: 16px;
+        .fa-chevron-down {
+          font-size: 16px;
+          color: @red;
+          transform: rotate(-90deg);
+        }
+        span {
+          padding-left: 4px;
+        }
+      }
+      td.child {
+        text-align: left;
+        font-size: 14px;
+        padding-left: 40px;
+        white-space: normal;
+        word-break: normal;
+      }
     }
     .short {
       max-width: 160px;
       text-overflow: ellipsis;
     }
-    th {
-      max-width: 120px !important;
+    .design-num {
+      min-width: 150px;
+      text-align: left;
+      &:hover {
+        cursor: pointer;
+        i {
+          color: @gray;
+        }
+      }
     }
-    td {
-      overflow-x: hidden;
-      word-break: break-all;
+    td.dt-body-center {
+      padding-left: 8px;
+    }
+    td.child li {
+      display: list-item;
+      text-align: left;
     }
   }
   .fa {
     font-size: 22px;
   }
+}
+
+/*Datatable Overrides*/
+table.dataTable thead .sorting_asc {
+  background-image: url(../images/icons/sort-icon-up.png);
+}
+table.dataTable thead .sorting_desc {
+  background-image: url(../images/icons/sort-icon-down.png);
+}
+.paging {
+  margin-top: 10px;
+}
+.dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_length {
+  font-size: 14px;
+}
+.dataTables_wrapper .dataTables_length {
+  float: right;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: @red;
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-size: 24px;
+  line-height: 22px;
+  top: 6px;
+  left: 8px;
+  height: auto;
+  width: auto;
+
 }
 
 .pdf-download {
@@ -131,6 +221,7 @@ input[type=radio] {
     &:hover {
       color: @red;
       background-color: #fff;
+      cursor: pointer;
     }
   }
 }

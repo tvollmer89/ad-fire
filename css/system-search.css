@@ -96,19 +96,105 @@ input[type=radio] {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
 }
+#designs table tbody th {
+  max-width: 120px !important;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#designs table tbody tr:hover {
+  cursor: pointer;
+}
+#designs table tbody tr:hover .fa-chevron-down {
+  color: #404040;
+}
+#designs table tbody tr.child:hover {
+  cursor: default;
+}
+#designs table tbody tr.child:hover .fa-chevron-down {
+  color: #db2c3b;
+}
+#designs table tbody tr.parent td {
+  background-color: #e5e5e5;
+}
+#designs table tbody tr.parent .fa-chevron-down {
+  transform: rotate(0deg);
+}
+#designs table tbody td {
+  overflow-x: hidden;
+  word-break: break-all;
+  background-color: #fff;
+  border-right: none;
+  font-size: 16px;
+}
+#designs table tbody td .fa-chevron-down {
+  font-size: 16px;
+  color: #db2c3b;
+  transform: rotate(-90deg);
+}
+#designs table tbody td span {
+  padding-left: 4px;
+}
+#designs table tbody td.child {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 40px;
+  white-space: normal;
+  word-break: normal;
+}
 #designs table .short {
   max-width: 160px;
   text-overflow: ellipsis;
 }
-#designs table th {
-  max-width: 120px !important;
+#designs table .design-num {
+  min-width: 150px;
+  text-align: left;
 }
-#designs table td {
-  overflow-x: hidden;
-  word-break: break-all;
+#designs table .design-num:hover {
+  cursor: pointer;
+}
+#designs table .design-num:hover i {
+  color: #404040;
+}
+#designs table td.dt-body-center {
+  padding-left: 8px;
+}
+#designs table td.child li {
+  display: list-item;
+  text-align: left;
 }
 #designs .fa {
   font-size: 22px;
+}
+/*Datatable Overrides*/
+table.dataTable thead .sorting_asc {
+  background-image: url(../images/icons/sort-icon-up.png);
+}
+table.dataTable thead .sorting_desc {
+  background-image: url(../images/icons/sort-icon-down.png);
+}
+.paging {
+  margin-top: 10px;
+}
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_length {
+  font-size: 14px;
+}
+.dataTables_wrapper .dataTables_length {
+  float: right;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
+  content: "\f105";
+  font-family: FontAwesome;
+  color: #db2c3b;
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-size: 24px;
+  line-height: 22px;
+  top: 6px;
+  left: 8px;
+  height: auto;
+  width: auto;
 }
 .pdf-download {
   text-align: left;
@@ -127,5 +213,6 @@ input[type=radio] {
 .pdf-download button:hover {
   color: #db2c3b;
   background-color: #fff;
+  cursor: pointer;
 }
 /*# sourceMappingURL=system-search.css.map */

@@ -1071,8 +1071,7 @@
   font-size: 22px;
 }
 .product-list .panel-heading a[aria-expanded="false"] i {
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 .product-list h3 {
   padding: 4px 0 6px 10px;
@@ -1081,16 +1080,12 @@
 }
 .product-list ul {
   padding: 10px 20px;
-  -webkit-columns: 3;
-     -moz-columns: 3;
-          columns: 3;
+  columns: 3;
 }
 .product-list ul li {
   display: block;
   padding: 4px 4px;
-  -webkit-column-break-inside: avoid;
-     page-break-inside: avoid;
-          break-inside: avoid;
+  break-inside: avoid;
 }
 .product-list .tab-content.active {
   box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.75);
@@ -1197,9 +1192,7 @@
   display: block;
   font-size: 14px;
   line-height: 16px;
-  -webkit-column-break-inside: avoid;
-     page-break-inside: avoid;
-          break-inside: avoid;
+  break-inside: avoid;
   font-weight: 400;
 }
 #firebarrier table.wrap {
@@ -1260,21 +1253,13 @@ table tbody.legend tr td:last-child {
   border-right: 2px solid #666666;
 }
 ul.columns {
-  -webkit-columns: 3;
-     -moz-columns: 3;
-          columns: 3;
-  -webkit-column-fill: balance;
-     -moz-column-fill: balance;
-          column-fill: balance;
-  -webkit-column-gap: 0;
-     -moz-column-gap: 0;
-          column-gap: 0;
+  columns: 3;
+  column-fill: balance;
+  column-gap: 0;
   padding-bottom: 10px;
 }
 ul.columns li {
-  -webkit-column-break-inside: avoid;
-     page-break-inside: avoid;
-          break-inside: avoid;
+  break-inside: avoid;
   display: block;
   font-size: 14px;
 }
@@ -1418,9 +1403,7 @@ ul.columns li {
     padding: 0px 35px !important;
   }
   #firebarrier ul {
-    -webkit-columns: 3;
-       -moz-columns: 3;
-            columns: 3;
+    columns: 3;
     border-right: none;
     border-bottom: 2px solid #e5e5e5;
   }
@@ -1510,9 +1493,7 @@ ul.columns li {
     margin-bottom: 0px;
   }
   #firebarrier ul {
-    -webkit-columns: 3;
-       -moz-columns: 3;
-            columns: 3;
+    columns: 3;
     border-right: none;
     border-bottom: 2px solid #e5e5e5;
   }
@@ -1576,14 +1557,14 @@ ul.columns li {
     border: 1px solid #ddd;
   }
   #firebarrier ul {
-    -webkit-columns: 3;
-       -moz-columns: 3;
-            columns: 3;
+    columns: 3;
     border-right: none;
     border-bottom: 2px solid #e5e5e5;
   }
 }
 *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
@@ -1789,11 +1770,9 @@ input:focus {
   right: 30%;
 }
 .carousel-control.right {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.3) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.3) 100%);
 }
 .carousel-control.left {
-  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.0001) 100%);
 }
 .main-text {
@@ -2311,6 +2290,8 @@ input:focus {
 .accordion-group {
   margin-bottom: 2px;
   border: 1px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
   border-radius: 4px;
 }
 .accordion-heading {
@@ -2369,6 +2350,8 @@ input:focus {
   margin-bottom: 0;
 }
 .tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
 }
 .tabs-below > .nav-tabs > li > a:hover {
@@ -2408,6 +2391,8 @@ input:focus {
 }
 .tabs-right > .nav-tabs > li > a {
   margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
   border-radius: 0 4px 4px 0;
 }
 .tabs-right > .nav-tabs > li > a:hover {
@@ -2424,6 +2409,7 @@ input:focus {
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 .fade.in {
@@ -2446,10 +2432,13 @@ tbody.collapse.in {
   height: 0;
   overflow: hidden;
   -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
   transition-property: height, visibility;
   -webkit-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
   transition-duration: 0.35s;
   -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
   transition-timing-function: ease;
 }
 .tabcordion ul {
@@ -2483,6 +2472,8 @@ tbody.collapse.in {
   padding-bottom: 8px;
   line-height: 20px;
   border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a,
@@ -2512,4 +2503,3 @@ footer p {
   font-size: 12px;
   margin-top: 10px;
 }
-/*# sourceMappingURL=vollmer.css.map */

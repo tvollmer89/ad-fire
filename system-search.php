@@ -89,7 +89,7 @@
         </div>
         <!-- Table -->
         <div id="designs" class="col-md-8">
-          <table id="systems" class="display table table-striped table-bordered" cellspacing="0" width="100%">
+          <table id="systems" class="display table table-bordered dt-responsive" cellspacing="0" width="100%">
             <thead>
               <tr>
                 <th><input name="select_all" value="1" type="checkbox"></th>
@@ -98,18 +98,18 @@
                 <th>System Type</th>
                 <th>Joint Type</th>
                 <th>Joint Conditions</th>
-                <th>Max Joint Width (mm)</th>
+                <th>Max. Joint Width (mm)</th>
                 <th>Penetration Construction</th>
                 <th>Penetration Types</th>
-                <th>Max Size Penetrant (mm)</th>
+                <th>Max. Size Penetrant (mm)</th>
                 <th>Application Method</th>
                 <th>Movement Capabilities (%)</th>
                 <th>F Rating (h)</th>
                 <th>FT Rating (h)</th>
                 <th>FH Rating (h)</th>
                 <th>FTH Rating (h)</th>
-                <th>Minimum Annular Space</th>
-                <th>Maximum Annular Space</th>
+                <th>Min. Annular Space</th>
+                <th>Max. Annular Space</th>
                 <th>Sleeve</th>
                 <th>Insulation Type</th>
                 <th>L Rating</th>
@@ -133,5 +133,10 @@
 </div>
 
 <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.0.3/js/dataTables.checkboxes.min.js"></script>
-<script type="text/javascript" src="scripts/system-search-min.js"></script>
+<script type="text/javascript" src="bundle.js"></script>
+<!-- <script type="text/javascript" src="scripts/system-search-min.js"></script> -->
+<!-- <script type="text/javascript" src="scripts/downloader.js"></script> -->
+
+
+
 <?php include("footer.php"); ?>
