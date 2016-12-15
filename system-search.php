@@ -123,8 +123,12 @@
               </tr>
             </thead>
           </table>
-          <div class="pdf-download">
-            <button id="download-zip" class="btn" type="submit">Download Selected</button>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="pdf-download">
+                <button id="download-zip" class="btn" type="submit">Download Selected</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -132,6 +136,7 @@
   </div>
 </div>
 
+<!-- <script type="text/javascript" src="scripts/dropdown.js"></script> -->
 <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.0.3/js/dataTables.checkboxes.min.js"></script>
 <script type="text/javascript" src="bundle.js"></script>
 <!-- <script type="text/javascript" src="scripts/system-search-min.js"></script> -->

@@ -12,6 +12,9 @@
     width: 100%;
     font-size: 14px;
   }
+  .type {
+    font-family: 'FFDINWebProBold';
+  }
   .search-filter, .clear-filter {
     display: inline-block;
   }
@@ -95,14 +98,20 @@ input[type=radio] {
     clear: both;
     border-collapse: collapse;
     word-wrap:break-word;
-    tbody {
-      border-left: 1px solid #ddd;
-      border-right: 1px solid #ddd;
+    thead {
+      border-bottom: 2px solid @black;
       th {
         max-width: 120px !important;
         font-size: 16px;
-        text-transform: uppercase;
+        font-weight: normal;
+        font-family: 'FFDINWebProBold';
+        /*text-transform: uppercase;*/
       }
+    }
+    tbody {
+      border-left: 1px solid #ddd;
+      border-right: 1px solid #ddd;
+
       tr:hover {
         cursor: pointer;
         .fa-chevron-down {
@@ -144,6 +153,10 @@ input[type=radio] {
         padding-left: 40px;
         white-space: normal;
         word-break: normal;
+      }
+      .dtr-title {
+        font-weight: normal;
+        font-family: 'FFDINWebProBold';
       }
     }
     .short {
@@ -188,8 +201,71 @@ table.dataTable thead .sorting_desc {
 }
 .dataTables_wrapper .dataTables_length {
   float: right;
-}
+  select {
+    font-family: 'FFDINWebPro';
+    font: 14px 'FFDINWebPro';
+    font-size: 14px;
+    /*background: url(../images/icons/dropdown-arrow.png) no-repeat right center;*/
+    width: 50px;
+    font-size: 14px;
+    height: 26px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    border: 1px solid #ccc;
+    option{
+      font: 14px 'FFDINWebPro';
+    }
+    &:focus {
+      outline: none !important;
+    }
+/*    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-webkit-border-radius: 0px;
+    -ms-webkit-border-radius: 0px;
+    -o-webkit-border-radius: 0px;
+    option {
+      font-family: 'FFDINWebPro';*/
 
+    }
+/*    border-radius: 0px !important;
+    -webkit-appearance: none;
+    -moz-webkit-appearance: none;
+    -ms-webkit-appearance: none;
+    -o-webkit-appearance: none;*/
+    /*webkit-appearance: none;*/
+  /*}*/
+}
+#systems_paginate {
+  a {
+    font-size: 14px;
+    /*color: @red !important;*/
+  }
+}
+.dataTables_wrapper .dataTables_paginate .ellipsis {
+  padding: 0.125em;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  border: none;
+  background: none;
+  color: @black !important;
+  &:hover {
+    color: @black !important;
+    cursor: default;
+    border: none;
+    background-color: @white;
+    background: none;
+  }
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+  padding: 0.5em;
+  margin-left: 0px;
+  color: @red !important;
+  border:none;
+  &:hover {
+    color: @black !important;
+    border: none;
+    background: none;
+  }
+}
 table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before {
   content: "\f105";
   font-family: FontAwesome;
@@ -203,7 +279,6 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before {
   left: 8px;
   height: auto;
   width: auto;
-
 }
 
 .pdf-download {
@@ -223,7 +298,11 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before {
       background-color: #fff;
       cursor: pointer;
     }
+    &:disabled {
+      background-color: @lgray;
+      border: 1px solid @lgray;
+      color: @white !important;
+      cursor: default;
+    }
   }
 }
-
-

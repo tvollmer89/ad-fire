@@ -13675,6 +13675,7 @@ var downloadFile = function(url) {
   return defer.promise;
 };
 
+
 function updateDataTableSelectAllCtrl(table){
    var $table             = table.table().node();
    var $chkbox_all        = $('tbody input[type="checkbox"]', $table);
@@ -13817,6 +13818,22 @@ $(document).ready(function() {
         }
       }
     ],
+    "infoCallback": function( settings, start, end, max, total, pre ) {
+      return start +" - "+ end + " of " + total;
+    },
+    "pageLength": 25,
+    "language": {
+        paginate: {
+            previous: '‹',
+            next:     '›'
+        },
+        aria: {
+            paginate: {
+                previous: 'Previous',
+                next:     'Next'
+            }
+        }
+      },
     "order": [[1, 'asc']],
     //"scrollX": true,
     "sDom": "<'row'<'col-sm-12'l>>" + "<'row'<'col-sm-12'tr>>" + "<'row'<'col-sm-5'i><'col-sm-7'p>>",
@@ -13836,6 +13853,7 @@ $(document).ready(function() {
   var table = $('#systems').dataTable();
   var rows_selected = [];
   var filesArray = [];
+  document.getElementById("download-zip").disabled = true;
 
   // Text Search Box
   $('#tableSearch').on( 'keyup', function () {
@@ -13934,6 +13952,11 @@ $(document).ready(function() {
 
     //update selected files array
     filesArray = updateFilesArray(rows_selected);
+    if (filesArray.length > 0) {
+      document.getElementById("download-zip").disabled = false;
+    } else if (filesArray.length === 0) {
+      document.getElementById("download-zip").disabled = true;
+    }
 
     // Prevent click event from propagating to parent
     e.stopPropagation();
@@ -13944,6 +13967,7 @@ $(document).ready(function() {
     // Update state of "Select all" control
     updateDataTableSelectAllCtrl(t);
   });
+
 
   // Add Download Selected Event Listener
   $('#download-zip').on('click', function() {
