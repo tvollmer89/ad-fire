@@ -188,11 +188,11 @@
 			},
 			{
 				"value":"152",
-				"text":"&ge; 6 in. (152mm)"
+				"text":"&le; 6 in. (152mm)"
 			},
       {
         "value":"204",
-        "text":"&ge; 8 in. (204mm)"
+        "text":"&le; 8 in. (204mm)"
       }
 		]
 	},
@@ -468,8 +468,62 @@
 			}
 		]
 	},
-  {
+		{
 		"name":10,
+		"category":"Products",
+		"options":[
+			{
+				"value":"Intumescent Sealant II",
+				"text":"Intumescent Sealant II"
+			},
+			{
+				"value":"Silicone",
+				"text":"Silicone"
+			},
+			{
+				"value":"Silicone SL",
+				"text":"Silicone SL"
+			},
+			{
+				"value":"Acrylic Sealant",
+				"text":"Acrylic Sealant"
+			},
+			{
+				"value":"Seal NS",
+				"text":"Seal NS"
+			},
+			{
+				"value":"Spray Acrylic",
+				"text":"Spray Acrylic"
+			},
+			{
+				"value":"Mortar",
+				"text":"Mortar"
+			},
+			{
+				"value":"Mineral Wool",
+				"text":"Mineral Wool"
+			},
+			{
+				"value":"Wrap Strip",
+				"text":"Wrap Strip"
+			},
+			{
+				"value":"Collars",
+				"text":"Collars"
+			},
+			{
+				"value":"Pillows",
+				"text":"Pillows"
+			},
+			{
+				"value":"Putty",
+				"text":"Putty"
+			}
+		]
+	},
+  {
+		"name":11,
 		"category":"Movement Capabilities",
 		"options":[
 			{
@@ -478,60 +532,60 @@
 			},
 			{
 				"value": "3",
-				"text":"&ge; 3&#37;"
+				"text":"&le; 3&#37;"
 			},
 			{
 				"value": "5",
-				"text":"&ge; 5&#37;"
+				"text":"&le; 5&#37;"
 			},
 			{
 				"value": "10",
-				"text":"&ge; 10&#37;"
+				"text":"&le; 10&#37;"
 			},
 			{
 				"value": "12.5",
-				"text":"&ge; 12.5&#37;"
+				"text":"&le; 12.5&#37;"
 			},
 			{
 				"value": "14",
-				"text":"&ge; 14&#37;"
+				"text":"&le; 14&#37;"
 			},
 			{
 				"value": "18",
-				"text":"&ge; 18&#37;"
+				"text":"&le; 18&#37;"
 			},
 			{
 				"value": "18.75",
-				"text":"&ge; 18.75&#37;"
+				"text":"&le; 18.75&#37;"
 			},
 			{
 				"value": "20",
-				"text":"&ge; 20&#37;"
+				"text":"&le; 20&#37;"
 			},
 			{
 				"value": "25",
-				"text":"&ge; 25&#37;"
+				"text":"&le; 25&#37;"
 			},
 			{
 				"value": "30",
-				"text":"&ge; 30&#37;"
+				"text":"&le; 30&#37;"
 			},
 			{
 				"value": "33",
-				"text":"&ge; 33&#37;"
+				"text":"&le; 33&#37;"
 			},
 			{
 				"value": "40",
-				"text":"&ge; 40&#37;"
+				"text":"&le; 40&#37;"
 			},
 			{
 				"value": "50",
-				"text":"&ge; 50&#37;"
+				"text":"&le; 50&#37;"
 			}
 		]
 	},
   {
-		"name":11,
+		"name":12,
 		"category":"F Rating (Hour)",
 		"options":[
 			{
@@ -553,7 +607,7 @@
 		]
 	},
   {
-		"name":12,
+		"name":13,
 		"category":"FT Rating (Hour)",
 		"options":[
 			{
@@ -599,7 +653,7 @@
 		]
 	},
   {
-		"name":13,
+		"name":14,
 		"category":"FH Rating (Hour)",
 		"options":[
 			{
@@ -645,7 +699,7 @@
 		]
 	},
   {
-		"name":14,
+		"name":15,
 		"category":"FTH Rating (Hour)",
 		"options":[
 			{
@@ -691,7 +745,7 @@
 		]
 	},
 	{
-		"name":15,
+		"name":16,
 		"category":"Minimum Annular Space",
 		"options":[
 			{
@@ -749,7 +803,7 @@
 		]
 	},
 	{
-		"name":16,
+		"name":17,
 		"category":"Maximum Annular Space",
 		"options":[
 			{
@@ -895,7 +949,7 @@
 		]
 	},
 	{
-		"name":17,
+		"name":18,
 		"category":"Sleeve",
 		"options":[
 			{
@@ -909,7 +963,7 @@
 		]
 	},
 	{
-		"name":18,
+		"name":19,
 		"category":"Insulation Type",
 		"options":[
 			{
@@ -947,7 +1001,7 @@
 		]
 	},
 	{
-		"name":19,
+		"name":20,
 		"category":"Air Leakage Rating",
 		"options":[
 			{
@@ -973,126 +1027,6 @@
 			{
 				"value":"&le; 10 CFM/lin. ft.",
 				"text":"&le; 10 CFM/lin. ft."
-			}
-		]
-	},
-	{
-		"name":20,
-		"category":"Mold and Mildew Resistance",
-		"options":[
-			{
-				"value":"Yes",
-				"text":"Yes"
-			}
-		]
-	},
-	{
-		"name":21,
-		"category":"Seismic Performance ",
-		"options":[
-			{
-				"value":"Best",
-				"text":"Best"
-			}
-		]
-	},
-	{
-		"name":22,
-		"category":"Water Rating",
-		"options":[
-			{
-				"value":"Class 1",
-				"text":"Class 1"
-			}
-		]
-	},
-	{
-		"name":23,
-		"category":"STC Rating",
-		"options":[
-			{
-				"value":"Yes",
-				"text":"Yes"
-			}
-		]
-	},
-	{
-		"name":24,
-		"category":"Trade ",
-		"options":[
-			{
-				"value":"Curtain Wall ",
-				"text":"Curtain Wall "
-			},
-			{
-				"value":"Data-Low Voltage",
-				"text":"Data-Low Voltage"
-			},
-			{
-				"value":"Electrical",
-				"text":"Electrical"
-			},
-			{
-				"value":"Interior Joints",
-				"text":"Interior Joints"
-			},
-			{
-				"value":"Mechanical",
-				"text":"Mechanical"
-			}
-		]
-	},
-	{
-		"name":25,
-		"category":"Products",
-		"options":[
-			{
-				"value":"Intumescent Sealant II",
-				"text":"Intumescent Sealant II"
-			},
-			{
-				"value":"Silicone",
-				"text":"Silicone"
-			},
-			{
-				"value":"Silicone SL",
-				"text":"Silicone SL"
-			},
-			{
-				"value":"Acrylic Sealant",
-				"text":"Acrylic Sealant"
-			},
-			{
-				"value":"Seal NS",
-				"text":"Seal NS"
-			},
-			{
-				"value":"Spray Acrylic",
-				"text":"Spray Acrylic"
-			},
-			{
-				"value":"Mortar",
-				"text":"Mortar"
-			},
-			{
-				"value":"Mineral Wool",
-				"text":"Mineral Wool"
-			},
-			{
-				"value":"Wrap Strip",
-				"text":"Wrap Strip"
-			},
-			{
-				"value":"Collars",
-				"text":"Collars"
-			},
-			{
-				"value":"Pillows",
-				"text":"Pillows"
-			},
-			{
-				"value":"Putty",
-				"text":"Putty"
 			}
 		]
 	}

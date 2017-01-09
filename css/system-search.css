@@ -4,6 +4,7 @@
 #filters input[type=text] {
   width: 100%;
   font-size: 14px;
+  font-family: 'FFDINWebPro';
 }
 #filters .type {
   font-family: 'FFDINWebProBold';
@@ -31,6 +32,20 @@
   margin-left: 0px;
   padding-left: 0px;
 }
+#filters .panel-body {
+  font-size: 14px;
+}
+#filters .checkbox label input {
+  min-height: 14px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 16px;
+  cursor: pointer;
+}
+#filters input[type="checkbox"] {
+  margin: 1px 0 0 -20px;
+}
 #checkbox-filters {
   margin: 10px auto;
 }
@@ -38,16 +53,16 @@
 .radio {
   position: relative;
   display: block;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 .checkbox label,
 .radio label {
-  min-height: 18px;
+  min-height: 14px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 16px;
   cursor: pointer;
 }
 label {
@@ -99,10 +114,11 @@ input[type=radio] {
   border-bottom: 2px solid #000;
 }
 #designs table thead th {
-  max-width: 120px !important;
+  /*max-width: 120px !important;*/
   font-size: 16px;
   font-weight: normal;
   font-family: 'FFDINWebProBold';
+  white-space: nowrap;
   /*text-transform: uppercase;*/
 }
 #designs table tbody {
@@ -129,10 +145,11 @@ input[type=radio] {
 }
 #designs table tbody td {
   overflow-x: hidden;
-  word-break: break-all;
+  word-break: normal;
   background-color: #fff;
   border-right: none;
-  font-size: 16px;
+  font-size: 14px;
+  white-space: normal;
 }
 #designs table tbody td .fa-chevron-down {
   font-size: 16px;
@@ -158,7 +175,7 @@ input[type=radio] {
   text-overflow: ellipsis;
 }
 #designs table .design-num {
-  min-width: 150px;
+  max-width: 140px;
   text-align: left;
 }
 #designs table .design-num:hover {
@@ -166,6 +183,9 @@ input[type=radio] {
 }
 #designs table .design-num:hover i {
   color: #404040;
+}
+#designs table .products-col {
+  max-width: 300px;
 }
 #designs table td.dt-body-center {
   padding-left: 8px;
@@ -274,7 +294,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
 }
 .pdf-download button {
   font-family: FFDINWebPro, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   padding: 10px 8px;
   color: #fff;
   background-color: #db2c3b;

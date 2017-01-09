@@ -6,10 +6,6 @@
   $name = 3;
 ?>
 
-<!-- <script type="text/javascript" src="scripts/range-filter.js"></script> -->
-  <div id="mainImage">
-    <img src="images/header-1.jpg" class="bg-img2">
-  </div>
  <div id="content">
   <div class="content-inner container">
     <div class="col-md-12">
@@ -88,7 +84,7 @@
           </div>
         </div>
         <!-- Table -->
-        <div id="designs" class="col-md-8">
+        <div id="designs" class="col-xs-12 col-md-8">
           <table id="systems" class="display table table-bordered dt-responsive" cellspacing="0" width="100%">
             <thead>
               <tr>
@@ -103,6 +99,7 @@
                 <th>Penetration Types</th>
                 <th>Max. Size Penetrant (mm)</th>
                 <th>Application Method</th>
+                <th>Products</th>
                 <th>Movement Capabilities (%)</th>
                 <th>F Rating (h)</th>
                 <th>FT Rating (h)</th>
@@ -113,21 +110,19 @@
                 <th>Sleeve</th>
                 <th>Insulation Type</th>
                 <th>L Rating</th>
-                <th>Mold &amp; Mildew Resistance</th>
-                <th>Seismic Performance</th>
-                <th>Water Rating</th>
-                <th>STC Rating</th>
-                <th>Trade</th>
-                <th>Products</th>
                 <th>PDF Download</th>
               </tr>
             </thead>
           </table>
           <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-3">
               <div class="pdf-download">
                 <button id="download-zip" class="btn" type="submit">Download Selected</button>
+
               </div>
+            </div>
+            <div class="col-sm-9">
+              <div id="progress"></div>
             </div>
           </div>
         </div>
@@ -138,7 +133,7 @@
 
 <!-- <script type="text/javascript" src="scripts/dropdown.js"></script> -->
 <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.0.3/js/dataTables.checkboxes.min.js"></script>
-<script type="text/javascript" src="bundle.js"></script>
+<script type="text/javascript" src="bundle-min.js"></script>
 <!-- <script type="text/javascript" src="scripts/system-search-min.js"></script> -->
 <!-- <script type="text/javascript" src="scripts/downloader.js"></script> -->
 

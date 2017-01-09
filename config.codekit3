@@ -7,7 +7,7 @@
 		"uuidString": "8281F02A-AB04-49BD-87A6-AF3DBA3813B8"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/about-us.php": {
 		"ft": 8192,
@@ -3587,6 +3587,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/main-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3650,6 +3660,16 @@
 		"oAP": "\/css\/normalize-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/css\/phone-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/phone-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/css\/phone.css": {
 		"aP": 1,
@@ -4362,6 +4382,12 @@
 		"oAP": "\/designs\/F-C-1150.pdf",
 		"oF": 0
 		},
+	"\/designs\/F-C-1171.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/designs\/F-C-1171.pdf",
+		"oF": 0
+		},
 	"\/designs\/F-C-3014.pdf": {
 		"ft": 8192,
 		"oA": 2,
@@ -4566,12 +4592,6 @@
 		"oAP": "\/designs\/FW-D-1106.pdf",
 		"oF": 0
 		},
-	"\/designs\/HW-D-0019.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/designs\/HW-D-0019.pdf",
-		"oF": 0
-		},
 	"\/designs\/HW-D-0060.pdf": {
 		"ft": 8192,
 		"oA": 2,
@@ -4582,6 +4602,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/designs\/HW-D-0061.pdf",
+		"oF": 0
+		},
+	"\/designs\/HW-D-0119.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/designs\/HW-D-0119.pdf",
 		"oF": 0
 		},
 	"\/designs\/HW-D-0120.pdf": {
@@ -4836,16 +4862,16 @@
 		"oAP": "\/designs\/SP162.pdf",
 		"oF": 0
 		},
+	"\/designs\/SP163.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/designs\/SP163.pdf",
+		"oF": 0
+		},
 	"\/designs\/SP167.pdf": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/designs\/SP167.pdf",
-		"oF": 0
-		},
-	"\/designs\/SP193.pdf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/designs\/SP193.pdf",
 		"oF": 0
 		},
 	"\/designs\/SP196.pdf": {
@@ -5152,6 +5178,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/designs\/SP988.pdf",
+		"oF": 0
+		},
+	"\/designs\/W-J-1064.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/designs\/W-J-1064.pdf",
 		"oF": 0
 		},
 	"\/designs\/W-J-1085.pdf": {
@@ -5805,7 +5837,7 @@
 		},
 	"\/images\/header-1.jpg": {
 		"ft": 16384,
-		"iS": 1239084,
+		"iS": 392976,
 		"oA": 0,
 		"oAP": "\/images\/header-1.jpg",
 		"oF": 0,
@@ -7487,29 +7519,11 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/scripts\/bootstrap.min-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/scripts\/bootstrap.min-min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/scripts\/bootstrap.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/scripts\/bootstrap.min-min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/scripts\/bootstrap.min.min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/scripts\/bootstrap.min.min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -7808,6 +7822,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/scripts\/tabcordion-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/tabcordion.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/tabcordion.min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -8553,6 +8576,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -8716,6 +8743,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -9081,6 +9112,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -9312,6 +9347,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -10145,6 +10184,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

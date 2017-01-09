@@ -32,6 +32,12 @@
   </div>
   </footer>
 
+
+  <script src="scripts/tabcordion.min.js"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
+
+
   <script type="text/javascript" src="scripts/jquery.mmenu.min.all.js"></script>
   <script type="text/javascript">
     $(function() {

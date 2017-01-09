@@ -11,6 +11,7 @@
   input[type=text] {
     width: 100%;
     font-size: 14px;
+    font-family: 'FFDINWebPro';
   }
   .type {
     font-family: 'FFDINWebProBold';
@@ -37,6 +38,20 @@
     margin-left: 0px;
     padding-left: 0px;
   }
+  .panel-body {
+    font-size: 14px;
+  }
+  .checkbox label input {
+    min-height: 14px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+  }
+  input[type="checkbox"] {
+    margin: 1px 0 0 -20px;
+  }
 }
 #checkbox-filters {
   margin: 10px auto;
@@ -44,15 +59,15 @@
 .checkbox, .radio{
   position: relative;
   display: block;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 .checkbox label, .radio label {
-  min-height: 18px;
+  min-height: 14px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 16px;
   cursor: pointer;
 }
 label {
@@ -66,6 +81,7 @@ label {
   margin-left: -20px;
   line-height: normal;
 }
+
 input[type=radio] {
   margin: 0px 0 0;
 }
@@ -101,10 +117,11 @@ input[type=radio] {
     thead {
       border-bottom: 2px solid @black;
       th {
-        max-width: 120px !important;
+        /*max-width: 120px !important;*/
         font-size: 16px;
         font-weight: normal;
         font-family: 'FFDINWebProBold';
+        white-space: nowrap;
         /*text-transform: uppercase;*/
       }
     }
@@ -134,10 +151,11 @@ input[type=radio] {
       }
       td {
         overflow-x: hidden;
-        word-break: break-all;
+        word-break: normal;
         background-color: #fff;
         border-right: none;
-        font-size: 16px;
+        font-size: 14px;
+        white-space: normal;
         .fa-chevron-down {
           font-size: 16px;
           color: @red;
@@ -164,7 +182,7 @@ input[type=radio] {
       text-overflow: ellipsis;
     }
     .design-num {
-      min-width: 150px;
+      max-width: 140px;
       text-align: left;
       &:hover {
         cursor: pointer;
@@ -172,6 +190,9 @@ input[type=radio] {
           color: @gray;
         }
       }
+    }
+    .products-col {
+      max-width: 300px;
     }
     td.dt-body-center {
       padding-left: 8px;
@@ -285,7 +306,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before {
   text-align: left;
   button {
     font-family: FFDINWebPro, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px 8px;
     color: #fff;
     background-color: @red;

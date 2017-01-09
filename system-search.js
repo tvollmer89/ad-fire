@@ -1,35 +1,7 @@
-// For Range Serching
-// $.fn.dataTable.ext.search.push(
-//   function( settings, data, dataIndex ) {
-//     var min = 0;
-//     var max;
-//     var panel = document.getElementById('jWidth');
-//     var options = panel.getElementsByTagName('input');
-//     for (var i=0, len=options.length; i<len; i++) {
-//       if (options[i].checked) {
-//         max = (options[i].value === "") ? NaN : parseInt(options[i].value);
-//       }
-//     }
-//     // var max = (selector.value === "") ? NaN : parseInt(selector.value);
-//     var colVal = parseFloat( data[5] ); // use data for the age column
-
-//     if ( (isNaN( max ) ) ||
-//        ( isNaN( min ) && colVal <= max ) ||
-//        ( min <= colVal   && isNaN( max ) ) ||
-//        ( min <= colVal   && colVal <= max ) )
-//     {
-//       return true;
-//     }
-//     return false;
-//   }
-// );
-//
-// Updates "Select all" control in a data table
-//
-
 var JSZip = require('jszip'),
   Q = require('q'),
-  FileSaver = require('file-saver');
+  FileSaver = require('file-saver'),
+  ProgressBar = require('progressbar.js');;
 
 var downloadFile = function(url) {
   var defer = Q.defer();
@@ -94,6 +66,18 @@ function updateFilesArray(rowIds) {
   return allFiles;
 }
 
+function showProgress(t) {
+  var bar = new ProgressBar.Line('#progress', {
+    color: '#666666',
+    easing: 'easeInOut',
+    svgStyle: {
+        display: 'block',
+        width: '80%'
+    }
+  });
+  bar.animate(1);
+}
+
 $(document).ready(function() {
   $('#systems').DataTable({
     "ajax": "json/ULC.json",
@@ -107,7 +91,7 @@ $(document).ready(function() {
                   return;
                 }
                 var liItem;
-                if (col.columnIndex >= 12 && col.columnIndex<= 19) {
+                if (col.columnIndex >= 13 && col.columnIndex<= 20) {
                   liItem = '<li data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'" class="col-md-6">';
                 } else {
                   liItem = '<li data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'" class="col-md-12">';
@@ -126,13 +110,14 @@ $(document).ready(function() {
       { "data": "designNumber", className: "design-num" },
       { "data": "testingAuthority" },
       { "data": "systemType" },
-      { "data": "jointType"},
-      { "data": "jointCondition"},
-      { "data": "maxJointWidth" },
-      { "data": "penetrationCons" },
-      { "data": "penetrationType" },
-      { "data": "maxSizePenetrant" },
-      { "data": "appMethod" },
+      { "data": "jointType"},//4
+      { "data": "jointCondition"},//5
+      { "data": "maxJointWidth" },//6
+      { "data": "penetrationCons" },//7
+      { "data": "penetrationType" },//8
+      { "data": "maxSizePenetrant" },//9
+      { "data": "appMethod" },//10
+      { "data": "products", className: "products-col" },//11
       { "data": "moveC" },
       { "data": "fRating" },
       { "data": "ftRating" },
@@ -142,14 +127,13 @@ $(document).ready(function() {
       { "data": "maxASpace" },
       { "data": "sleeve" },
       { "data": "insulationType" },
-      { "data": "lRating" },
-      { "data": "moldMildew" },
-      { "data": "seismic" },
-      { "data": "wRating" },
-      { "data": "stcRating" },
-      { "data": "trade" },
-      { "data": "products" },
-      { "data": "link"}
+      { "data": "lRating" },//20
+      // { "data": "moldMildew" },
+      // { "data": "seismic" },
+      // { "data": "wRating" },
+      // { "data": "stcRating" },
+      // { "data": "trade" },
+      { "data": "link", className: "pdf-col"}
     ],
     "columnDefs": [
       {
@@ -163,12 +147,13 @@ $(document).ready(function() {
       },
       {
         'targets':1,
+        // 'width': "15%",
         'render': function(data, type, full, meta) {
           return '<i class="fa fa-chevron-down"></i><span>'+ data + '</span>';
         }
       },
       {
-        "targets": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26],
+        "targets": [2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21],
         "className": 'none'
       },
       // {
@@ -176,16 +161,17 @@ $(document).ready(function() {
       //   "visible": false
       // },
       {
-        "targets": [2,3,4,5,6, -1],
+        "targets": [2,3,4,5,6,11, -1],
         "orderable": false
       },
       //responsive
       { responsivePriority: 1, targets: 0 },
       { responsivePriority: 2, targets: 1 },
       { responsivePriority: 3, targets: -1 },
+      { responsivePriority: 4, targets: 11},
       // Add Download Link
       {
-        "targets" : 27,
+        "targets" : 22,
         "data" : "link",
         render: function ( data, type, full, meta ) {
           return '<a href="designs/'+data+'.pdf" download><i class="fa fa-download" aria-hidden="true"></i></a>';
@@ -345,6 +331,7 @@ $(document).ready(function() {
 
   // Add Download Selected Event Listener
   $('#download-zip').on('click', function() {
+    showProgress();
     var zip = new JSZip();
     filesArray.reduce(function(p, o) {
       return p.then(function() {
@@ -377,10 +364,7 @@ $(document).ready(function() {
     });
   });
 
-  // Handle click on table cells with checkboxes
-   // $('#systems').on('click', 'tbody td, thead th:first-child', function(e){
-   //    $(this).parent().find('input[type="checkbox"]').trigger('click');
-   // });
+
 
       // Handle click on "Select all" control
    $('thead input[name="select_all"]', t.table().container()).on('click', function(e){
