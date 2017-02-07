@@ -275,6 +275,10 @@
 				"text":"NMC"
 			},
 			{
+				"value": "FRPP",
+				"text":"FRPP"
+			},
+			{
 				"value":"Flexible Metal Piping",
 				"text":"Flexible Metal Piping"
 			},
@@ -522,8 +526,26 @@
 			}
 		]
 	},
-  {
+	{
 		"name":11,
+		"category":"Curtain Wall Type",
+		"options":[
+			{
+				"value":"Ext. Gypsum with Insulated Gypsum or Cement Siding",
+				"text":"Ext. Gypsum with Insulated Gypsum or Cement Siding"
+			},
+			{
+				"value":"Glass Spandrel Panel",
+				"text":"Glass Spandrel Panel"
+			},
+			{
+				"value":"Flass Spandrel Panel with Black Pan",
+				"text":"Flass Spandrel Panel with Black Pan"
+			}
+		]
+	},
+  {
+		"name":12,
 		"category":"Movement Capabilities",
 		"options":[
 			{
@@ -585,7 +607,7 @@
 		]
 	},
   {
-		"name":12,
+		"name":13,
 		"category":"F Rating (Hour)",
 		"options":[
 			{
@@ -607,7 +629,7 @@
 		]
 	},
   {
-		"name":13,
+		"name":14,
 		"category":"FT Rating (Hour)",
 		"options":[
 			{
@@ -653,7 +675,7 @@
 		]
 	},
   {
-		"name":14,
+		"name":15,
 		"category":"FH Rating (Hour)",
 		"options":[
 			{
@@ -699,7 +721,7 @@
 		]
 	},
   {
-		"name":15,
+		"name":16,
 		"category":"FTH Rating (Hour)",
 		"options":[
 			{
@@ -745,7 +767,7 @@
 		]
 	},
 	{
-		"name":16,
+		"name":17,
 		"category":"Minimum Annular Space",
 		"options":[
 			{
@@ -803,7 +825,7 @@
 		]
 	},
 	{
-		"name":17,
+		"name":18,
 		"category":"Maximum Annular Space",
 		"options":[
 			{
@@ -949,7 +971,7 @@
 		]
 	},
 	{
-		"name":18,
+		"name":19,
 		"category":"Sleeve",
 		"options":[
 			{
@@ -963,7 +985,7 @@
 		]
 	},
 	{
-		"name":19,
+		"name":20,
 		"category":"Insulation Type",
 		"options":[
 			{
@@ -1001,7 +1023,7 @@
 		]
 	},
 	{
-		"name":20,
+		"name":21,
 		"category":"Air Leakage Rating",
 		"options":[
 			{

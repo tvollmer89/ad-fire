@@ -16132,8 +16132,21 @@ function showProgress(t) {
   bar.animate(1);
 }
 
+function getTestingAuthority() {
+  var c = document.getElementById('tAuth');
+  var radios = c.getElementsByTagName('input');
+  var t;
+  for(var i=0; i<radios.length; i++) {
+    if(radios[i].checked) {
+      t = radios[i].value;
+      break;
+    }
+  }
+  return t;
+}
+
 $(document).ready(function() {
-  $('#systems').DataTable({
+  var t = $('#systems').DataTable({
     "ajax": "json/ULC.json",
     responsive: {
         details: {
@@ -16145,7 +16158,7 @@ $(document).ready(function() {
                   return;
                 }
                 var liItem;
-                if (col.columnIndex >= 13 && col.columnIndex<= 20) {
+                if (col.columnIndex >= 14 && col.columnIndex<= 22) {
                   liItem = '<li data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'" class="col-md-6">';
                 } else {
                   liItem = '<li data-dt-row="'+col.rowIndex+'" data-dt-column="'+col.columnIndex+'" class="col-md-12">';
@@ -16172,6 +16185,7 @@ $(document).ready(function() {
       { "data": "maxSizePenetrant" },//9
       { "data": "appMethod" },//10
       { "data": "products", className: "products-col" },//11
+      { "data": "curtainWallType"},
       { "data": "moveC" },
       { "data": "fRating" },
       { "data": "ftRating" },
@@ -16181,7 +16195,7 @@ $(document).ready(function() {
       { "data": "maxASpace" },
       { "data": "sleeve" },
       { "data": "insulationType" },
-      { "data": "lRating" },//20
+      { "data": "lRating" },//21
       // { "data": "moldMildew" },
       // { "data": "seismic" },
       // { "data": "wRating" },
@@ -16207,7 +16221,7 @@ $(document).ready(function() {
         }
       },
       {
-        "targets": [2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21],
+        "targets": [2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19,20,21,22],
         "className": 'none'
       },
       // {
@@ -16225,7 +16239,7 @@ $(document).ready(function() {
       { responsivePriority: 4, targets: 11},
       // Add Download Link
       {
-        "targets" : 22,
+        "targets" : 23,
         "data" : "link",
         render: function ( data, type, full, meta ) {
           return '<a href="designs/'+data+'.pdf" download><i class="fa fa-download" aria-hidden="true"></i></a>';
@@ -16263,7 +16277,7 @@ $(document).ready(function() {
     }
   });
 
-  var t = $('#systems').DataTable();
+  // t = $('#systems').DataTable();
   var table = $('#systems').dataTable();
   var rows_selected = [];
   var filesArray = [];
@@ -16286,7 +16300,7 @@ $(document).ready(function() {
       if (cBoxes[i].type === 'checkbox') {
           cBoxes[i].onchange = updateSearch;
       } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '2') {
-        cBoxes[i].onchange = updateSearch;
+        cBoxes[i].onchange = updateTable;
       }
     }
   }
@@ -16294,23 +16308,24 @@ $(document).ready(function() {
 
   // use this funciton if error with radio buttons
   function updateTable() {
-    table.api().draw();
+    var tableData = getTestingAuthority();
+    t.ajax.url('json/'+tableData+'.json').load();
   }
 
   // Update table
   function updateSearch() {
-    var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
-      if(this.value === "ULC") {
-        return "ULC|cUL";
-      } else {
-        return '^' + this.value + '\$';
-      }
-    }).get().join('|');
+    // var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
+    //   if(this.value === "ULC") {
+    //     return "ULC|cUL";
+    //   } else {
+    //     return '^' + this.value + '\$';
+    //   }
+    // }).get().join('|');
     var c = $('input:checkbox[name="'+this.name+'"]:checked').map(function() {
       return this.value;
     }).get().join('|');
-    var s = r + c;
-    table.fnFilter(s, this.name, true, false, false, true);
+    //var s = r + c;
+    table.fnFilter(c, this.name, true, false, false, true);
   }
 
   //Add Clear All Function
@@ -16328,8 +16343,8 @@ $(document).ready(function() {
       }
     }
     document.getElementById('tableSearch').value = "";
-    table.fnFilter("ULC|cUL", 2, true, false, false, true);
-    table.api().search("").draw();
+    //table.fnFilter("ULC|cUL", 2, true, false, false, true);
+    table.api().ajax.url('json/ULC.json').load().search("").draw();
   });
 
   // Handle click on checkbox
@@ -16385,37 +16400,44 @@ $(document).ready(function() {
 
   // Add Download Selected Event Listener
   $('#download-zip').on('click', function() {
-    showProgress();
-    var zip = new JSZip();
-    filesArray.reduce(function(p, o) {
-      return p.then(function() {
-        return downloadFile(o.url).then(function(arrayBuffer) {
-          zip.file(o.filename, arrayBuffer);
-        });
-      })
-    }, Q()).then(function() {
-      if (JSZip.support.blob) {
-        function downloadWithBlob() {
-          zip.generateAsync({type:"blob"}).then(function (blob) {
-            FileSaver.saveAs(blob, "firestop-systems.zip");
-          }, function (err) {
-              blobLink.innerHTML += " " + err;
+    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+      alert('This function is not supported by your browser. Please download files individally by clicking on the red icon in the "PDF Download" column.');
+      document.getElementById("download-zip").disabled = true;
+    } else {
+      showProgress();
+      var zip = new JSZip();
+      filesArray.reduce(function(p, o) {
+        return p.then(function() {
+          return downloadFile(o.url).then(function(arrayBuffer) {
+            zip.file(o.filename, arrayBuffer);
           });
-          return false;
+        })
+      }, Q()).then(function() {
+        if (JSZip.support.blob) {
+          console.log("suppported");
+          function downloadWithBlob() {
+            zip.generateAsync({type:"blob"}).then(function (blob) {
+              FileSaver.saveAs(blob, "firestop-systems.zip");
+            }, function (err) {
+              blobLink.innerHTML += "<p>supported<p>" + err;
+            });
+            return false;
+          }
+          downloadWithBlob();
+        } else {
+          alert('not supported on this browser');
+          blobLink.innerHTML += " (not supported on this browser)";
+          function downloadWithDataURI() {
+            zip.generateAsync({type:"base64"}).then(function (base64) {
+              window.location = "data:application/zip;base64," + base64;
+            }, function (err) {
+              // shouldn't happen with a base64...
+            });
+          }
+          downloadWithDataURI();
         }
-        downloadWithBlob();
-      } else {
-        blobLink.innerHTML += " (not supported on this browser)";
-        function downloadWithDataURI() {
-          zip.generateAsync({type:"base64"}).then(function (base64) {
-            window.location = "data:application/zip;base64," + base64;
-          }, function (err) {
-            // shouldn't happen with a base64...
-          });
-        }
-        downloadWithDataURI();
-      }
-    });
+      });
+    }
   });
 
 

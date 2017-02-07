@@ -100,6 +100,7 @@
                 <th>Max. Size Penetrant (mm)</th>
                 <th>Application Method</th>
                 <th>Products</th>
+                <th>Curtain Wall Type</th>
                 <th>Movement Capabilities (%)</th>
                 <th>F Rating (h)</th>
                 <th>FT Rating (h)</th>

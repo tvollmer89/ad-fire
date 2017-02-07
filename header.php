@@ -22,7 +22,6 @@
   <link rel="stylesheet" type="text/css" media="only screen and (max-width:800px), only screen and (max-device-width: 800px)" href="css/phone.css" />
 
   <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css">
-
   <!-- <link rel="stylesheet" type="text/css" href="css/vollmer.css"/> -->
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

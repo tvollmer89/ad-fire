@@ -22,8 +22,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW33"
-  },
+  	"link":"ULC/HW33",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW65",
   	"testingAuthority":"ULC",
@@ -46,8 +47,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"HW65"
-  },
+  	"link":"ULC/HW65",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW68",
   	"testingAuthority":"ULC",
@@ -70,8 +72,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"",
-  	"link":"HW68"
-  },
+  	"link":"ULC/HW68",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW74",
   	"testingAuthority":"ULC",
@@ -94,8 +97,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Acrylic Sealant",
-  	"link":"HW74"
-  },
+  	"link":"ULC/HW74",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW75",
   	"testingAuthority":"ULC",
@@ -118,8 +122,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic",
-  	"link":"HW75"
-  },
+  	"link":"ULC/HW75",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF9",
   	"testingAuthority":"ULC",
@@ -142,8 +147,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF9"
-  },
+  	"link":"ULC/JF9",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF14",
   	"testingAuthority":"ULC",
@@ -166,8 +172,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF14"
-  },
+  	"link":"ULC/JF14",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF29",
   	"testingAuthority":"ULC",
@@ -190,8 +197,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF29"
-  },
+  	"link":"ULC/JF29",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF50",
   	"testingAuthority":"ULC",
@@ -214,8 +222,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF50"
-  },
+  	"link":"ULC/JF50",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF51",
   	"testingAuthority":"ULC",
@@ -238,8 +247,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF51"
-  },
+  	"link":"ULC/JF51",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF93",
   	"testingAuthority":"ULC",
@@ -262,8 +272,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF93"
-  },
+  	"link":"ULC/JF93",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF94",
   	"testingAuthority":"ULC",
@@ -286,8 +297,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF94"
-  },
+  	"link":"ULC/JF94",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF121",
   	"testingAuthority":"ULC",
@@ -310,8 +322,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF121"
-  },
+  	"link":"ULC/JF121",
+		"curtainWallType":""
+},
   {
   	"designNumber":"JF122",
   	"testingAuthority":"ULC",
@@ -334,8 +347,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"JF122"
-  },
+  	"link":"ULC/JF122",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP159",
   	"testingAuthority":"ULC",
@@ -358,8 +372,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP159"
-  },
+  	"link":"ULC/SP159",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP160",
   	"testingAuthority":"ULC",
@@ -382,8 +397,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP160"
-  },
+  	"link":"ULC/SP160",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP161",
   	"testingAuthority":"ULC",
@@ -406,8 +422,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL",
-  	"link":"SP161"
-  },
+  	"link":"ULC/SP161",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP162",
   	"testingAuthority":"ULC",
@@ -430,8 +447,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP162"
-  },
+  	"link":"ULC/SP162",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP163",
   	"testingAuthority":"ULC",
@@ -454,8 +472,9 @@
   	"insulationType":"Opt Insulation",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP163"
-  },
+  	"link":"ULC/SP163",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP167",
   	"testingAuthority":"ULC",
@@ -478,8 +497,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone SL, Mineral Wool",
-  	"link":"SP167"
-  },
+  	"link":"ULC/SP167",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP196",
   	"testingAuthority":"ULC",
@@ -502,8 +522,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Mortar, Mineral Wool",
-  	"link":"SP196"
-  },
+  	"link":"ULC/SP196",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP219",
   	"testingAuthority":"ULC",
@@ -526,8 +547,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP219"
-  },
+  	"link":"ULC/SP219",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP220",
   	"testingAuthority":"ULC",
@@ -550,8 +572,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP220"
-  },
+  	"link":"ULC/SP220",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP221",
   	"testingAuthority":"ULC",
@@ -574,8 +597,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP221"
-  },
+  	"link":"ULC/SP221",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP229",
   	"testingAuthority":"ULC",
@@ -598,8 +622,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP229"
-  },
+  	"link":"ULC/SP229",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP230",
   	"testingAuthority":"ULC",
@@ -622,8 +647,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP230"
-  },
+  	"link":"ULC/SP230",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP324",
   	"testingAuthority":"ULC",
@@ -646,8 +672,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP324"
-  },
+  	"link":"ULC/SP324",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP325",
   	"testingAuthority":"ULC",
@@ -670,8 +697,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP325"
-  },
+  	"link":"ULC/SP325",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP326",
   	"testingAuthority":"ULC",
@@ -694,8 +722,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mortar, Mineral Wool",
-  	"link":"SP326"
-  },
+  	"link":"ULC/SP326",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP341",
   	"testingAuthority":"ULC",
@@ -718,8 +747,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP341"
-  },
+  	"link":"ULC/SP341",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP365",
   	"testingAuthority":"ULC",
@@ -742,8 +772,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP365"
-  },
+  	"link":"ULC/SP365",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP383",
   	"testingAuthority":"ULC",
@@ -766,8 +797,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP383"
-  },
+  	"link":"ULC/SP383",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP384",
   	"testingAuthority":"ULC",
@@ -790,8 +822,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP384"
-  },
+  	"link":"ULC/SP384",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP385",
   	"testingAuthority":"ULC",
@@ -814,8 +847,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP385"
-  },
+  	"link":"ULC/SP385",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP386",
   	"testingAuthority":"ULC",
@@ -838,8 +872,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP386"
-  },
+  	"link":"ULC/SP386",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP394",
   	"testingAuthority":"ULC",
@@ -862,8 +897,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP394"
-  },
+  	"link":"ULC/SP394",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP395",
   	"testingAuthority":"ULC",
@@ -886,8 +922,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP395"
-  },
+  	"link":"ULC/SP395",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP396",
   	"testingAuthority":"ULC",
@@ -910,8 +947,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Mortar, Mineral Wool",
-  	"link":"SP396"
-  },
+  	"link":"ULC/SP396",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP421",
   	"testingAuthority":"ULC",
@@ -934,8 +972,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber, Opt Insulation",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP421"
-  },
+  	"link":"ULC/SP421",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP422",
   	"testingAuthority":"ULC",
@@ -958,8 +997,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mortar, Mineral Wool",
-  	"link":"SP422"
-  },
+  	"link":"ULC/SP422",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP423",
   	"testingAuthority":"ULC",
@@ -982,8 +1022,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP423"
-  },
+  	"link":"ULC/SP423",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP424",
   	"testingAuthority":"ULC",
@@ -1006,8 +1047,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP424"
-  },
+  	"link":"ULC/SP424",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP624",
   	"testingAuthority":"ULC",
@@ -1030,8 +1072,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP624"
-  },
+  	"link":"ULC/SP624",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP757",
   	"testingAuthority":"ULC",
@@ -1054,8 +1097,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP757"
-  },
+  	"link":"ULC/SP757",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP758",
   	"testingAuthority":"ULC",
@@ -1078,8 +1122,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP758"
-  },
+  	"link":"ULC/SP758",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP760",
   	"testingAuthority":"ULC",
@@ -1102,8 +1147,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP760"
-  },
+  	"link":"ULC/SP760",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP762",
   	"testingAuthority":"ULC",
@@ -1126,8 +1172,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP762"
-  },
+  	"link":"ULC/SP762",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP763",
   	"testingAuthority":"ULC",
@@ -1150,8 +1197,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP763"
-  },
+  	"link":"ULC/SP763",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP764",
   	"testingAuthority":"ULC",
@@ -1174,8 +1222,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP764"
-  },
+  	"link":"ULC/SP764",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP765",
   	"testingAuthority":"ULC",
@@ -1198,8 +1247,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP765"
-  },
+  	"link":"ULC/SP765",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP767",
   	"testingAuthority":"ULC",
@@ -1222,8 +1272,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"SP767"
-  },
+  	"link":"ULC/SP767",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP768",
   	"testingAuthority":"ULC",
@@ -1246,8 +1297,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP768"
-  },
+  	"link":"ULC/SP768",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP880",
   	"testingAuthority":"ULC",
@@ -1270,8 +1322,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP880"
-  },
+  	"link":"ULC/SP880",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP881",
   	"testingAuthority":"ULC",
@@ -1294,8 +1347,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP881"
-  },
+  	"link":"ULC/SP881",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP916",
   	"testingAuthority":"ULC",
@@ -1318,8 +1372,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP916"
-  },
+  	"link":"ULC/SP916",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP917",
   	"testingAuthority":"ULC",
@@ -1342,8 +1397,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Pillows",
-  	"link":"SP917"
-  },
+  	"link":"ULC/SP917",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP918",
   	"testingAuthority":"ULC",
@@ -1366,8 +1422,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Pillows",
-  	"link":"SP918"
-  },
+  	"link":"ULC/SP918",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP926",
   	"testingAuthority":"ULC",
@@ -1390,8 +1447,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP926"
-  },
+  	"link":"ULC/SP926",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP927",
   	"testingAuthority":"ULC",
@@ -1414,8 +1472,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP927"
-  },
+  	"link":"ULC/SP927",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP928",
   	"testingAuthority":"ULC",
@@ -1438,8 +1497,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"SP928"
-  },
+  	"link":"ULC/SP928",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP929",
   	"testingAuthority":"ULC",
@@ -1462,8 +1522,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"SP929"
-  },
+  	"link":"ULC/SP929",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP930",
   	"testingAuthority":"ULC",
@@ -1486,8 +1547,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL",
-  	"link":"SP930"
-  },
+  	"link":"ULC/SP930",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP931",
   	"testingAuthority":"ULC",
@@ -1510,8 +1572,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL",
-  	"link":"SP931"
-  },
+  	"link":"ULC/SP931",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP963",
   	"testingAuthority":"ULC",
@@ -1534,8 +1597,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Pillows",
-  	"link":"SP963"
-  },
+  	"link":"ULC/SP963",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP985",
   	"testingAuthority":"ULC",
@@ -1558,8 +1622,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP985"
-  },
+  	"link":"ULC/SP985",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP986",
   	"testingAuthority":"ULC",
@@ -1582,8 +1647,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP986"
-  },
+  	"link":"ULC/SP986",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP987",
   	"testingAuthority":"ULC",
@@ -1606,8 +1672,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP987"
-  },
+  	"link":"ULC/SP987",
+		"curtainWallType":""
+},
   {
   	"designNumber":"SP988",
   	"testingAuthority":"ULC",
@@ -1630,8 +1697,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"SP988"
-  },
+  	"link":"ULC/SP988",
+		"curtainWallType":""
+},
   {
   	"designNumber":"BW-S-0025",
   	"testingAuthority":"cUL",
@@ -1654,8 +1722,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"BW-S-0025"
-  },
+  	"link":"ULC/BW-S-0025",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-0017",
   	"testingAuthority":"cUL",
@@ -1678,8 +1747,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-0017"
-  },
+  	"link":"ULC/C-AJ-0017",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-0029",
   	"testingAuthority":"cUL",
@@ -1702,8 +1772,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-0029"
-  },
+  	"link":"ULC/C-AJ-0029",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-0067",
   	"testingAuthority":"cUL",
@@ -1726,8 +1797,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Pillows",
-  	"link":"C-AJ-0067"
-  },
+  	"link":"ULC/C-AJ-0067",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-0098",
   	"testingAuthority":"cUL",
@@ -1750,8 +1822,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Putty",
-  	"link":"C-AJ-0098"
-  },
+  	"link":"ULC/C-AJ-0098",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1116",
   	"testingAuthority":"cUL",
@@ -1774,8 +1847,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-1116"
-  },
+  	"link":"ULC/C-AJ-1116",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1117",
   	"testingAuthority":"cUL",
@@ -1798,8 +1872,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-1117"
-  },
+  	"link":"ULC/C-AJ-1117",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1126",
   	"testingAuthority":"cUL",
@@ -1822,8 +1897,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-1126"
-  },
+  	"link":"ULC/C-AJ-1126",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1128",
   	"testingAuthority":"cUL",
@@ -1846,8 +1922,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-1128"
-  },
+  	"link":"ULC/C-AJ-1128",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1129",
   	"testingAuthority":"cUL",
@@ -1870,8 +1947,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-1129"
-  },
+  	"link":"ULC/C-AJ-1129",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1195",
   	"testingAuthority":"cUL",
@@ -1894,8 +1972,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-1195"
-  },
+  	"link":"ULC/C-AJ-1195",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1196",
   	"testingAuthority":"cUL",
@@ -1918,8 +1997,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-1196"
-  },
+  	"link":"ULC/C-AJ-1196",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1229",
   	"testingAuthority":"cUL",
@@ -1942,8 +2022,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-1229"
-  },
+  	"link":"ULC/C-AJ-1229",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1299",
   	"testingAuthority":"cUL",
@@ -1966,8 +2047,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-1299"
-  },
+  	"link":"ULC/C-AJ-1299",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1460",
   	"testingAuthority":"cUL",
@@ -1990,8 +2072,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Putty",
-  	"link":"C-AJ-1460"
-  },
+  	"link":"ULC/C-AJ-1460",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1461",
   	"testingAuthority":"cUL",
@@ -2014,8 +2097,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Putty",
-  	"link":"C-AJ-1461"
-  },
+  	"link":"ULC/C-AJ-1461",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1557",
   	"testingAuthority":"cUL",
@@ -2038,8 +2122,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-1557"
-  },
+  	"link":"ULC/C-AJ-1557",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1558",
   	"testingAuthority":"cUL",
@@ -2062,8 +2147,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-1558"
-  },
+  	"link":"ULC/C-AJ-1558",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1560",
   	"testingAuthority":"cUL",
@@ -2086,8 +2172,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-1560"
-  },
+  	"link":"ULC/C-AJ-1560",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1561",
   	"testingAuthority":"cUL",
@@ -2110,8 +2197,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-1561"
-  },
+  	"link":"ULC/C-AJ-1561",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1615",
   	"testingAuthority":"cUL",
@@ -2134,8 +2222,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"C-AJ-1615"
-  },
+  	"link":"ULC/C-AJ-1615",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1665",
   	"testingAuthority":"cUL",
@@ -2158,8 +2247,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-1665"
-  },
+  	"link":"ULC/C-AJ-1665",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-1667",
   	"testingAuthority":"cUL",
@@ -2182,8 +2272,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-1667"
-  },
+  	"link":"ULC/C-AJ-1667",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-3207",
   	"testingAuthority":"cUL",
@@ -2206,8 +2297,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-3207"
-  },
+  	"link":"ULC/C-AJ-3207",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-3217",
   	"testingAuthority":"cUL",
@@ -2230,8 +2322,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Putty",
-  	"link":"C-AJ-3217"
-  },
+  	"link":"ULC/C-AJ-3217",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-3218",
   	"testingAuthority":"cUL",
@@ -2254,8 +2347,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Putty",
-  	"link":"C-AJ-3218"
-  },
+  	"link":"ULC/C-AJ-3218",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-3272",
   	"testingAuthority":"cUL",
@@ -2278,8 +2372,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-3272"
-  },
+  	"link":"ULC/C-AJ-3272",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-3273",
   	"testingAuthority":"cUL",
@@ -2302,8 +2397,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-3273"
-  },
+  	"link":"ULC/C-AJ-3273",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-3340",
   	"testingAuthority":"cUL",
@@ -2326,8 +2422,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-3340"
-  },
+  	"link":"ULC/C-AJ-3340",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-4046",
   	"testingAuthority":"cUL",
@@ -2350,8 +2447,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Pillows",
-  	"link":"C-AJ-4046"
-  },
+  	"link":"ULC/C-AJ-4046",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-4092",
   	"testingAuthority":"cUL",
@@ -2374,8 +2472,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Spray Acrylic",
-  	"link":"C-AJ-4092"
-  },
+  	"link":"ULC/C-AJ-4092",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5027",
   	"testingAuthority":"cUL",
@@ -2398,8 +2497,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-5027"
-  },
+  	"link":"ULC/C-AJ-5027",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5064",
   	"testingAuthority":"cUL",
@@ -2422,8 +2522,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-5064"
-  },
+  	"link":"ULC/C-AJ-5064",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5065",
   	"testingAuthority":"cUL",
@@ -2446,8 +2547,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-5065"
-  },
+  	"link":"ULC/C-AJ-5065",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5095",
   	"testingAuthority":"cUL",
@@ -2470,8 +2572,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Mortar, Mineral Wool",
-  	"link":"C-AJ-5095"
-  },
+  	"link":"ULC/C-AJ-5095",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5127",
   	"testingAuthority":"cUL",
@@ -2494,8 +2597,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-5127"
-  },
+  	"link":"ULC/C-AJ-5127",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5303",
   	"testingAuthority":"cUL",
@@ -2518,8 +2622,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-5303"
-  },
+  	"link":"ULC/C-AJ-5303",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5304",
   	"testingAuthority":"cUL",
@@ -2542,8 +2647,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-5304"
-  },
+  	"link":"ULC/C-AJ-5304",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5305",
   	"testingAuthority":"cUL",
@@ -2566,8 +2672,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-5305"
-  },
+  	"link":"ULC/C-AJ-5305",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5374",
   	"testingAuthority":"cUL",
@@ -2590,8 +2697,9 @@
   	"insulationType":"Cellular Glass",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-5374"
-  },
+  	"link":"ULC/C-AJ-5374",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5375",
   	"testingAuthority":"cUL",
@@ -2614,8 +2722,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-5375"
-  },
+  	"link":"ULC/C-AJ-5375",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5376",
   	"testingAuthority":"cUL",
@@ -2638,8 +2747,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-5376"
-  },
+  	"link":"ULC/C-AJ-5376",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-5377",
   	"testingAuthority":"cUL",
@@ -2662,8 +2772,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-5377"
-  },
+  	"link":"ULC/C-AJ-5377",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7029",
   	"testingAuthority":"cUL",
@@ -2686,8 +2797,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-7029"
-  },
+  	"link":"ULC/C-AJ-7029",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7030",
   	"testingAuthority":"cUL",
@@ -2710,8 +2822,9 @@
   	"insulationType":"Mineral Fiber",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-7030"
-  },
+  	"link":"ULC/C-AJ-7030",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7124",
   	"testingAuthority":"cUL",
@@ -2734,8 +2847,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-7124"
-  },
+  	"link":"ULC/C-AJ-7124",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7125",
   	"testingAuthority":"cUL",
@@ -2758,8 +2872,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-7125"
-  },
+  	"link":"ULC/C-AJ-7125",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7126",
   	"testingAuthority":"cUL",
@@ -2782,8 +2897,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-7126"
-  },
+  	"link":"ULC/C-AJ-7126",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7157",
   	"testingAuthority":"cUL",
@@ -2806,8 +2922,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-7157"
-  },
+  	"link":"ULC/C-AJ-7157",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7158",
   	"testingAuthority":"cUL",
@@ -2830,8 +2947,9 @@
   	"insulationType":"Mineral Fiber",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-7158"
-  },
+  	"link":"ULC/C-AJ-7158",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7172",
   	"testingAuthority":"cUL",
@@ -2854,8 +2972,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"C-AJ-7172"
-  },
+  	"link":"ULC/C-AJ-7172",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7173",
   	"testingAuthority":"cUL",
@@ -2878,8 +2997,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-7173"
-  },
+  	"link":"ULC/C-AJ-7173",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-7174",
   	"testingAuthority":"cUL",
@@ -2902,8 +3022,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-7174"
-  },
+  	"link":"ULC/C-AJ-7174",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8023",
   	"testingAuthority":"cUL",
@@ -2926,8 +3047,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-8023"
-  },
+  	"link":"ULC/C-AJ-8023",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8024",
   	"testingAuthority":"cUL",
@@ -2950,8 +3072,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-8024"
-  },
+  	"link":"ULC/C-AJ-8024",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8028",
   	"testingAuthority":"cUL",
@@ -2974,8 +3097,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mortar, Mineral Wool",
-  	"link":"C-AJ-8028"
-  },
+  	"link":"ULC/C-AJ-8028",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8029",
   	"testingAuthority":"cUL",
@@ -2998,8 +3122,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Mortar",
-  	"link":"C-AJ-8029"
-  },
+  	"link":"ULC/C-AJ-8029",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8080",
   	"testingAuthority":"cUL",
@@ -3022,8 +3147,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone, Silicone SL, Mineral Wool",
-  	"link":"C-AJ-8080"
-  },
+  	"link":"ULC/C-AJ-8080",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8183",
   	"testingAuthority":"cUL",
@@ -3046,8 +3172,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-8183"
-  },
+  	"link":"ULC/C-AJ-8183",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8184",
   	"testingAuthority":"cUL",
@@ -3070,8 +3197,9 @@
   	"insulationType":"AB/PVC, Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-8184"
-  },
+  	"link":"ULC/C-AJ-8184",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8253",
   	"testingAuthority":"cUL",
@@ -3094,8 +3222,9 @@
   	"insulationType":"AB/PVC, Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-8253"
-  },
+  	"link":"ULC/C-AJ-8253",
+		"curtainWallType":""
+},
   {
   	"designNumber":"C-AJ-8254",
   	"testingAuthority":"cUL",
@@ -3118,8 +3247,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"C-AJ-8254"
-  },
+  	"link":"ULC/C-AJ-8254",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-A-1151",
   	"testingAuthority":"cUL",
@@ -3142,8 +3272,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"F-A-1151"
-  },
+  	"link":"ULC/F-A-1151",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-A-5039",
   	"testingAuthority":"cUL",
@@ -3166,8 +3297,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"F-A-5039"
-  },
+  	"link":"ULC/F-A-5039",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-1011",
   	"testingAuthority":"cUL",
@@ -3190,8 +3322,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"F-C-1011"
-  },
+  	"link":"ULC/F-C-1011",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-1149",
   	"testingAuthority":"cUL",
@@ -3214,8 +3347,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"F-C-1149"
-  },
+  	"link":"ULC/F-C-1149",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-1150",
   	"testingAuthority":"cUL",
@@ -3238,8 +3372,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Acrylic Sealant",
-  	"link":"F-C-1150"
-  },
+  	"link":"ULC/F-C-1150",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-1171",
   	"testingAuthority":"cUL",
@@ -3262,8 +3397,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-1171"
-  },
+  	"link":"ULC/F-C-1171",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-3014",
   	"testingAuthority":"cUL",
@@ -3286,8 +3422,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"F-C-3014"
-  },
+  	"link":"ULC/F-C-3014",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-3099",
   	"testingAuthority":"cUL",
@@ -3310,8 +3447,9 @@
   	"insulationType":"None",
   	"lRating":"&le;16 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-3099"
-  },
+  	"link":"ULC/F-C-3099",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-3113",
   	"testingAuthority":"cUL",
@@ -3334,8 +3472,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-3113"
-  },
+  	"link":"ULC/F-C-3113",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-5007",
   	"testingAuthority":"cUL",
@@ -3358,8 +3497,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"F-C-5007"
-  },
+  	"link":"ULC/F-C-5007",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-5087",
   	"testingAuthority":"cUL",
@@ -3382,8 +3522,9 @@
   	"insulationType":"AB/PVC, Glass Fiber",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-5087"
-  },
+  	"link":"ULC/F-C-5087",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-7044",
   	"testingAuthority":"cUL",
@@ -3406,8 +3547,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-7044"
-  },
+  	"link":"ULC/F-C-7044",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-7067",
   	"testingAuthority":"cUL",
@@ -3430,8 +3572,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-7067"
-  },
+  	"link":"ULC/F-C-7067",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-C-8041",
   	"testingAuthority":"cUL",
@@ -3454,8 +3597,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"&le;16 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"F-C-8041"
-  },
+  	"link":"ULC/F-C-8041",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-1015",
   	"testingAuthority":"cUL",
@@ -3478,8 +3622,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"F-E-1015"
-  },
+  	"link":"ULC/F-E-1015",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-1021",
   	"testingAuthority":"cUL",
@@ -3502,8 +3647,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-E-1021"
-  },
+  	"link":"ULC/F-E-1021",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-1022",
   	"testingAuthority":"cUL",
@@ -3526,8 +3672,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-E-1022"
-  },
+  	"link":"ULC/F-E-1022",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-3010",
   	"testingAuthority":"cUL",
@@ -3550,8 +3697,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"F-E-3010"
-  },
+  	"link":"ULC/F-E-3010",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-3014",
   	"testingAuthority":"cUL",
@@ -3574,8 +3722,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-E-3014"
-  },
+  	"link":"ULC/F-E-3014",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-5008",
   	"testingAuthority":"cUL",
@@ -3598,8 +3747,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"F-E-5008"
-  },
+  	"link":"ULC/F-E-5008",
+		"curtainWallType":""
+},
   {
   	"designNumber":"F-E-5011",
   	"testingAuthority":"cUL",
@@ -3622,8 +3772,9 @@
   	"insulationType":"AB/PVC, Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"F-E-5011"
-  },
+  	"link":"ULC/F-E-5011",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-0115",
   	"testingAuthority":"cUL",
@@ -3646,8 +3797,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Intumescent Sealant II",
-  	"link":"FF-D-0115"
-  },
+  	"link":"ULC/FF-D-0115",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-0116",
   	"testingAuthority":"cUL",
@@ -3670,8 +3822,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FF-D-0116"
-  },
+  	"link":"ULC/FF-D-0116",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-0117",
   	"testingAuthority":"cUL",
@@ -3694,8 +3847,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FF-D-0117"
-  },
+  	"link":"ULC/FF-D-0117",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-0118",
   	"testingAuthority":"cUL",
@@ -3718,8 +3872,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"FF-D-0118"
-  },
+  	"link":"ULC/FF-D-0118",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-1023",
   	"testingAuthority":"cUL",
@@ -3742,8 +3897,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"FF-D-1023"
-  },
+  	"link":"ULC/FF-D-1023",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-1038",
   	"testingAuthority":"cUL",
@@ -3766,8 +3922,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone SL, Mineral Wool",
-  	"link":"FF-D-1038"
-  },
+  	"link":"ULC/FF-D-1038",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-1097",
   	"testingAuthority":"cUL",
@@ -3790,8 +3947,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"FF-D-1097"
-  },
+  	"link":"ULC/FF-D-1097",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-D-1098",
   	"testingAuthority":"cUL",
@@ -3814,8 +3972,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FF-D-1098"
-  },
+  	"link":"ULC/FF-D-1098",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FF-S-0039",
   	"testingAuthority":"cUL",
@@ -3838,8 +3997,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FF-S-0039"
-  },
+  	"link":"ULC/FF-S-0039",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-0057",
   	"testingAuthority":"cUL",
@@ -3862,8 +4022,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FW-D-0057"
-  },
+  	"link":"ULC/FW-D-0057",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-0073",
   	"testingAuthority":"cUL",
@@ -3886,8 +4047,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"FW-D-0073"
-  },
+  	"link":"ULC/FW-D-0073",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-0074",
   	"testingAuthority":"cUL",
@@ -3910,8 +4072,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FW-D-0074"
-  },
+  	"link":"ULC/FW-D-0074",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-0075",
   	"testingAuthority":"cUL",
@@ -3934,8 +4097,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"FW-D-0075"
-  },
+  	"link":"ULC/FW-D-0075",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-0076",
   	"testingAuthority":"cUL",
@@ -3958,8 +4122,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"FW-D-0076"
-  },
+  	"link":"ULC/FW-D-0076",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-1019",
   	"testingAuthority":"cUL",
@@ -3982,8 +4147,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"FW-D-1019"
-  },
+  	"link":"ULC/FW-D-1019",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-1036",
   	"testingAuthority":"cUL",
@@ -4006,8 +4172,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone SL, Mineral Wool",
-  	"link":"FW-D-1036"
-  },
+  	"link":"ULC/FW-D-1036",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-1074",
   	"testingAuthority":"cUL",
@@ -4030,8 +4197,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"FW-D-1074"
-  },
+  	"link":"ULC/FW-D-1074",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-1105",
   	"testingAuthority":"cUL",
@@ -4054,8 +4222,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant",
-  	"link":"FW-D-1105"
-  },
+  	"link":"ULC/FW-D-1105",
+		"curtainWallType":""
+},
   {
   	"designNumber":"FW-D-1106",
   	"testingAuthority":"cUL",
@@ -4078,8 +4247,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Spray Acrylic",
-  	"link":"FW-D-1106"
-  },
+  	"link":"ULC/FW-D-1106",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0060",
   	"testingAuthority":"cUL",
@@ -4102,8 +4272,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW-D-0060"
-  },
+  	"link":"ULC/HW-D-0060",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0061",
   	"testingAuthority":"cUL",
@@ -4126,8 +4297,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW-D-0061"
-  },
+  	"link":"ULC/HW-D-0061",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0119",
   	"testingAuthority":"cUL",
@@ -4150,8 +4322,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW-D-0119"
-  },
+  	"link":"ULC/HW-D-0119",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0120",
   	"testingAuthority":"cUL",
@@ -4174,8 +4347,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW-D-0120"
-  },
+  	"link":"ULC/HW-D-0120",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0467",
   	"testingAuthority":"cUL",
@@ -4198,8 +4372,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Acrylic Sealant",
-  	"link":"HW-D-0467"
-  },
+  	"link":"ULC/HW-D-0467",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0468",
   	"testingAuthority":"cUL",
@@ -4222,8 +4397,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic",
-  	"link":"HW-D-0468"
-  },
+  	"link":"ULC/HW-D-0468",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0469",
   	"testingAuthority":"cUL",
@@ -4246,8 +4422,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0469"
-  },
+  	"link":"ULC/HW-D-0469",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0470",
   	"testingAuthority":"cUL",
@@ -4270,8 +4447,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"HW-D-0470"
-  },
+  	"link":"ULC/HW-D-0470",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0471",
   	"testingAuthority":"cUL",
@@ -4294,8 +4472,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0471"
-  },
+  	"link":"ULC/HW-D-0471",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0592",
   	"testingAuthority":"cUL",
@@ -4318,8 +4497,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"HW-D-0592"
-  },
+  	"link":"ULC/HW-D-0592",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0593",
   	"testingAuthority":"cUL",
@@ -4342,8 +4522,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0593"
-  },
+  	"link":"ULC/HW-D-0593",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0633",
   	"testingAuthority":"cUL",
@@ -4366,8 +4547,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0633"
-  },
+  	"link":"ULC/HW-D-0633",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0647",
   	"testingAuthority":"cUL",
@@ -4390,8 +4572,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Intumescent Sealant II",
-  	"link":"HW-D-0647"
-  },
+  	"link":"ULC/HW-D-0647",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0648",
   	"testingAuthority":"cUL",
@@ -4414,8 +4597,9 @@
   	"insulationType":"",
   	"lRating":"&le; 1 CFM/Device",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"HW-D-0648"
-  },
+  	"link":"ULC/HW-D-0648",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0763",
   	"testingAuthority":"cUL",
@@ -4438,8 +4622,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Acrylic Sealant",
-  	"link":"HW-D-0763"
-  },
+  	"link":"ULC/HW-D-0763",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0768",
   	"testingAuthority":"cUL",
@@ -4462,8 +4647,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"HW-D-0768"
-  },
+  	"link":"ULC/HW-D-0768",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0772",
   	"testingAuthority":"cUL",
@@ -4486,8 +4672,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0772"
-  },
+  	"link":"ULC/HW-D-0772",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0773",
   	"testingAuthority":"cUL",
@@ -4510,8 +4697,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0773"
-  },
+  	"link":"ULC/HW-D-0773",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0774",
   	"testingAuthority":"cUL",
@@ -4534,8 +4722,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0774"
-  },
+  	"link":"ULC/HW-D-0774",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0775",
   	"testingAuthority":"cUL",
@@ -4558,8 +4747,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0775"
-  },
+  	"link":"ULC/HW-D-0775",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-0776",
   	"testingAuthority":"cUL",
@@ -4582,8 +4772,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-0776"
-  },
+  	"link":"ULC/HW-D-0776",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-1012",
   	"testingAuthority":"cUL",
@@ -4606,8 +4797,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW-D-1012"
-  },
+  	"link":"ULC/HW-D-1012",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-1017",
   	"testingAuthority":"cUL",
@@ -4630,8 +4822,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"HW-D-1017"
-  },
+  	"link":"ULC/HW-D-1017",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-1087",
   	"testingAuthority":"cUL",
@@ -4654,8 +4847,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-1087"
-  },
+  	"link":"ULC/HW-D-1087",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-1093",
   	"testingAuthority":"cUL",
@@ -4678,8 +4872,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"HW-D-1093"
-  },
+  	"link":"ULC/HW-D-1093",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-D-1115",
   	"testingAuthority":"cUL",
@@ -4702,8 +4897,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"HW-D-1115"
-  },
+  	"link":"ULC/HW-D-1115",
+		"curtainWallType":""
+},
   {
   	"designNumber":"HW-S-0117",
   	"testingAuthority":"cUL",
@@ -4726,8 +4922,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"HW-S-0117"
-  },
+  	"link":"ULC/HW-S-0117",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1064",
   	"testingAuthority":"cUL",
@@ -4750,8 +4947,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"W-J-1064"
-  },
+  	"link":"ULC/W-J-1064",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1085",
   	"testingAuthority":"cUL",
@@ -4774,8 +4972,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"W-J-1085"
-  },
+  	"link":"ULC/W-J-1085",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1203",
   	"testingAuthority":"cUL",
@@ -4798,8 +4997,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-J-1203"
-  },
+  	"link":"ULC/W-J-1203",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1204",
   	"testingAuthority":"cUL",
@@ -4822,8 +5022,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"W-J-1204"
-  },
+  	"link":"ULC/W-J-1204",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1220",
   	"testingAuthority":"cUL",
@@ -4846,8 +5047,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-1220"
-  },
+  	"link":"ULC/W-J-1220",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1223",
   	"testingAuthority":"cUL",
@@ -4870,8 +5072,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Spray Acrylic",
-  	"link":"W-J-1223"
-  },
+  	"link":"ULC/W-J-1223",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1251",
   	"testingAuthority":"cUL",
@@ -4894,8 +5097,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-J-1251"
-  },
+  	"link":"ULC/W-J-1251",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1254",
   	"testingAuthority":"cUL",
@@ -4918,8 +5122,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-1254"
-  },
+  	"link":"ULC/W-J-1254",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-1264",
   	"testingAuthority":"cUL",
@@ -4942,8 +5147,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-1264"
-  },
+  	"link":"ULC/W-J-1264",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-2141",
   	"testingAuthority":"cUL",
@@ -4966,8 +5172,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Wrap Strip",
-  	"link":"W-J-2141"
-  },
+  	"link":"ULC/W-J-2141",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-3087",
   	"testingAuthority":"cUL",
@@ -4990,8 +5197,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"W-J-3087"
-  },
+  	"link":"ULC/W-J-3087",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-3163",
   	"testingAuthority":"cUL",
@@ -5014,8 +5222,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-3163"
-  },
+  	"link":"ULC/W-J-3163",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-3164",
   	"testingAuthority":"cUL",
@@ -5038,8 +5247,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-J-3164"
-  },
+  	"link":"ULC/W-J-3164",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-3217",
   	"testingAuthority":"cUL",
@@ -5062,8 +5272,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-J-3217"
-  },
+  	"link":"ULC/W-J-3217",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5092",
   	"testingAuthority":"cUL",
@@ -5086,8 +5297,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Wrap Strip",
-  	"link":"W-J-5092"
-  },
+  	"link":"ULC/W-J-5092",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5137",
   	"testingAuthority":"cUL",
@@ -5110,8 +5322,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"W-J-5137"
-  },
+  	"link":"ULC/W-J-5137",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5163",
   	"testingAuthority":"cUL",
@@ -5134,8 +5347,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-J-5163"
-  },
+  	"link":"ULC/W-J-5163",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5164",
   	"testingAuthority":"cUL",
@@ -5158,8 +5372,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-5164"
-  },
+  	"link":"ULC/W-J-5164",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5165",
   	"testingAuthority":"cUL",
@@ -5182,8 +5397,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"W-J-5165"
-  },
+  	"link":"ULC/W-J-5165",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5166",
   	"testingAuthority":"cUL",
@@ -5206,8 +5422,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-5166"
-  },
+  	"link":"ULC/W-J-5166",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5168",
   	"testingAuthority":"cUL",
@@ -5230,8 +5447,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"W-J-5168"
-  },
+  	"link":"ULC/W-J-5168",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-5173",
   	"testingAuthority":"cUL",
@@ -5254,8 +5472,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-5173"
-  },
+  	"link":"ULC/W-J-5173",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-7093",
   	"testingAuthority":"cUL",
@@ -5278,8 +5497,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-7093"
-  },
+  	"link":"ULC/W-J-7093",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-7094",
   	"testingAuthority":"cUL",
@@ -5302,8 +5522,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-J-7094"
-  },
+  	"link":"ULC/W-J-7094",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-7117",
   	"testingAuthority":"cUL",
@@ -5326,8 +5547,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-7117"
-  },
+  	"link":"ULC/W-J-7117",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-7144",
   	"testingAuthority":"cUL",
@@ -5350,8 +5572,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-J-7144"
-  },
+  	"link":"ULC/W-J-7144",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-7145",
   	"testingAuthority":"cUL",
@@ -5374,8 +5597,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-7145"
-  },
+  	"link":"ULC/W-J-7145",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-7147",
   	"testingAuthority":"cUL",
@@ -5398,8 +5622,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Mineral Wool",
-  	"link":"W-J-7147"
-  },
+  	"link":"ULC/W-J-7147",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-J-8041",
   	"testingAuthority":"cUL",
@@ -5422,8 +5647,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-J-8041"
-  },
+  	"link":"ULC/W-J-8041",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1050",
   	"testingAuthority":"cUL",
@@ -5446,8 +5672,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"W-L-1050"
-  },
+  	"link":"ULC/W-L-1050",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1066",
   	"testingAuthority":"cUL",
@@ -5470,8 +5697,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"W-L-1066"
-  },
+  	"link":"ULC/W-L-1066",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1151",
   	"testingAuthority":"cUL",
@@ -5494,8 +5722,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"W-L-1151"
-  },
+  	"link":"ULC/W-L-1151",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1198",
   	"testingAuthority":"cUL",
@@ -5518,8 +5747,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"W-L-1198"
-  },
+  	"link":"ULC/W-L-1198",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1416",
   	"testingAuthority":"cUL",
@@ -5542,8 +5772,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-1416"
-  },
+  	"link":"ULC/W-L-1416",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1417",
   	"testingAuthority":"cUL",
@@ -5566,8 +5797,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-L-1417"
-  },
+  	"link":"ULC/W-L-1417",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1418",
   	"testingAuthority":"cUL",
@@ -5590,8 +5822,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-L-1418"
-  },
+  	"link":"ULC/W-L-1418",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1419",
   	"testingAuthority":"cUL",
@@ -5614,8 +5847,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-1419"
-  },
+  	"link":"ULC/W-L-1419",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1459",
   	"testingAuthority":"cUL",
@@ -5638,8 +5872,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Spray Acrylic",
-  	"link":"W-L-1459"
-  },
+  	"link":"ULC/W-L-1459",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1460",
   	"testingAuthority":"cUL",
@@ -5662,8 +5897,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Acrylic Sealant",
-  	"link":"W-L-1460"
-  },
+  	"link":"ULC/W-L-1460",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1509",
   	"testingAuthority":"cUL",
@@ -5686,8 +5922,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-1509"
-  },
+  	"link":"ULC/W-L-1509",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1522",
   	"testingAuthority":"cUL",
@@ -5710,8 +5947,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-1522"
-  },
+  	"link":"ULC/W-L-1522",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-1523",
   	"testingAuthority":"cUL",
@@ -5734,8 +5972,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-L-1523"
-  },
+  	"link":"ULC/W-L-1523",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-2372",
   	"testingAuthority":"cUL",
@@ -5758,8 +5997,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Wrap Strip",
-  	"link":"W-L-2372"
-  },
+  	"link":"ULC/W-L-2372",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-3042",
   	"testingAuthority":"cUL",
@@ -5782,8 +6022,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"W-L-3042"
-  },
+  	"link":"ULC/W-L-3042",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-3207",
   	"testingAuthority":"cUL",
@@ -5806,8 +6047,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"W-L-3207"
-  },
+  	"link":"ULC/W-L-3207",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-3322",
   	"testingAuthority":"cUL",
@@ -5830,8 +6072,9 @@
   	"insulationType":"None",
   	"lRating":"&le;16 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-3322"
-  },
+  	"link":"ULC/W-L-3322",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-3323",
   	"testingAuthority":"cUL",
@@ -5854,8 +6097,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-3323"
-  },
+  	"link":"ULC/W-L-3323",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-3324",
   	"testingAuthority":"cUL",
@@ -5878,8 +6122,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-L-3324"
-  },
+  	"link":"ULC/W-L-3324",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5031",
   	"testingAuthority":"cUL",
@@ -5902,8 +6147,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"",
   	"products":"Silicone",
-  	"link":"W-L-5031"
-  },
+  	"link":"ULC/W-L-5031",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5194",
   	"testingAuthority":"cUL",
@@ -5926,8 +6172,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Wrap Strip",
-  	"link":"W-L-5194"
-  },
+  	"link":"ULC/W-L-5194",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5314",
   	"testingAuthority":"cUL",
@@ -5950,8 +6197,9 @@
   	"insulationType":"Cellular Glass",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-5314"
-  },
+  	"link":"ULC/W-L-5314",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5316",
   	"testingAuthority":"cUL",
@@ -5974,8 +6222,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant, Mineral Wool",
-  	"link":"W-L-5316"
-  },
+  	"link":"ULC/W-L-5316",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5317",
   	"testingAuthority":"cUL",
@@ -5998,8 +6247,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-5317"
-  },
+  	"link":"ULC/W-L-5317",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5318",
   	"testingAuthority":"cUL",
@@ -6022,8 +6272,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-5318"
-  },
+  	"link":"ULC/W-L-5318",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5320",
   	"testingAuthority":"cUL",
@@ -6046,8 +6297,9 @@
   	"insulationType":"Glass Fiber, Mineral Fiber",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-5320"
-  },
+  	"link":"ULC/W-L-5320",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-5326",
   	"testingAuthority":"cUL",
@@ -6070,8 +6322,9 @@
   	"insulationType":"AB/PVC",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-5326"
-  },
+  	"link":"ULC/W-L-5326",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-7166",
   	"testingAuthority":"cUL",
@@ -6094,8 +6347,9 @@
   	"insulationType":"None",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-L-7166"
-  },
+  	"link":"ULC/W-L-7166",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-7200",
   	"testingAuthority":"cUL",
@@ -6118,8 +6372,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II, Acrylic Sealant",
-  	"link":"W-L-7200"
-  },
+  	"link":"ULC/W-L-7200",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-7201",
   	"testingAuthority":"cUL",
@@ -6142,8 +6397,9 @@
   	"insulationType":"None",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-7201"
-  },
+  	"link":"ULC/W-L-7201",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-7234",
   	"testingAuthority":"cUL",
@@ -6166,8 +6422,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-7234"
-  },
+  	"link":"ULC/W-L-7234",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-7236",
   	"testingAuthority":"cUL",
@@ -6190,8 +6447,9 @@
   	"insulationType":"Glass Fiber",
   	"lRating":"",
   	"products":"Intumescent Sealant II",
-  	"link":"W-L-7236"
-  },
+  	"link":"ULC/W-L-7236",
+		"curtainWallType":""
+},
   {
   	"designNumber":"W-L-8075",
   	"testingAuthority":"cUL",
@@ -6214,8 +6472,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"",
-  	"link":"W-L-8075"
-  },
+  	"link":"ULC/W-L-8075",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-0190",
   	"testingAuthority":"cUL",
@@ -6238,8 +6497,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Intumescent Sealant II",
-  	"link":"WW-D-0190"
-  },
+  	"link":"ULC/WW-D-0190",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-0191",
   	"testingAuthority":"cUL",
@@ -6262,8 +6522,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"WW-D-0191"
-  },
+  	"link":"ULC/WW-D-0191",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-0192",
   	"testingAuthority":"cUL",
@@ -6286,8 +6547,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"WW-D-0192"
-  },
+  	"link":"ULC/WW-D-0192",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-0193",
   	"testingAuthority":"cUL",
@@ -6310,8 +6572,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"WW-D-0193"
-  },
+  	"link":"ULC/WW-D-0193",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-0194",
   	"testingAuthority":"cUL",
@@ -6334,8 +6597,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"WW-D-0194"
-  },
+  	"link":"ULC/WW-D-0194",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-1026",
   	"testingAuthority":"cUL",
@@ -6358,8 +6622,9 @@
   	"insulationType":"",
   	"lRating":"",
   	"products":"Silicone, Mineral Wool",
-  	"link":"WW-D-1026"
-  },
+  	"link":"ULC/WW-D-1026",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-D-1179",
   	"testingAuthority":"cUL",
@@ -6382,8 +6647,9 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Spray Acrylic, Mineral Wool",
-  	"link":"WW-D-1179"
-  },
+  	"link":"ULC/WW-D-1179",
+		"curtainWallType":""
+},
   {
   	"designNumber":"WW-S-0077",
   	"testingAuthority":"cUL",
@@ -6406,7 +6672,8 @@
   	"insulationType":"",
   	"lRating":"&le;1 CFM/lin. ft.",
   	"products":"Acrylic Sealant, Mineral Wool",
-  	"link":"WW-S-0077"
+  	"link":"ULC/WW-S-0077",
+    "curtainWallType":""
   }
   ]
 }
