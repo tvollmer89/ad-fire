@@ -66,18 +66,6 @@ function updateFilesArray(rowIds) {
   return allFiles;
 }
 
-function showProgress(t) {
-  var bar = new ProgressBar.Line('#progress', {
-    color: '#666666',
-    easing: 'easeInOut',
-    svgStyle: {
-        display: 'block',
-        width: '80%'
-    }
-  });
-  bar.animate(1);
-}
-
 function getTestingAuthority() {
   var c = document.getElementById('tAuth');
   var radios = c.getElementsByTagName('input');
@@ -343,6 +331,20 @@ $(document).ready(function() {
     updateDataTableSelectAllCtrl(t);
   });
 
+  var bar = new ProgressBar.Line('#progress', {
+    color: '#666666',
+    easing: 'easeInOut',
+    strokeWidth: 2.1,
+    svgStyle: {
+      display: 'block',
+      width: '80%'
+    },
+  });
+  function clearBar() {
+    setTimeout(function() {
+      bar.set(0);
+    }, 3000);
+  };
 
   // Add Download Selected Event Listener
   $('#download-zip').on('click', function() {
@@ -350,7 +352,7 @@ $(document).ready(function() {
       alert('This function is not supported by your browser. Please download files individally by clicking on the red icon in the "PDF Download" column.');
       document.getElementById("download-zip").disabled = true;
     } else {
-      showProgress();
+      bar.animate(1);
       var zip = new JSZip();
       filesArray.reduce(function(p, o) {
         return p.then(function() {
@@ -382,6 +384,7 @@ $(document).ready(function() {
           }
           downloadWithDataURI();
         }
+        clearBar();
       });
     }
   });
