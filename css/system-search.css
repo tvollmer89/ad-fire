@@ -193,6 +193,10 @@ input[type=radio] {
 #designs table td.child li {
   display: list-item;
   text-align: left;
+  border-bottom: none;
+}
+#designs table td.child li:nth-child(n+2) {
+  border-top: 1px solid #e5e5e5;
 }
 #designs .fa {
   font-size: 22px;

@@ -5,7 +5,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Bottom-of-Wall",
-			"jointCondition":"Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor",
+			"jointCondition":"Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -547,7 +547,7 @@
 			"maxASpace":"47",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/C-AJ-1561"
 		},
     {
@@ -572,7 +572,7 @@
 			"maxASpace":"47",
 			"sleeve":"Optional",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/C-AJ-1665"
 		},
     {
@@ -1322,7 +1322,7 @@
 			"maxASpace":"25",
 			"sleeve":"None",
 			"insulationType":"AB/PVC",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/C-AJ-5375"
 		},
     {
@@ -2097,7 +2097,7 @@
 			"maxASpace":"22",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/F-C-1149"
 		},
     {
@@ -2372,7 +2372,7 @@
 			"maxASpace":"12.7",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;16 CFM/lin. ft.",
+			"lRating":"&le; 16 CFM/lin. ft.",
 			"link":"UL/F-C-3099"
 		},
     {
@@ -2447,7 +2447,7 @@
 			"maxASpace":"16",
 			"sleeve":"None",
 			"insulationType":"AB/PVC, Glass Fiber",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/F-C-5087"
 		},
     {
@@ -2472,7 +2472,7 @@
 			"maxASpace":"25",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/F-C-7044"
 		},
     {
@@ -2522,7 +2522,7 @@
 			"maxASpace":"38",
 			"sleeve":"None",
 			"insulationType":"AB/PVC",
-			"lRating":"&le;16 CFM/lin. ft.",
+			"lRating":"&le; 16 CFM/lin. ft.",
 			"link":"UL/F-C-8041"
 		},
     {
@@ -2747,7 +2747,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FF-D-0115"
 		},
     {
@@ -2772,7 +2772,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/FF-D-0116"
 		},
     {
@@ -2797,7 +2797,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/FF-D-0117"
 		},
     {
@@ -2822,7 +2822,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/FF-D-0118"
 		},
     {
@@ -2897,7 +2897,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FF-D-1097"
 		},
     {
@@ -2922,7 +2922,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FF-D-1098"
 		},
     {
@@ -2997,7 +2997,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FF-S-0039"
 		},
     {
@@ -3022,7 +3022,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-0057"
 		},
     {
@@ -3072,7 +3072,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-0074"
 		},
     {
@@ -3097,7 +3097,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-0075"
 		},
     {
@@ -3122,7 +3122,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-0076"
 		},
     {
@@ -3197,7 +3197,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-1074"
 		},
     {
@@ -3222,7 +3222,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-1105"
 		},
     {
@@ -3247,7 +3247,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/FW-D-1106"
 		},
     {
@@ -3305,7 +3305,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor",
 			"maxJointWidth":"13, 50",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3330,7 +3330,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3355,7 +3355,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3380,7 +3380,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3430,7 +3430,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3455,7 +3455,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Conrete Metal Deck (Perpendicular), SFRM on Floor/Roof Deck, Gypsum Wall to Rated Roof Deck",
+			"jointCondition":"Gypsum Wall to Conrete Metal Deck Perpendicular, SFRM on Floor/Roof Deck, Gypsum Wall to Rated Roof Deck",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3480,7 +3480,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Rated Roof Deck",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Rated Roof Deck",
 			"maxJointWidth":"13",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3505,7 +3505,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), SFRM on Floor/Roof Deck, Gypsum Wall to Structural Member",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, SFRM on Floor/Roof Deck, Gypsum Wall to Structural Member",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3530,7 +3530,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck (Parallel), Concrete/Block Wall to Concrete Metal Floor Deck (Perpendicular), Concrete/Block Wall to Flat Concrete Floor",
+			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck Parallel, Concrete/Block Wall to Concrete Metal Floor Deck Perpendicular, Concrete/Block Wall to Flat Concrete Floor",
 			"maxJointWidth":"25, 50",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3580,7 +3580,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Rated Roof Deck",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Rated Roof Deck",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3597,7 +3597,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/HW-D-0633"
 		},
     {
@@ -3622,7 +3622,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/HW-D-0647"
 		},
     {
@@ -3647,7 +3647,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/Device",
+			"lRating":"&le; 1 CFM/Device",
 			"link":"UL/HW-D-0648"
 		},
     {
@@ -3697,7 +3697,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/HW-D-0768"
 		},
     {
@@ -3705,7 +3705,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck (Perpendicular), Concrete/Block Wall to Concrete Metal Roof Deck (Perpendicular) , Gypsum Wall to Conrete Metal Deck (Perpendicular)",
+			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck Perpendicular, Concrete/Block Wall to Concrete Metal Roof Deck Perpendicular , Gypsum Wall to Conrete Metal Deck Perpendicular",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3730,7 +3730,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck (Perpendicular), Concrete/Block Wall to Structural Member",
+			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck Perpendicular, Concrete/Block Wall to Structural Member",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3755,7 +3755,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), SFRM on Floor/Roof Deck, Gypsum Wall to Rated Roof Deck, Gypsum Wall to Structural Member",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, SFRM on Floor/Roof Deck, Gypsum Wall to Rated Roof Deck, Gypsum Wall to Structural Member",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3780,7 +3780,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck (Parallel), Concrete/Block Wall to Concrete Metal Floor Deck (Perpendicular), Concrete/Block Wall to Structural Member, Gypsum Wall to Rated Roof Deck",
+			"jointCondition":"Concrete/Block Wall to Concrete Metal Floor Deck Parallel, Concrete/Block Wall to Concrete Metal Roof Deck Parallel, Concrete/Block Wall to Structural Member, Gypsum Wall to Rated Roof Deck",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3805,7 +3805,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel)",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel",
 			"maxJointWidth":"25",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3847,7 +3847,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/HW-D-0776"
 		},
     {
@@ -3855,7 +3855,7 @@
 			"testingAuthority":"UL",
 			"systemType":"Joint",
 			"jointType":"Head-of-Wall",
-			"jointCondition":"Gypsum Wall to Concrete Metal Deck (Parallel), Gypsum Wall to Conrete Metal Deck (Perpendicular), Gypsum Wall to Conrete Floor, Gypsum Wall to Rated Roof Deck",
+			"jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Conrete Metal Deck Perpendicular, Gypsum Wall to Conrete Floor, Gypsum Wall to Rated Roof Deck",
 			"maxJointWidth":"73",
 			"penetrationCons":"",
 			"penetrationType":"",
@@ -3922,7 +3922,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/HW-D-1087"
 		},
     {
@@ -3947,7 +3947,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/HW-D-1093"
 		},
     {
@@ -3972,7 +3972,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/HW-D-1115"
 		},
     {
@@ -4322,7 +4322,7 @@
 			"maxASpace":"41",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-J-2211"
 		},
     {
@@ -4372,7 +4372,7 @@
 			"maxASpace":"12.7",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-J-2213"
 		},
     {
@@ -4447,7 +4447,7 @@
 			"maxASpace":"25, 38",
 			"sleeve":"Optional",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-J-3163"
 		},
     {
@@ -4522,7 +4522,7 @@
 			"maxASpace":"89",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;16 CFM/lin. ft.",
+			"lRating":"&le; 16 CFM/lin. ft.",
 			"link":"UL/W-J-4064"
 		},
     {
@@ -4747,7 +4747,7 @@
 			"maxASpace":"12.7, 25",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-J-7093"
 		},
     {
@@ -4772,7 +4772,7 @@
 			"maxASpace":"50",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-J-7094"
 		},
     {
@@ -4847,7 +4847,7 @@
 			"maxASpace":"50",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-J-7117"
 		},
     {
@@ -5072,7 +5072,7 @@
 			"maxASpace":"47",
 			"sleeve":"Optional",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-L-1416"
 		},
     {
@@ -5472,7 +5472,7 @@
 			"maxASpace":"41",
 			"sleeve":"Required",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-L-2489"
 		},
     {
@@ -5522,7 +5522,7 @@
 			"maxASpace":"12.7",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-L-2491"
 		},
     {
@@ -5597,7 +5597,7 @@
 			"maxASpace":"25",
 			"sleeve":"Optional",
 			"insulationType":"None",
-			"lRating":"&le;16 CFM/lin. ft.",
+			"lRating":"&le; 16 CFM/lin. ft.",
 			"link":"UL/W-L-3322"
 		},
     {
@@ -5672,7 +5672,7 @@
 			"maxASpace":"76",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;16 CFM/lin. ft.",
+			"lRating":"&le; 16 CFM/lin. ft.",
 			"link":"UL/W-L-4071"
 		},
     {
@@ -5847,7 +5847,7 @@
 			"maxASpace":"None",
 			"sleeve":"None",
 			"insulationType":"Glass Fiber, Mineral Fiber",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-L-5320"
 		},
     {
@@ -5872,7 +5872,7 @@
 			"maxASpace":"50",
 			"sleeve":"None",
 			"insulationType":"None",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/W-L-7166"
 		},
     {
@@ -6072,7 +6072,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-D-0190"
 		},
     {
@@ -6097,7 +6097,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-D-0191"
 		},
     {
@@ -6122,7 +6122,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-D-0192"
 		},
     {
@@ -6147,7 +6147,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-D-0193"
 		},
     {
@@ -6172,7 +6172,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-D-0194"
 		},
     {
@@ -6222,7 +6222,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-D-1179"
 		},
     {
@@ -6272,7 +6272,7 @@
 			"maxASpace":"",
 			"sleeve":"",
 			"insulationType":"",
-			"lRating":"&le;1 CFM/lin. ft.",
+			"lRating":"&le; 1 CFM/lin. ft.",
 			"link":"UL/WW-S-0077"
 		}
   ]

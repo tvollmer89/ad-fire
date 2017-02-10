@@ -23,10 +23,6 @@
 				"text":"Bottom-of-Wall"
 			},
 			{
-				"value":"Continuity Head-of-Wall",
-				"text":"Continuity Head-of-Wall"
-			},
-			{
 				"value":"Curtain Wall",
 				"text":"Curtain Wall"
 			},
@@ -43,8 +39,8 @@
 				"text":"Head-of-Wall"
 			},
 			{
-				"value":"Wall-to-Column",
-				"text":"Wall-to-Column"
+				"value":"Wall-to-Wall",
+				"text":"Wall-to-Wall"
 			}
 		]
 	},
@@ -52,10 +48,6 @@
 		"name":4,
 		"category":"Joint Conditions",
 		"options":[
-			{
-				"value":"Concrete Floor",
-				"text":"Concrete Floor"
-			},
 			{
 				"value":"Concrete Floor to Concrete Floor",
 				"text":"Concrete Floor to Concrete Floor"
@@ -69,55 +61,39 @@
 				"text":"Concrete Stair to Concrete/Block Wall"
 			},
 			{
-				"value":"Concrete/Block Wall to Concrete Metal Floor Deck (Parallel)",
+				"value":"Concrete/Block Wall to Concrete Metal Floor Deck Parallel",
 				"text":"Concrete/Block Wall to Concrete Metal Floor Deck (Parallel)"
 			},
 			{
-				"value":"Concrete/Block Wall to Concrete Metal Roof Deck (Parallel)",
+				"value":"Concrete/Block Wall to Concrete Metal Roof Deck Parallel",
 				"text":"Concrete/Block Wall to Concrete Metal Roof Deck (Parallel)"
 			},
 			{
-				"value":"Concrete/Block Wall to Concrete Metal Floor Deck (Perpendicular)",
+				"value":"Concrete/Block Wall to Concrete Metal Floor Deck Perpendicular",
 				"text":"Concrete/Block Wall to Concrete Metal Floor Deck (Perpendicular)"
 			},
 			{
-				"value":"Concrete/Block Wall to Concrete Metal Roof Deck (Perpendicular)",
+				"value":"Concrete/Block Wall to Concrete Metal Roof Deck Perpendicular",
 				"text":"Concrete/Block Wall to Concrete Metal Roof Deck (Perpendicular)"
 			},
 			{
-				"value":"C/B Wall to C/B Wall",
-				"text":"C/B Wall to C/B Wall"
+				"value":"Concrete/Block Wall to Concrete/Block Wall",
+				"text":"Concrete/Block Wall to Concrete/Block Wall"
 			},
 			{
-				"value":"C/B Wall to Flat Concrete Floor",
-				"text":"C/B Wall to Flat Concrete Floor"
+				"value":"Concrete/Block Wall to Flat Concrete Floor",
+				"text":"Concrete/Block Wall to Flat Concrete Floor"
 			},
 			{
-				"value":"C/B Wall to Structural Member",
-				"text":"C/B Wall to Structural Member"
+				"value":"Concrete/Block Wall to Structural Member",
+				"text":"Concrete/Block Wall to Structural Member"
 			},
 			{
-				"value":"Gypsum Shaft Wall to Concrete Metal Deck (Parallel)",
-				"text":"Gypsum Shaft Wall to Concrete Metal Deck (Parallel)"
-			},
-			{
-				"value":"Gypsum Shaft Wall to Concrete (Perpendicular)",
-				"text":"Gypsum Shaft Wall to Concrete (Perpendicular)"
-			},
-			{
-				"value":"Gypsum Shaft Wall to Concrete Wall",
-				"text":"Gypsum Shaft Wall to Concrete Wall"
-			},
-			{
-				"value":"Gypsum Shaft Wall to Flat Concrete Floor",
-				"text":"Gypsum Shaft Wall to Flat Concrete Floor"
-			},
-			{
-				"value":"Gypsum Wall to Concrete Metal Deck (Parallel)",
+				"value":"Gypsum Wall to Concrete Metal Deck Parallel",
 				"text":"Gypsum Wall to Concrete Metal Deck (Parallel)"
 			},
 			{
-				"value":"Gypsum Wall to Concrete Metal Deck (Perpendicular)",
+				"value":"Gypsum Wall to Concrete Metal Deck Perpendicular",
 				"text":"Gypsum Wall to Concrete Metal Deck (Perpendicular)"
 			},
 			{
@@ -133,20 +109,16 @@
 				"text":"Gypsum Wall to Gypsum Wall"
 			},
 			{
-				"value":"Gypsum Wall to Insul. Roof Deck",
-				"text":"Gypsum Wall to Insul. Roof Deck"
-			},
-			{
-				"value":"Gypsum Wall to Non-Rated Floor/Roof Deck",
-				"text":"Gypsum Wall to Non-Rated Floor/Roof Deck"
-			},
-			{
 				"value":"SFRM on Floor/Roof Deck",
 				"text":"SFRM on Floor/Roof Deck"
 			},
 			{
 				"value":"Gypsum Wall to Rated Roof Deck",
 				"text":"Gypsum Wall to Rated Roof Deck"
+			},
+			{
+				"value":"Gypsum Wall to Structural Member",
+				"text":"Gypsum Wall to Structural Member"
 			}
 		]
 	},
@@ -186,10 +158,6 @@
 				"value":"135",
 				"text":"&le; 5-5/16 in. (135mm)"
 			},
-			{
-				"value":"152",
-				"text":"&le; 6 in. (152mm)"
-			},
       {
         "value":"204",
         "text":"&le; 8 in. (204mm)"
@@ -205,8 +173,8 @@
 				"text":"Concrete Slab Floor"
 			},
 			{
-				"value":"Precast Concerete Floor",
-				"text":"Precast Concerete Floor"
+				"value":"Precast Concrete Floor",
+				"text":"Precast Concerte Floor"
 			},
 			{
 				"value":"Concrete Block Wall",
@@ -217,16 +185,16 @@
 				"text":"Concrete Wall"
 			},
 			{
-				"value":"Conccrete Floor on Metal Deck",
-				"text":"Conccrete Floor on Metal Deck"
+				"value":"Concrete Floor on Metal Deck",
+				"text":"Concrete Floor on Metal Deck"
 			},
 			{
 				"value":"Wood Floor/Ceiling",
 				"text":"Wood Floor/Ceiling"
 			},
 			{
-				"value":"Concrete Floor/ Gypsum Ceiling",
-				"text":"Concrete Floor/ Gypsum Ceiling"
+				"value":"Concrete Floor/Gypsum Ceiling",
+				"text":"Concrete Floor/Gypsum Ceiling"
 			}
 		]
 	},
@@ -395,28 +363,8 @@
 		"category":"Application Method",
 		"options":[
 			{
-				"value":"Blocks/Plugs",
-				"text":"Blocks/Plugs"
-			},
-			{
-				"value":"Cable Device",
-				"text":"Cable Device"
-			},
-			{
-				"value":"Cast-in Device",
-				"text":"Cast-in Device"
-			},
-			{
 				"value":"Collar",
 				"text":"Collar"
-			},
-			{
-				"value":"Drop-in Device",
-				"text":"Drop-in Device"
-			},
-			{
-				"value":"Firestop Board",
-				"text":"Firestop Board"
 			},
 			{
 				"value":"Foam",
@@ -427,20 +375,12 @@
 				"text":"Mortar"
 			},
 			{
-				"value":"Pre-Formed Devices",
-				"text":"Pre-Formed Devices"
-			},
-			{
 				"value":"Pillows",
 				"text":"Pillows"
 			},
 			{
 				"value":"Putty",
 				"text":"Putty"
-			},
-			{
-				"value":"Putty Pad",
-				"text":"Putty Pad"
 			},
 			{
 				"value":"Mineral Wool &amp; Optional Sealant",
@@ -491,10 +431,6 @@
 			{
 				"value":"Acrylic Sealant",
 				"text":"Acrylic Sealant"
-			},
-			{
-				"value":"Seal NS",
-				"text":"Seal NS"
 			},
 			{
 				"value":"Spray Acrylic",
@@ -589,20 +525,8 @@
 				"text":"&le; 25&#37;"
 			},
 			{
-				"value": "30",
-				"text":"&le; 30&#37;"
-			},
-			{
 				"value": "33",
 				"text":"&le; 33&#37;"
-			},
-			{
-				"value": "40",
-				"text":"&le; 40&#37;"
-			},
-			{
-				"value": "50",
-				"text":"&le; 50&#37;"
 			}
 		]
 	},
@@ -815,10 +739,6 @@
 				"text":"&le; 2 in. (50mm)"
 			},
 			{
-				"value": "76",
-				"text":"&le; 3 in. (76mm)"
-			},
-			{
 				"value":"Continuous Point of Contact",
 				"text":"Continuous Point of Contact"
 			}
@@ -949,10 +869,6 @@
 				"text":"&le; 5 in. (127mm)"
 			},
 			{
-				"value":"140",
-				"text":"&le; 5-1/2 in. (140mm)"
-			},
-			{
 				"value":"152",
 				"text":"&le; 6 in. (152mm)"
 			},
@@ -993,10 +909,6 @@
 				"text":"AB/PVC"
 			},
 			{
-				"value":"Calcium Silicate",
-				"text":"Calcium Silicate"
-			},
-			{
 				"value":"Cellular Glass",
 				"text":"Cellular Glass"
 			},
@@ -1015,10 +927,6 @@
 			{
 				"value":"",
 				"text":"None"
-			},
-			{
-				"value":"Other",
-				"text":"Other"
 			}
 		]
 	},
@@ -1035,20 +943,8 @@
 				"text":"&le; 1 CFM/lin. ft."
 			},
 			{
-				"value":"&le; 5 CFM/Device",
-				"text":"&le; 5 CFM/Device"
-			},
-			{
-				"value":"&le; 5 CFM/lin. ft.",
-				"text":"&le; 5 CFM/lin. ft."
-			},
-			{
-				"value":"&le; 10 CFM/Device",
-				"text":"&le; 10 CFM/Device"
-			},
-			{
-				"value":"&le; 10 CFM/lin. ft.",
-				"text":"&le; 10 CFM/lin. ft."
+				"value":"&le; 16 CFM/lin. ft.",
+				"text":"&le; 16 CFM/lin. ft."
 			}
 		]
 	}

@@ -134,7 +134,7 @@
 
 <!-- <script type="text/javascript" src="scripts/dropdown.js"></script> -->
 <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.0.3/js/dataTables.checkboxes.min.js"></script>
-<script type="text/javascript" src="http://tvollmer89.github.io/ad-fire/scripts/cdn-bundle.min.js"></script>
+<script type="text/javascript" src="bundle-min.js"></script>
 <!-- <script type="text/javascript" src="scripts/system-search-min.js"></script> -->
 <!-- <script type="text/javascript" src="scripts/downloader.js"></script> -->
 
