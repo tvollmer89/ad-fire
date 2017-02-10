@@ -16264,8 +16264,6 @@ $(document).ready(function() {
       }
     }
   });
-  t.
-  alert( 'Data source: '+ t.ajax.url() );
 
   // t = $('#systems').DataTable();
   var table = $('#systems').dataTable();
