@@ -16345,7 +16345,7 @@ $(document).ready(function() {
 
     // Get row ID
     var rowId = data.link;
-    console.log(rowId);
+    // console.log(rowId);
     // Determine whether row ID is in the list of selected row IDs
     var index = $.inArray(rowId, rows_selected);
 
@@ -16357,7 +16357,7 @@ $(document).ready(function() {
        rows_selected.splice(index, 1);
     }
 
-    console.log(rows_selected);
+    // console.log(rows_selected);
     if(this.checked){
        $row.addClass('selected');
     } else {
@@ -16416,7 +16416,6 @@ $(document).ready(function() {
         })
       }, Q()).then(function() {
         if (JSZip.support.blob) {
-          console.log("suppported");
           function downloadWithBlob() {
             zip.generateAsync({type:"blob"}).then(function (blob) {
               FileSaver.saveAs(blob, "firestop-systems.zip");
