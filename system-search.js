@@ -81,7 +81,7 @@ function getTestingAuthority() {
 
 $(document).ready(function() {
   var t = $('#systems').DataTable({
-    "ajax": "json/ULC.json",
+    "ajax": "json/UL.json",
     responsive: {
         details: {
             type: 'column',
@@ -270,7 +270,7 @@ $(document).ready(function() {
     var tA = document.getElementById('tAuth');
     var tAuths = tA.getElementsByTagName('input');
     for (var t=0, u=tAuths.length; t<u; t++) {
-      if(tAuths[t].value === "ULC") {
+      if(tAuths[t].value === "UL") {
         tAuths[t].checked = true;
       } else {
         tAuths[t].checked = false;
@@ -278,7 +278,7 @@ $(document).ready(function() {
     }
     document.getElementById('tableSearch').value = "";
     //table.fnFilter("ULC|cUL", 2, true, false, false, true);
-    table.api().ajax.url('json/ULC.json').load().search("").draw();
+    table.api().ajax.url('json/UL.json').load().search("").draw();
   });
 
   // Handle click on checkbox

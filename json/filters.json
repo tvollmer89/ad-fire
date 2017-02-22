@@ -169,32 +169,36 @@
 		"category":"Penetration Construction",
 		"options":[
 			{
-				"value":"Concrete Slab Floor",
-				"text":"Concrete Slab Floor"
-			},
-			{
-				"value":"Precast Concrete Floor",
-				"text":"Precast Concerte Floor"
-			},
-			{
 				"value":"Concrete Block Wall",
 				"text":"Concrete Block Wall"
 			},
 			{
-				"value":"Concrete Wall",
-				"text":"Concrete Wall"
+				"value":"Concrete Floor/Gypsum Ceiling",
+				"text":"Concrete Floor/Gypsum Ceiling"
 			},
 			{
 				"value":"Concrete Floor on Metal Deck",
 				"text":"Concrete Floor on Metal Deck"
 			},
 			{
-				"value":"Wood Floor/Ceiling",
-				"text":"Wood Floor/Ceiling"
+				"value":"Concrete Slab Floor",
+				"text":"Concrete Slab Floor"
 			},
 			{
-				"value":"Concrete Floor/Gypsum Ceiling",
-				"text":"Concrete Floor/Gypsum Ceiling"
+				"value":"Concrete Wall",
+				"text":"Concrete Wall"
+			},
+			{
+				"value":"Gypsum Wall",
+				"text":"Gypsum Wall"
+			},
+			{
+				"value":"Precast Concrete Floor",
+				"text":"Precast Concerte Floor"
+			},
+			{
+				"value":"Wood Floor/Ceiling",
+				"text":"Wood Floor/Ceiling"
 			}
 		]
 	},

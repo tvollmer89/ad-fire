@@ -36,17 +36,17 @@
                     <div class="panel-body">
                       <div class="radio">
                         <label>
-                          <input type="radio" name="2" id="r-filter1" value="ULC" checked>ULC/cUL</label>
-                      </div>
-                      <div class="radio">
-                        <label>
-                          <input type="radio" name="2" id="r-filter2" value="UL">UL
+                          <input type="radio" name="2" id="r-filter2" value="UL" checked>UL
                         </label>
                       </div>
                       <div class="radio">
                         <label>
                           <input type="radio" name="2" id="r-filter3" value="intertek">Intertek
                         </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="2" id="r-filter1" value="ULC">ULC/cUL</label>
                       </div>
                     </div>
                   </div>
