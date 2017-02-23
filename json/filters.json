@@ -127,40 +127,48 @@
 		"category":"Max Joint Width",
 		"options":[
 			{
-				"value":"13",
-				"text":"&le;1/2 (13mm)"
+				"value":"13mm",
+				"text":"1/2 in. (13mm)"
 			},
 			{
-				"value":"25",
-				"text":"&le; 1 in. (25mm)"
+				"value":"25mm",
+				"text":"1 in. (25mm)"
 			},
 			{
-				"value":"50",
-				"text":"&le; 2 in. (50mm)"
+				"value":"50mm",
+				"text":"2 in. (50mm)"
 			},
 			{
-				"value":"76",
-				"text":"&le; 3 in. (76mm)"
+				"value":"63mm",
+				"text":"2-1/2 in. (63mm)"
 			},
 			{
-				"value":"84",
-				"text":"&le; 3-5/16 in. (84mm)"
+				"value":"73mm",
+				"text":"2-7/8 in. (73mm)"
 			},
 			{
-				"value":"89",
-				"text":"&le; 3-1/2 in. (89mm)"
+				"value":"76mm",
+				"text":"3 in. (76mm)"
 			},
 			{
-				"value":"102",
-				"text":"&le;4 in. (102mm)"
+				"value":"84mm",
+				"text":"3-5/16 in. (84mm)"
 			},
 			{
-				"value":"135",
-				"text":"&le; 5-5/16 in. (135mm)"
+				"value":"89mm",
+				"text":"3-1/2 in. (89mm)"
+			},
+			{
+				"value":"102mm",
+				"text":"4 in. (102mm)"
+			},
+			{
+				"value":"135mm",
+				"text":"5-5/16 in. (135mm)"
 			},
       {
-        "value":"204",
-        "text":"&le; 8 in. (204mm)"
+        "value":"204mm",
+        "text":"8 in. (204mm)"
       }
 		]
 	},
@@ -293,72 +301,76 @@
 		"category":"Max Size Penetrant",
 		"options":[
 			{
-				"value": "13",
-				"text":"&le; 1/2 (13mm)"
+				"value": "13mm",
+				"text":"1/2 in. (13mm)"
 			},
 			{
-				"value": "18",
-				"text":"&le; 3/4 (18mm)"
+				"value": "18mm",
+				"text":"3/4 in. (18mm)"
 			},
 			{
-				"value": "25",
-				"text":"&le; 1 (25mm)"
+				"value": "25mm",
+				"text":"1 in. (25mm)"
 			},
 			{
-				"value": "31",
-				"text":"&le; 1-1/4 (31mm)"
+				"value": "31mm",
+				"text":"1-1/4 in. (31mm)"
 			},
 			{
-				"value": "38",
-				"text":"&le; 1-1/2 (38mm)"
+				"value": "38mm",
+				"text":"1-1/2 in. (38mm)"
 			},
 			{
-				"value": "50",
-				"text":"&le; 2 (50mm)"
+				"value": "50mm",
+				"text":"2 in. (50mm)"
 			},
 			{
-				"value": "76",
-				"text":"&le; 3 (76mm)"
+				"value": "76mm",
+				"text":"3 in. (76mm)"
 			},
 			{
-				"value": "89",
-				"text":"&le; 3.5 (89mm)"
+				"value": "89mm",
+				"text":"3.5 in. (89mm)"
 			},
 			{
-				"value": "102",
-				"text":"&le; 4 (102mm)"
+				"value": "102mm",
+				"text":"4 in.(102mm)"
 			},
 			{
-				"value": "114",
-				"text":"&le; 4.5 (114mm)"
+				"value": "114mm",
+				"text":"4.5 in. (114mm)"
 			},
 			{
-				"value": "127",
-				"text":"&le; 5 (127mm)"
+				"value": "127mm",
+				"text":"5 in. (127mm)"
 			},
 			{
-				"value": "152",
-				"text":"&le; 6 (152mm)"
+				"value": "152mm",
+				"text":"6 in. (152mm)"
 			},
 			{
-				"value": "178",
-				"text":"&le; 7 (178mm)"
+				"value": "178mm",
+				"text":"7 in. (178mm)"
 			},
 			{
-				"value": "204",
-				"text":"&le; 8 (204mm)"
+				"value": "204mm",
+				"text":"8 in. (204mm)"
 			},
 			{
-				"value": "254",
-				"text":"&le; 10 (254mm)"
+				"value": "254mm",
+				"text":"10 in. (254mm)"
 			},
 			{
-				"value": "305",
-				"text":"&le; 12 (305mm)"
+				"value": "305mm",
+				"text":"12 in. (305mm)"
 			},
 			{
-				"value": "406",
-				"text":"&le; 16 (406mm)"
+				"value": "406mm",
+				"text":"16 in. (406mm)"
+			},
+			{
+				"value": "610mm",
+				"text": "24 in. (610mm)"
 			}
 		]
 	},

@@ -16075,7 +16075,6 @@ var downloadFile = function(url) {
   return defer.promise;
 };
 
-
 function updateDataTableSelectAllCtrl(table){
    var $table             = table.table().node();
    var $chkbox_all        = $('tbody input[type="checkbox"]', $table);
@@ -16225,6 +16224,27 @@ $(document).ready(function() {
       { responsivePriority: 2, targets: 1 },
       { responsivePriority: 3, targets: -1 },
       { responsivePriority: 4, targets: 11},
+      // {
+      //   "targets": 6,
+      //   "data": "maxJointWidth",
+      //   render: function(data, type, full, meta) {
+      //     if(data == "") {
+      //       return "";
+      //     }
+      //     else {
+      //       var d = data.split(', ');
+      //       var s = "";
+      //       for (var i=0;  i<d.length; i++) {
+      //         var n = d[i];
+      //         //var n = parseInt(d[i]);
+      //         if(s != "") {s += ", "};
+      //         s += n+' mm';
+      //         console.log(parseInt(n));
+      //       }
+      //       return s;
+      //     }
+      //   }
+      // },
       // Add Download Link
       {
         "targets" : 23,
@@ -16314,6 +16334,7 @@ $(document).ready(function() {
     }).get().join('|');
     //var s = r + c;
     table.fnFilter(c, this.name, true, false, false, true);
+    console.log(c);
   }
 
   //Add Clear All Function

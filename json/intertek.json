@@ -6,7 +6,7 @@
       "systemType":"Joint",
       "jointType":"Head-of-Wall",
       "jointCondition":"Gypsum Wall to Concrete Metal Deck Parallel, Gypsum Wall to Concrete Metal Deck Perpendicular",
-      "maxJointWidth":"25",
+      "maxJointWidth":"1 in. (25mm)",
       "penetrationCons":"",
       "penetrationType":"",
       "maxSizePenetrant":"",

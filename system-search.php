@@ -94,10 +94,10 @@
                 <th>System Type</th>
                 <th>Joint Type</th>
                 <th>Joint Conditions</th>
-                <th>Max. Joint Width (mm)</th>
+                <th>Max. Joint Width</th>
                 <th>Penetration Construction</th>
                 <th>Penetration Types</th>
-                <th>Max. Size Penetrant (mm)</th>
+                <th>Max. Size Penetrant</th>
                 <th>Application Method</th>
                 <th>Products</th>
                 <th>Curtain Wall Type</th>
