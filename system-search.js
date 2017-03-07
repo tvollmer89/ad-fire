@@ -232,7 +232,7 @@ $(document).ready(function() {
         cBoxes[i].onchange = updateTable;
       } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '3'){
           cBoxes[i].onchange = updateSType;
-      } else if (cBoxes[i].type === 'checkbox') {
+      } else if (cBoxes[i].type === 'checkbox'|| cBoxes.type === 'radio') {
           cBoxes[i].onchange = updateSearch;
       }
     }
@@ -264,15 +264,15 @@ $(document).ready(function() {
 
   // Update table
   function updateSearch() {
-    // var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
-    //   return this.value;
-    // }).get().join('|');
+    var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
+      return this.value;
+    }).get().join('|');
     var c = $('input:checkbox[name="'+this.name+'"]:checked').map(function() {
       return this.value;
     }).get().join('|');
-    // var s = r + c;
-    table.fnFilter(c, this.name, true, false, false, true);
-    console.log(c);
+    var s = r + c;
+    table.fnFilter(s, this.name, true, false, false, true);
+    console.log(s);
   }
 
   //*************    Add Clear All Function     ****************//
