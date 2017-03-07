@@ -1,0 +1,14 @@
+  {
+    "name":2,
+    "category":"System Type",
+    "options":[
+      {
+        "value":"Joint",
+        "text":"Joint"
+      },
+      {
+        "value":"Penetration",
+        "text":"Penetration"
+      }
+    ]
+  },

@@ -170,28 +170,6 @@ $(document).ready(function() {
       { responsivePriority: 2, targets: 1 },
       { responsivePriority: 3, targets: -1 },
       { responsivePriority: 4, targets: 11},
-      // {
-      //   "targets": 6,
-      //   "data": "maxJointWidth",
-      //   render: function(data, type, full, meta) {
-      //     if(data == "") {
-      //       return "";
-      //     }
-      //     else {
-      //       var d = data.split(', ');
-      //       var s = "";
-      //       for (var i=0;  i<d.length; i++) {
-      //         var n = d[i];
-      //         //var n = parseInt(d[i]);
-      //         if(s != "") {s += ", "};
-      //         s += n+' mm';
-      //         console.log(parseInt(n));
-      //       }
-      //       return s;
-      //     }
-      //   }
-      // },
-      // Add Download Link
       {
         "targets" : 23,
         "data" : "link",
@@ -237,10 +215,9 @@ $(document).ready(function() {
   var filesArray = [];
   document.getElementById("download-zip").disabled = true;
 
-  // Text Search Box
-  $('#tableSearch').on( 'keyup', function () {
-      table.api().search( this.value ).draw();
-  } );
+  //*** Add event listeners to System Type ***//
+  var sTypePanel = document.getElementById('sType');
+  var sTypes = sTypePanel.getElementsByTagName('input');
 
   function attachCheckboxHandlers() {
     // get reference to element containing toppings checkboxes
@@ -251,14 +228,21 @@ $(document).ready(function() {
 
     // assign updateTotal function to onclick property of each checkbox
     for (var i=0, len=cBoxes.length; i<len; i++) {
-      if (cBoxes[i].type === 'checkbox') {
-          cBoxes[i].onchange = updateSearch;
-      } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '2') {
+      if (cBoxes[i].type === 'radio' && cBoxes[i].name === '2') {
         cBoxes[i].onchange = updateTable;
+      } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '3'){
+          cBoxes[i].onchange = updateSType;
+      } else if (cBoxes[i].type === 'checkbox') {
+          cBoxes[i].onchange = updateSearch;
       }
     }
   }
   attachCheckboxHandlers();
+
+  // Text Search Box
+  $('#tableSearch').on( 'keyup', function () {
+      t.search(this.value).draw();
+  } );
 
   // use this funciton if error with radio buttons
   function updateTable() {
@@ -266,24 +250,32 @@ $(document).ready(function() {
     t.ajax.url('json/'+tableData+'.json').load();
   }
 
+  /*** Update System Type ***/
+  function updateSType() {
+    var t = "";
+    for (var c=0; c<sTypes.length; c++) {
+      if (sTypes[c].checked === true) {
+        t = sTypes[c].value;
+      }
+    }
+    /*************************    call addFilterGroup(t) with system type as a parameter ***********/
+    table.fnFilter(t, 3);
+  }
+
   // Update table
   function updateSearch() {
     // var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
-    //   if(this.value === "ULC") {
-    //     return "ULC|cUL";
-    //   } else {
-    //     return '^' + this.value + '\$';
-    //   }
+    //   return this.value;
     // }).get().join('|');
     var c = $('input:checkbox[name="'+this.name+'"]:checked').map(function() {
       return this.value;
     }).get().join('|');
-    //var s = r + c;
+    // var s = r + c;
     table.fnFilter(c, this.name, true, false, false, true);
     console.log(c);
   }
 
-  //Add Clear All Function
+  //*************    Add Clear All Function     ****************//
   $("#clear-all").click(function () {
     $('#filters input[type=checkbox]:checked').each(function() {
       this.click();
@@ -297,8 +289,12 @@ $(document).ready(function() {
         tAuths[t].checked = false;
       }
     }
+    for (var b=0; b<sTypes.length; b++){
+      sTypes[b].checked = false;
+    }
     document.getElementById('tableSearch').value = "";
     //table.fnFilter("ULC|cUL", 2, true, false, false, true);
+    updateSType();
     table.api().ajax.url('json/UL.json').load().search("").draw();
   });
 

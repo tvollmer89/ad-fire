@@ -16302,18 +16302,12 @@ $(document).ready(function() {
 
   // Update table
   function updateSearch() {
-    // var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
-    //   if(this.value === "ULC") {
-    //     return "ULC|cUL";
-    //   } else {
-    //     return '^' + this.value + '\$';
-    //   }
-    // }).get().join('|');
     var c = $('input:checkbox[name="'+this.name+'"]:checked').map(function() {
       return this.value;
     }).get().join('|');
     //var s = r + c;
     table.fnFilter(c, this.name, true, false, false, true);
+    console.log(c);
   }
 
   //Add Clear All Function

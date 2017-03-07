@@ -3,7 +3,7 @@
   $json_file = file_get_contents('json/filters.json');
   $jfo = json_decode($json_file);
   $filters = $jfo->filters;
-  $name = 3;
+  $name = 4;
 ?>
 
  <div id="content">
@@ -36,20 +36,46 @@
                     <div class="panel-body">
                       <div class="radio">
                         <label>
-                          <input type="radio" name="2" id="r-filter2" value="UL" checked>UL
+                          <input type="radio" name="2" value="UL" checked>UL
                         </label>
                       </div>
                       <div class="radio">
                         <label>
-                          <input type="radio" name="2" id="r-filter3" value="intertek">Intertek
+                          <input type="radio" name="2" value="intertek">Intertek
                         </label>
                       </div>
                       <div class="radio">
                         <label>
-                          <input type="radio" name="2" id="r-filter1" value="ULC">ULC/cUL</label>
+                          <input type="radio" name="2" value="ULC">ULC/cUL</label>
                       </div>
                     </div>
                   </div>
+                </div>
+                <!-- System Type -->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <a data-toggle="collapse" href="#sType" aria-expanded="true"><i class="fa fa-chevron-down"></i><span class="type">System Type</span></a>
+                  </div>
+                  <div id="sType" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="3" value="Joint">Joint
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <input type="radio" name="3" value="Penetration">Penetration
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="jFilters">
+
+                </div>
+                <div id="pFilters">
+
                 </div>
                 <!-- Begin auto-fill -->
                 <?php foreach ($filters as $filter) {

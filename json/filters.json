@@ -1,20 +1,6 @@
 {
   "filters":[
   {
-    "name":2,
-    "category":"System Type",
-    "options":[
-      {
-        "value":"Joint",
-        "text":"Joint"
-      },
-      {
-        "value":"Penetration",
-        "text":"Penetration"
-      }
-    ]
-  },
-  {
 		"name":3,
 		"category":"Joint Type",
 		"options":[
@@ -505,44 +491,44 @@
 				"text":"None"
 			},
 			{
-				"value": "3",
-				"text":"&le; 3&#37;"
+				"value": "^3$",
+				"text":"3&#37;"
 			},
 			{
-				"value": "5",
-				"text":"&le; 5&#37;"
+				"value": "^5$",
+				"text":"5&#37;"
 			},
 			{
-				"value": "10",
-				"text":"&le; 10&#37;"
-			},
-			{
-				"value": "12.5",
-				"text":"&le; 12.5&#37;"
+				"value": "12\\.5",
+				"text":"12.5&#37;"
 			},
 			{
 				"value": "14",
-				"text":"&le; 14&#37;"
+				"text":"14&#37;"
 			},
 			{
 				"value": "18",
-				"text":"&le; 18&#37;"
+				"text":"18&#37;"
 			},
 			{
-				"value": "18.75",
-				"text":"&le; 18.75&#37;"
+				"value": "18\\.75",
+				"text":"18.75&#37;"
 			},
 			{
 				"value": "20",
-				"text":"&le; 20&#37;"
+				"text":"20&#37;"
 			},
 			{
 				"value": "25",
-				"text":"&le; 25&#37;"
+				"text":"25&#37;"
 			},
 			{
 				"value": "33",
-				"text":"&le; 33&#37;"
+				"text":"33&#37;"
+			},
+			{
+				"value": "100",
+				"text": "100&#37;"
 			}
 		]
 	},
@@ -551,7 +537,7 @@
 		"category":"F Rating (Hour)",
 		"options":[
 			{
-				"value":"1",
+				"value":"1,|1$",
 				"text":"1"
 			},
 			{
@@ -573,7 +559,7 @@
 		"category":"FT Rating (Hour)",
 		"options":[
 			{
-				"value":"0",
+				"value":"0,|0$",
 				"text":"0"
 			},
 			{
@@ -589,7 +575,7 @@
 				"text":"3/4"
 			},
 			{
-				"value":"1",
+				"value":"1,|1$",
 				"text":"1"
 			},
 			{
@@ -619,7 +605,7 @@
 		"category":"FH Rating (Hour)",
 		"options":[
 			{
-				"value":"0",
+				"value":"0,|0$",
 				"text":"0"
 			},
 			{
@@ -635,7 +621,7 @@
 				"text":"3/4"
 			},
 			{
-				"value":"1",
+				"value":"1,|1$",
 				"text":"1"
 			},
 			{
@@ -665,7 +651,7 @@
 		"category":"FTH Rating (Hour)",
 		"options":[
 			{
-				"value":"0",
+				"value":"0,|0$",
 				"text":"0"
 			},
 			{
@@ -681,7 +667,7 @@
 				"text":"3/4"
 			},
 			{
-				"value":"1",
+				"value":"1,|1$",
 				"text":"1"
 			},
 			{
@@ -711,48 +697,52 @@
 		"category":"Minimum Annular Space",
 		"options":[
 			{
-				"value":"0",
+				"value":"^0,|^0$",
 				"text":"0 in."
 			},
 			{
-				"value":"3",
-				"text":"&le; 1/8 in. (3mm)"
+				"value":"(3mm)",
+				"text":"1/8 in. (3mm)"
 			},
 			{
-				"value":"6.4",
-				"text":"&le; 1/4 in. (6.4mm)"
+				"value":"(6\\.4mm)",
+				"text":"1/4 in. (6.4mm)"
 			},
 			{
-				"value":"8",
-				"text":"&le; 5/16 in. (8mm)"
+				"value":"(8mm)",
+				"text":"5/16 in. (8mm)"
 			},
 			{
-				"value": "13",
-				"text":"&le; 1/2 in. (13mm)"
+				"value": "(13mm)",
+				"text":"1/2 in. (13mm)"
 			},
 			{
-				"value": "18",
-				"text":"&le; 3/4 in. (18mm)"
+				"value": "(17mm)",
+				"text":"11/16 in. (17mm)"
 			},
 			{
-				"value": "22",
-				"text":"&le; 7/8 in. (22mm)"
+				"value": "(18mm)",
+				"text":"3/4 in. (18mm)"
 			},
 			{
-				"value": "25",
-				"text":"&le; 1 in. (25mm)"
+				"value": "(22mm)",
+				"text":"7/8 in. (22mm)"
 			},
 			{
-				"value": "38",
-				"text":"&le; 1-1/2 in. (38mm)"
+				"value": "(25mm)",
+				"text":"1 in. (25mm)"
 			},
 			{
-				"value": "44",
-				"text":"&le; 1-3/4 in. (44mm)"
+				"value": "(38mm)",
+				"text":"1-1/2 in. (38mm)"
 			},
 			{
-				"value": "50",
-				"text":"&le; 2 in. (50mm)"
+				"value": "(44mm)",
+				"text":"1-3/4 in. (44mm)"
+			},
+			{
+				"value": "(50mm)",
+				"text":"2 in. (50mm)"
 			},
 			{
 				"value":"Continuous Point of Contact",
@@ -765,140 +755,136 @@
 		"category":"Maximum Annular Space",
 		"options":[
 			{
-				"value":"1.5",
-				"text":"&le; 1/16 in. (1.5mm)"
+				"value":"6\\.4mm",
+				"text":"1/4 in. (6.4mm)"
 			},
 			{
-				"value":"6.4",
-				"text":"&le; 1/4 in. (6.4mm)"
+				"value":"(8mm)",
+				"text":"5/16 in. (8mm)"
 			},
 			{
-				"value":"8",
-				"text":"&le; 5/16 in. (8mm)"
+				"value": "(10mm)",
+				"text":"13/32 in. (10mm)"
 			},
 			{
-				"value": "10",
-				"text":"&le; 13/32 in. (10mm)"
+				"value": "(11mm)",
+				"text":"7/16 in. (11mm)"
 			},
 			{
-				"value": "11",
-				"text":"&le; 7/16 in. (11mm)"
+				"value": "(12\\.7mm)",
+				"text":"1/2 in. (12.7mm)"
 			},
 			{
-				"value": "50",
-				"text":"&le; 1/2 in. (50mm)"
+				"value": "(16mm)",
+				"text":"5/8 in. (16mm)"
 			},
 			{
-				"value": "16",
-				"text":"&le; 5/8 in. (16mm)"
+				"value": "(17mm)",
+				"text":"11/16 in. (17mm)"
 			},
 			{
-				"value": "17",
-				"text":"&le; 11/16 in. (17mm)"
+				"value": "(18mm)",
+				"text":"3/4 in. (18mm)"
 			},
 			{
-				"value": "18",
-				"text":"&le; 3/4 in. (18mm)"
+				"value": "(22mm)",
+				"text":"7/8 in. (22mm)"
 			},
 			{
-				"value": "22",
-				"text":"&le; 7/8 in. (22mm)"
+				"value": "(25mm)",
+				"text":"1 in. (25mm)"
 			},
 			{
-				"value": "25",
-				"text":"&le; 1 in. (25mm)"
+				"value": "(31mm)",
+				"text":"1-1/4 in. (31mm)"
 			},
 			{
-				"value": "31",
-				"text":"&le; 1-1/4 in. (31mm)"
+				"value": "(35mm)",
+				"text":"1-3/8 in. (35mm)"
 			},
 			{
-				"value": "35",
-				"text":"&le; 1-3/8 in. (35mm)"
+				"value": "(38mm)",
+				"text":"1-1/2 in. (38mm)"
 			},
 			{
-				"value": "38",
-				"text":"&le; 1-1/2 in. (38mm)"
+				"value": "(39mm)",
+				"text":"1-9/16 in. (39mm)"
 			},
 			{
-				"value": "39",
-				"text":"&le; 1-9/16 in. (39mm)"
+				"value": "(41mm)",
+				"text":"1-5/8 in. (41mm)"
 			},
 			{
-				"value": "41",
-				"text":"&le; 1-5/8 in. (41mm)"
+				"value": "(44mm)",
+				"text":"1-3/4 in. (44mm)"
 			},
 			{
-				"value": "44",
-				"text":"&le; 1-3/4 in. (44mm)"
+				"value": "(46mm)",
+				"text":"1-13/16 in. (46mm)"
 			},
 			{
-				"value": "46",
-				"text":"&le; 1-13/16 in. (46mm)"
+				"value": "(47mm)",
+				"text":"1-7/8 in. (47mm)"
 			},
 			{
-				"value": "47",
-				"text":"&le; 1-7/8 in. (47mm)"
+				"value": "(50mm)",
+				"text":"2 in. (50mm)"
 			},
 			{
-				"value": "50",
-				"text":"&le; 2 in. (50mm)"
+				"value": "(64mm)",
+				"text":"2-1/2 in. (64mm)"
 			},
 			{
-				"value": "64",
-				"text":"&le; 2-1/2 in. (64mm)"
+				"value": "(72mm)",
+				"text":"2-7/8 in. (72mm)"
 			},
 			{
-				"value": "72",
-				"text":"&le; 2-7/8 in. (72mm)"
+				"value": "(76mm)",
+				"text":"3 in. (76mm)"
 			},
 			{
-				"value": "76",
-				"text":"&le; 3 in. (76mm)"
+				"value": "(81mm)",
+				"text":"3-3/16 in. (81mm)"
 			},
 			{
-				"value": "82",
-				"text":"&le; 3-1/4 in. (82mm)"
+				"value": "(82mm)",
+				"text":"3-1/4 in. (82mm)"
 			},
 			{
-				"value": "81",
-				"text":"&le; 3-3/16 in. (81mm)"
+				"value": "(89mm)",
+				"text":"3-1/2 in. (89mm)"
 			},
 			{
-				"value": "89",
-				"text":"&le; 3-1/2 in. (89mm)"
+				"value": "(98mm)",
+				"text":"3-7/8 in. (98mm)"
 			},
 			{
-				"value": "98",
-				"text":"&le; 3-7/8 in. (98mm)"
+				"value":"(102mm)",
+				"text":"4 in. (102mm)"
 			},
 			{
-				"value":"102",
-				"text":"&le; 4 in. (102mm)"
+				"value":"(114mm)",
+				"text":"4-1/2 in. (114mm)"
 			},
 			{
-				"value":"114",
-				"text":"&le; 4-1/2 in. (114mm)"
+				"value":"(127mm)",
+				"text":"5 in. (127mm)"
 			},
 			{
-				"value":"127",
-				"text":"&le; 5 in. (127mm)"
+				"value":"(152mm)",
+				"text":"6 in. (152mm)"
 			},
 			{
-				"value":"152",
-				"text":"&le; 6 in. (152mm)"
+				"value":"(165mm)",
+				"text":"6-1/2 in. (165mm)"
 			},
 			{
-				"value":"165",
-				"text":"&le; 6-1/2 in. (165mm)"
+				"value":"(178mm)",
+				"text":"7 in. (178mm)"
 			},
 			{
-				"value":"178",
-				"text":"&le; 7 in. (178mm)"
-			},
-			{
-				"value":"254",
-				"text":"&le; 10 in. (254mm)"
+				"value":"(254mm)",
+				"text":"10 in. (254mm)"
 			}
 		]
 	},
