@@ -692,8 +692,8 @@
 		"group":"pFilter",
 		"options":[
 			{
-				"value":"^0,|^0$",
-				"text":"0 in."
+				"value":"^0,|^0$|None|''",
+				"text":"None"
 			},
 			{
 				"value": "^0,|^0$|\\W3mm|6\\.4mm|\\W8mm|12\\.7mm",

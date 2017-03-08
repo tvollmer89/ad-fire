@@ -16263,7 +16263,10 @@ $(document).ready(function() {
     }
   });
 
-  // t = $('#systems').DataTable();
+  /*========================================
+  =            Gloabl Variables            =
+  ========================================*/
+
   var table = $('#systems').dataTable();
   var rows_selected = [];
   var filesArray = [];
@@ -16291,12 +16294,6 @@ $(document).ready(function() {
       }
     }
   }
-  attachCheckboxHandlers();
-
-  // Text Search Box
-  $('#tableSearch').on( 'keyup', function () {
-      t.search(this.value).draw();
-  } );
 
 /*==============================================
 =            Update Table Functions            =
@@ -16362,9 +16359,9 @@ $(document).ready(function() {
   ===========================================*/
 
   /**
-   *
-   *  @param  {[type]} group [description]
-   *  @return {[type]}       [description]
+   *  Function to clear secondary filters
+   *  @param  {string} group Specifies which group of checkboxes to clear
+   *  @return {null}
    */
   function clearChecks(group) {
     var g = group;
@@ -16381,11 +16378,24 @@ $(document).ready(function() {
 
  */
 
+  /*==============================================
+  =            Assign Event Listeners            =
+  ==============================================*/
+
+  //Add onchange event to secondary filters
+  attachCheckboxHandlers();
+
+  // Text Search Box
+  $('#tableSearch').on( 'keyup', function () {
+      t.search(this.value).draw();
+  } );
+
+  // Clear All Link
   $("#clear-all").click(function () {
     // $('#filters input[type=checkbox]:checked').each(function() {
     //   this.click();
     // });
-    clearChecks(all);
+    clearChecks('all');
     var tA = document.getElementById('tAuth');
     var tAuths = tA.getElementsByTagName('input');
     for (var t=0, u=tAuths.length; t<u; t++) {
@@ -16399,7 +16409,6 @@ $(document).ready(function() {
       sTypes[b].checked = false;
     }
     document.getElementById('tableSearch').value = "";
-    //table.fnFilter("ULC|cUL", 2, true, false, false, true);
     updateSType();
     table.api().ajax.url('json/UL.json').load().search("").draw();
   });

@@ -16265,16 +16265,18 @@ $(document).ready(function() {
     }
   });
 
-  // t = $('#systems').DataTable();
+  /*========================================
+  =            Gloabl Variables            =
+  ========================================*/
+
   var table = $('#systems').dataTable();
   var rows_selected = [];
   var filesArray = [];
   document.getElementById("download-zip").disabled = true;
 
-  // Text Search Box
-  $('#tableSearch').on( 'keyup', function () {
-      table.api().search( this.value ).draw();
-  } );
+  //*** Add event listeners to System Type ***//
+  var sTypePanel = document.getElementById('sType');
+  var sTypes = sTypePanel.getElementsByTagName('input');
 
   function attachCheckboxHandlers() {
     // get reference to element containing toppings checkboxes
@@ -16285,36 +16287,112 @@ $(document).ready(function() {
 
     // assign updateTotal function to onclick property of each checkbox
     for (var i=0, len=cBoxes.length; i<len; i++) {
-      if (cBoxes[i].type === 'checkbox') {
-          cBoxes[i].onchange = updateSearch;
-      } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '2') {
+      if (cBoxes[i].type === 'radio' && cBoxes[i].name === '2') {
         cBoxes[i].onchange = updateTable;
+      } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '3'){
+          cBoxes[i].onchange = updateSType;
+      } else if (cBoxes[i].type === 'checkbox'|| cBoxes.type === 'radio') {
+          cBoxes[i].onchange = updateSearch;
       }
     }
   }
-  attachCheckboxHandlers();
 
-  // use this funciton if error with radio buttons
+  /*==============================================
+  =            Update Table Functions            =
+  ==============================================*/
+
+  /**
+   *  Function to redraw table with current selected testing authority data
+   *  @return {null}
+   */
   function updateTable() {
     var tableData = getTestingAuthority();
     t.ajax.url('http://tvollmer89.github.io/ad-fire/json/'+tableData+'.json').load();
   }
 
-  // Update table
+  /*** Update System Type ***/
+  /**
+   *  Show or hide secondary filters depending on System Type selected
+   *  @return {null}
+   */
+  function updateSType() {
+    var t = "";
+    for (var c=0; c<sTypes.length; c++) {
+      if (sTypes[c].checked === true) {
+        t = sTypes[c].value;
+      }
+    }
+    if(t === "") {
+      $('.jFilter').hide(300);
+      $('.pFilter').hide(300);
+      $('.bFilter').hide(300);
+    } else if (t === "Joint") {
+      clearChecks('.pFilter');
+      $('.pFilter').hide(300, function() {
+        $('.jFilter').show(300);
+        $('.bFilter').show(300);
+      });
+
+    } else if (t === "Penetration") {
+      clearChecks('.jFilter');
+      $('.jFilter').hide(300, function() {
+        $('.pFilter').show(300);
+        $('.bFilter').show(300);
+      });
+    }
+    table.fnFilter(t, 3);
+  }
+
+  /**
+   * updateSearch() Updates table filter with data from secondary filters.
+   * @return {null}
+   */
   function updateSearch() {
+    var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
+      return this.value;
+    }).get().join('|');
     var c = $('input:checkbox[name="'+this.name+'"]:checked').map(function() {
       return this.value;
     }).get().join('|');
-    //var s = r + c;
-    table.fnFilter(c, this.name, true, false, false, true);
-    console.log(c);
+    var s = r + c;
+    table.fnFilter(s, this.name, true, false, false, true);
+    console.log(s);
   }
 
-  //Add Clear All Function
-  $("#clear-all").click(function () {
-    $('#filters input[type=checkbox]:checked').each(function() {
+  /*===========================================
+  =            Clear All Functions            =
+  ===========================================*/
+
+  /**
+   *  Function to clear secondary filters
+   *  @param  {string} group Specifies which group of checkboxes to clear
+   *  @return {null}
+   */
+  function clearChecks(group) {
+    var g = group;
+    if(g==='all'){g='#filters'};
+    $(g+' input[type="checkbox"]:checked').each(function() {
       this.click();
     });
+  }
+
+  /*==============================================
+  =            Assign Event Listeners            =
+  ==============================================*/
+
+  //Add onchange event to secondary filters
+  attachCheckboxHandlers();
+
+  // Text Search Box
+  $('#tableSearch').on( 'keyup', function () {
+      t.search(this.value).draw();
+  } );
+
+  $("#clear-all").click(function () {
+    // $('#filters input[type=checkbox]:checked').each(function() {
+    //   this.click();
+    // });
+    clearChecks('all');
     var tA = document.getElementById('tAuth');
     var tAuths = tA.getElementsByTagName('input');
     for (var t=0, u=tAuths.length; t<u; t++) {
@@ -16324,8 +16402,11 @@ $(document).ready(function() {
         tAuths[t].checked = false;
       }
     }
+    for (var b=0; b<sTypes.length; b++){
+      sTypes[b].checked = false;
+    }
     document.getElementById('tableSearch').value = "";
-    //table.fnFilter("ULC|cUL", 2, true, false, false, true);
+    updateSType();
     table.api().ajax.url('http://tvollmer89.github.io/ad-fire/json/UL.json').load().search("").draw();
   });
 
