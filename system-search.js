@@ -267,21 +267,21 @@ $(document).ready(function() {
       }
     }
     if(t === "") {
-      $('.jFilter').hide(200);
-      $('.pFilter').hide(200);
-      $('.bFilter').hide(200);
+      $('.jFilter').hide(300);
+      $('.pFilter').hide(300);
+      $('.bFilter').hide(300);
     } else if (t === "Joint") {
       clearChecks('.pFilter');
-      $('.pFilter').hide(200, function() {
-        $('.jFilter').show(200);
-        $('.bFilter').show(200);
+      $('.pFilter').hide(300, function() {
+        $('.jFilter').show(300);
+        $('.bFilter').show(300);
       });
 
     } else if (t === "Penetration") {
       clearChecks('.jFilter');
-      $('.jFilter').hide(200, function() {
-        $('.pFilter').show(200);
-        $('.bFilter').show(200);
+      $('.jFilter').hide(300, function() {
+        $('.pFilter').show(300);
+        $('.bFilter').show(300);
       });
     }
     table.fnFilter(t, 3);
