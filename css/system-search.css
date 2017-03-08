@@ -1,13 +1,18 @@
 #filters {
   text-align: left;
+  /***Filter Group Styles***/
 }
 #filters input[type=text] {
   width: 100%;
   font-size: 14px;
   font-family: 'FFDINWebPro';
 }
-#filters .type {
+#filters h4 {
   font-family: 'FFDINWebProBold';
+  font-size: 16px;
+  color: #000 !important;
+  display: inline;
+  line-height: 16px;
 }
 #filters .search-filter,
 #filters .clear-filter {
@@ -34,6 +39,15 @@
 }
 #filters .panel-body {
   font-size: 14px;
+}
+#filters .jFilter {
+  display: none;
+}
+#filters .pFilter {
+  display: none;
+}
+#filters .bFilter {
+  display: none;
 }
 #filters .checkbox label input {
   min-height: 14px;

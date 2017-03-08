@@ -16298,6 +16298,10 @@ $(document).ready(function() {
       t.search(this.value).draw();
   } );
 
+/*==============================================
+=            Update Table Functions            =
+==============================================*/
+
   // use this funciton if error with radio buttons
   function updateTable() {
     var tableData = getTestingAuthority();
@@ -16305,6 +16309,10 @@ $(document).ready(function() {
   }
 
   /*** Update System Type ***/
+  /**
+   *  Show or hide secondary filters depending on System Type selected
+   *  @return {null}
+   */
   function updateSType() {
     var t = "";
     for (var c=0; c<sTypes.length; c++) {
@@ -16312,11 +16320,31 @@ $(document).ready(function() {
         t = sTypes[c].value;
       }
     }
-    /*************************    call addFilterGroup(t) with system type as a parameter ***********/
+    if(t === "") {
+      $('.jFilter').hide(200);
+      $('.pFilter').hide(200);
+      $('.bFilter').hide(200);
+    } else if (t === "Joint") {
+      clearChecks('.pFilter');
+      $('.pFilter').hide(200, function() {
+        $('.jFilter').show(200);
+        $('.bFilter').show(200);
+      });
+
+    } else if (t === "Penetration") {
+      clearChecks('.jFilter');
+      $('.jFilter').hide(200, function() {
+        $('.pFilter').show(200);
+        $('.bFilter').show(200);
+      });
+    }
     table.fnFilter(t, 3);
   }
 
-  // Update table
+  /**
+   * updateSearch() Updates table filter with data from secondary filters.
+   * @return {null}
+   */
   function updateSearch() {
     var r = $('input:radio[name="'+this.name+'"]:checked').map(function() {
       return this.value;
@@ -16329,11 +16357,35 @@ $(document).ready(function() {
     console.log(s);
   }
 
-  //*************    Add Clear All Function     ****************//
-  $("#clear-all").click(function () {
-    $('#filters input[type=checkbox]:checked').each(function() {
+  /*===========================================
+  =            Clear All Fucntions            =
+  ===========================================*/
+
+  /**
+   *
+   *  @param  {[type]} group [description]
+   *  @return {[type]}       [description]
+   */
+  function clearChecks(group) {
+    var g = group;
+    if(g==='all'){g='#filters'};
+    $(g+' input[type="checkbox"]:checked').each(function() {
       this.click();
     });
+  }
+
+/**
+
+  TODO:
+  - Build separate clear funtion for radio filters
+
+ */
+
+  $("#clear-all").click(function () {
+    // $('#filters input[type=checkbox]:checked').each(function() {
+    //   this.click();
+    // });
+    clearChecks(all);
     var tA = document.getElementById('tAuth');
     var tAuths = tA.getElementsByTagName('input');
     for (var t=0, u=tAuths.length; t<u; t++) {

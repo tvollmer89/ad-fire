@@ -30,7 +30,7 @@
                 <!-- TestingAuth -->
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                    <a data-toggle="collapse" href="#tAuth" aria-expanded="true"><i class="fa fa-chevron-down"></i><span class="type">Testing Authority</span></a>
+                    <a data-toggle="collapse" href="#tAuth" aria-expanded="true"><i class="fa fa-chevron-down"></i><h4>Testing Authority</h4></a>
                   </div>
                   <div id="tAuth" class="panel-collapse collapse in">
                     <div class="panel-body">
@@ -54,7 +54,7 @@
                 <!-- System Type -->
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                    <a data-toggle="collapse" href="#sType" aria-expanded="true"><i class="fa fa-chevron-down"></i><span class="type">System Type</span></a>
+                    <a data-toggle="collapse" href="#sType" aria-expanded="true"><i class="fa fa-chevron-down"></i><h4>System Type</h4></a>
                   </div>
                   <div id="sType" class="panel-collapse collapse in">
                     <div class="panel-body">
@@ -71,22 +71,17 @@
                     </div>
                   </div>
                 </div>
-                <div id="jFilters">
-
-                </div>
-                <div id="pFilters">
-
-                </div>
                 <!-- Begin auto-fill -->
                 <?php foreach ($filters as $filter) {
                   $name = (string)$name;
                   $category = (string)$filter->category;
+                  $group = (string)$filter->group;
                   $panelID = preg_replace('/\W/', '', strtolower($category));
                   $options = $filter->options;
                 ?>
-                <div class="panel panel-default">
+                <div class="panel panel-default <?php echo $group ?>">
                   <div class="panel-heading">
-                    <a data-toggle="collapse" href="<?php echo "#".$panelID; ?>" aria-expanded="false"><i class="fa fa-chevron-down"></i><span class="type"><?php echo $filter->category; ?></span></a>
+                    <a data-toggle="collapse" href="<?php echo "#".$panelID; ?>" aria-expanded="false"><i class="fa fa-chevron-down"></i><h4><?php echo $filter->category; ?></h4></a>
                   </div>
                   <div id="<?php echo $panelID; ?>" class="panel-collapse collapse">
                     <div class="panel-body">
