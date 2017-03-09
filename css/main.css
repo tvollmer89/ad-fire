@@ -2245,6 +2245,12 @@ footer ul li:last-child {
   #contact {
     border-left: 2px solid #666666;
   }
+  #designs table th.dt-body-center, #designs table td.dt-body-center {
+    display: table-cell;
+  }
+  .pdf-download {
+    display: block;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .container {

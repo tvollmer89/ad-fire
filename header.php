@@ -16,8 +16,9 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jq-2.2.3/jszip-2.5.0/pdfmake-0.1.18/dt-1.10.12/b-1.2.2/b-html5-1.2.2/b-print-1.2.2/r-2.1.0/sc-1.4.2/se-1.2.0/datatables.min.css"/>
-  <link rel="stylesheet" href="css/main-min.css" />
+
     <link rel="stylesheet" type="text/css" href="css/system-search.css" />
+    <link rel="stylesheet" href="css/main-min.css" />
   <link rel="stylesheet" type="text/css" media="only screen and (min-width:801px) and (max-width:1100px), only screen and (max-device-width: 1100px)" href="css/newTablet.css" />
   <link rel="stylesheet" type="text/css" media="only screen and (max-width:800px), only screen and (max-device-width: 800px)" href="css/phone.css" />
 

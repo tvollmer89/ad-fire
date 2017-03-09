@@ -206,6 +206,9 @@ input[type=radio] {
         }
       }
     }
+    th.dt-body-center, td.dt-body-center {
+      display: none;
+    }
     .products-col {
       max-width: 300px;
     }
@@ -257,22 +260,7 @@ table.dataTable thead .sorting_desc {
     &:focus {
       outline: none !important;
     }
-/*    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-webkit-border-radius: 0px;
-    -ms-webkit-border-radius: 0px;
-    -o-webkit-border-radius: 0px;
-    option {
-      font-family: 'FFDINWebPro';*/
-
-    }
-/*    border-radius: 0px !important;
-    -webkit-appearance: none;
-    -moz-webkit-appearance: none;
-    -ms-webkit-appearance: none;
-    -o-webkit-appearance: none;*/
-    /*webkit-appearance: none;*/
-  /*}*/
+  }
 }
 #systems_paginate {
   a {
@@ -322,6 +310,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td:first-child:before {
 }
 
 .pdf-download {
+  display: none;
   text-align: left;
   button {
     font-family: FFDINWebPro, sans-serif;

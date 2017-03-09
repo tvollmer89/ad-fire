@@ -77,9 +77,10 @@
                   $category = (string)$filter->category;
                   $group = (string)$filter->group;
                   $panelID = preg_replace('/\W/', '', strtolower($category));
+                  $type = (string)$filter->type;
                   $options = $filter->options;
                 ?>
-                <div class="panel panel-default <?php echo $group ?>">
+                <div class="panel panel-default <?php echo $group; ?>">
                   <div class="panel-heading">
                     <a data-toggle="collapse" href="<?php echo "#".$panelID; ?>" aria-expanded="false"><i class="fa fa-chevron-down"></i><h4><?php echo $filter->category; ?></h4></a>
                   </div>
@@ -89,9 +90,9 @@
                         $value = $option->value;
                         $text = $option->text;
                       ?>
-                      <div class="checkbox">
+                      <div class="<?php echo $type; ?>">
                         <label>
-                          <input id="filter-box" type="checkbox" name="<?php echo $name; ?>" value="<?php echo $value; ?>"><?php echo $text; ?>
+                          <input id="filter-box" type="<?php echo $type; ?>" name="<?php echo $name; ?>" value="<?php echo $value; ?>"><?php echo $text; ?>
                         </label>
                       </div>
                      <?php } ?>

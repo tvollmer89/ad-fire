@@ -4,6 +4,7 @@
 		"name":3,
 		"category":"Joint Type",
 		"group":"jFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"Bottom-of-Wall",
@@ -35,6 +36,7 @@
 		"name":4,
 		"category":"Joint Conditions",
 		"group":"jFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"Concrete Floor to Concrete Floor",
@@ -114,6 +116,7 @@
 		"name":5,
 		"category":"Max Joint Width",
 		"group":"jFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"13mm",
@@ -165,6 +168,7 @@
 		"name":6,
 		"category":"Penetration Construction",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"Concrete Block Wall",
@@ -204,6 +208,7 @@
 		"name":7,
 		"category":"Penetration Types",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"ABS",
@@ -291,6 +296,7 @@
 		"name":8,
 		"category":"Max Size Penetrant",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value": "13mm",
@@ -370,6 +376,7 @@
 		"name":9,
 		"category":"Application Method",
 		"group":"bFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"Collar",
@@ -425,6 +432,7 @@
 		"name":10,
 		"category":"Products",
 		"group":"bFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"Intumescent Sealant II",
@@ -476,6 +484,7 @@
 		"name":11,
 		"category":"Curtain Wall Type",
 		"group":"jFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"Ext. Gypsum with Insulated Gypsum or Cement Siding",
@@ -494,7 +503,8 @@
   {
 		"name":12,
 		"category":"Movement Capabilities",
-		"group":"bFilter",
+		"group":"jFilter",
+		"type":"radio",
 		"options":[
 			{
 				"value":"None|''",
@@ -526,6 +536,7 @@
 		"name":13,
 		"category":"F Rating (Hour)",
 		"group":"bFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"1,|1$",
@@ -549,6 +560,7 @@
 		"name":14,
 		"category":"FT Rating (Hour)",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"0,|0$",
@@ -596,6 +608,7 @@
 		"name":15,
 		"category":"FH Rating (Hour)",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"0,|0$",
@@ -643,6 +656,7 @@
 		"name":16,
 		"category":"FTH Rating (Hour)",
 		"group":"pFilter",
+		"type":"radio",
 		"options":[
 			{
 				"value":"0,|0$",
@@ -690,6 +704,7 @@
 		"name":17,
 		"category":"Minimum Annular Space",
 		"group":"pFilter",
+		"type":"radio",
 		"options":[
 			{
 				"value":"^0,|^0$|None|''",
@@ -710,14 +725,6 @@
 			{
 				"value": "^0,|^0$|\\W3mm|6\\.4mm|\\W8mm|12\\.7mm|17mm|18mm|22mm|25mm|38mm|50mm",
 				"text":"&le; 2 in. (50mm)"
-			},
-			{
-				"value":"Continuous Point of Contact",
-				"text":"Continuous Point of Contact"
-			},
-			{
-				"value":"None",
-				"text":"None"
 			}
 		]
 	},
@@ -725,6 +732,7 @@
 		"name":18,
 		"category":"Maximum Annular Space",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"6\\.4mm|\\W8mm|9\\.5mm|\\W10mm|\\W11mm|12\\.7mm|\\W14mm|16mm|\\W17mm|18mm|22mm|25mm|28mm|31mm|35mm|\\W38mm|39mm|41mm|44mm|46mm|47mm|50mm|64mm|72mm|76mm|81mm|82mm|89mm|98mm|102mm|114m|117mm|127mm|138mm|148mm|152mm|165mm|171mm|178mm|254mm|610mm",
@@ -772,6 +780,7 @@
 		"name":19,
 		"category":"Sleeve",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"",
@@ -787,6 +796,7 @@
 		"name":20,
 		"category":"Insulation Type",
 		"group":"pFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"AB/PVC",
@@ -818,6 +828,7 @@
 		"name":21,
 		"category":"Air Leakage Rating",
 		"group":"bFilter",
+		"type":"checkbox",
 		"options":[
 			{
 				"value":"&le; 1 CFM/Device",

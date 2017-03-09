@@ -235,7 +235,7 @@ $(document).ready(function() {
         cBoxes[i].onchange = updateTable;
       } else if (cBoxes[i].type === 'radio' && cBoxes[i].name === '3'){
           cBoxes[i].onchange = updateSType;
-      } else if (cBoxes[i].type === 'checkbox'|| cBoxes.type === 'radio') {
+      } else if (cBoxes[i].type === 'checkbox'|| cBoxes[i].type === 'radio') {
           cBoxes[i].onchange = updateSearch;
       }
     }
@@ -264,9 +264,9 @@ $(document).ready(function() {
       }
     }
     if(t === "") {
-      $('.jFilter').hide(300);
-      $('.pFilter').hide(300);
-      $('.bFilter').hide(300);
+      $('.jFilter').hide();
+      $('.pFilter').hide();
+      $('.bFilter').hide();
     } else if (t === "Joint") {
       clearChecks('.pFilter');
       $('.pFilter').hide(300, function() {
@@ -305,7 +305,7 @@ $(document).ready(function() {
   ===========================================*/
 
   /**
-   *  Function to clear secondary filters
+   *  Function to clear secondary filter checkboxes
    *  @param  {string} group Specifies which group of checkboxes to clear
    *  @return {null}
    */
@@ -314,6 +314,10 @@ $(document).ready(function() {
     if(g==='all'){g='#filters'};
     $(g+' input[type="checkbox"]:checked').each(function() {
       this.click();
+    });
+    $(g+' input[type="radio"]:checked').each(function() {
+      this.checked = false;
+      table.fnFilter("", this.name, true, false, false, true)
     });
   }
 

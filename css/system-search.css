@@ -198,6 +198,10 @@ input[type=radio] {
 #designs table .design-num:hover i {
   color: #404040;
 }
+#designs table th.dt-body-center,
+#designs table td.dt-body-center {
+  display: none;
+}
 #designs table .products-col {
   max-width: 300px;
 }
@@ -231,13 +235,6 @@ table.dataTable thead .sorting_desc {
 }
 .dataTables_wrapper .dataTables_length {
   float: right;
-  /*    border-radius: 0px !important;
-    -webkit-appearance: none;
-    -moz-webkit-appearance: none;
-    -ms-webkit-appearance: none;
-    -o-webkit-appearance: none;*/
-  /*webkit-appearance: none;*/
-  /*}*/
 }
 .dataTables_wrapper .dataTables_length select {
   font-family: 'FFDINWebPro';
@@ -249,13 +246,6 @@ table.dataTable thead .sorting_desc {
   padding: 5px;
   /* If you add too much padding here, the options won't show in IE */
   border: 1px solid #ccc;
-  /*    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-webkit-border-radius: 0px;
-    -ms-webkit-border-radius: 0px;
-    -o-webkit-border-radius: 0px;
-    option {
-      font-family: 'FFDINWebPro';*/
 }
 .dataTables_wrapper .dataTables_length select option {
   font: 14px 'FFDINWebPro';
@@ -308,6 +298,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
   width: auto;
 }
 .pdf-download {
+  display: none;
   text-align: left;
 }
 .pdf-download button {
