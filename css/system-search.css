@@ -4,23 +4,39 @@
 }
 #filters input[type=text] {
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
   font-family: 'FFDINWebPro';
 }
 #filters h4 {
   font-family: 'FFDINWebProBold';
-  font-size: 16px;
+  font-size: 14px;
   color: #000 !important;
   display: inline;
   line-height: 16px;
 }
-#filters .search-filter,
-#filters .clear-filter {
+#filters .search-filter {
+  text-align: center;
   display: inline-block;
 }
+#filters .search-filter label {
+  width: 100%;
+}
+#filters .search-filter input {
+  text-align: center;
+}
+#filters .clear-filter {
+  padding-right: 0px;
+}
+#filters #mobile-filter {
+  padding-left: 0px;
+}
+#filters #mobile-filter,
 #filters .clear-filter {
   padding-top: 6px;
+  text-transform: uppercase;
+  display: inline-block;
 }
+#filters #mobile-filter a,
 #filters .clear-filter a {
   line-height: 20px;
 }
@@ -37,8 +53,8 @@
   margin-left: 0px;
   padding-left: 0px;
 }
-#filters .panel-body {
-  font-size: 14px;
+#filters #system-filters {
+  /*display: none;*/
 }
 #filters .jFilter {
   display: none;
@@ -94,7 +110,18 @@ label {
   line-height: normal;
 }
 input[type=radio] {
-  margin: 0px 0 0;
+  margin-top: -5px 0 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin: 0 0 0 -20px;
+}
+input[type="checkbox"] {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .radio + .radio {
   margin-top: -5px;
@@ -129,7 +156,7 @@ input[type=radio] {
 }
 #designs table thead th {
   /*max-width: 120px !important;*/
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   font-family: 'FFDINWebProBold';
   white-space: nowrap;
@@ -176,7 +203,7 @@ input[type=radio] {
 #designs table tbody td.child {
   text-align: left;
   font-size: 14px;
-  padding-left: 40px;
+  padding-left: 0px;
   white-space: normal;
   word-break: normal;
 }
@@ -191,6 +218,7 @@ input[type=radio] {
 #designs table .design-num {
   max-width: 140px;
   text-align: left;
+  padding-right: 18px;
 }
 #designs table .design-num:hover {
   cursor: pointer;
@@ -234,12 +262,13 @@ table.dataTable thead .sorting_desc {
   font-size: 14px;
 }
 .dataTables_wrapper .dataTables_length {
+  display: none;
   float: right;
 }
 .dataTables_wrapper .dataTables_length select {
   font-family: 'FFDINWebPro';
   font: 14px 'FFDINWebPro';
-  /*background: url(../images/icons/dropdown-arrow.png) no-repeat right center;*/
+  background: url(../images/icons/dropdown-arrow.png) no-repeat right center 8px;
   width: 50px;
   font-size: 14px;
   height: 26px;
@@ -252,6 +281,9 @@ table.dataTable thead .sorting_desc {
 }
 .dataTables_wrapper .dataTables_length select:focus {
   outline: none !important;
+}
+.dataTables_wrapper .dataTables_length select::-ms-expand {
+  display: block;
 }
 #systems_paginate a {
   font-size: 14px;
@@ -297,10 +329,7 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
   height: auto;
   width: auto;
 }
-.pdf-download {
-  display: none;
-  text-align: left;
-}
+#mobile-filter button,
 .pdf-download button {
   font-family: FFDINWebPro, sans-serif;
   font-size: 14px;
@@ -309,18 +338,25 @@ table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
   background-color: #db2c3b;
   border: 1px solid #000;
 }
+#mobile-filter button:focus,
 .pdf-download button:focus {
   outline: none !important;
 }
+#mobile-filter button:hover,
 .pdf-download button:hover {
   color: #db2c3b;
   background-color: #fff;
   cursor: pointer;
 }
+#mobile-filter button:disabled,
 .pdf-download button:disabled {
   background-color: #e5e5e5;
   border: 1px solid #e5e5e5;
   color: #fff !important;
   cursor: default;
+}
+.pdf-download {
+  display: none;
+  text-align: left;
 }
 /*# sourceMappingURL=system-search.css.map */

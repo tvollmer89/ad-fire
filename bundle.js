@@ -16250,7 +16250,7 @@ $(document).ready(function() {
       },
     "order": [[1, 'asc']],
     //"scrollX": true,
-    "sDom": "<'row'<'col-sm-12'l>>" + "<'row'<'col-sm-12'tr>>" + "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+    "sDom": "<'row'<'col-sm-12'l>>" + "<'row'<tr>>" + "<'row'<'col-sm-5'i><'col-sm-7'p>>",
     'rowCallback': function(row, data, dataIndex){
       // Get row ID
       var rowId = data.designNumber;
@@ -16359,8 +16359,8 @@ $(document).ready(function() {
   ===========================================*/
 
   /**
-   *  Function to clear secondary filter checkboxes
-   *  @param  {string} group Specifies which group of checkboxes to clear
+   *  Function to clear secondary filters
+   *  @param  {string} group Specifies which group of filters to clear
    *  @return {null}
    */
   function clearChecks(group) {
@@ -16371,16 +16371,9 @@ $(document).ready(function() {
     });
     $(g+' input[type="radio"]:checked').each(function() {
       this.checked = false;
-      table.fnFilter("", this.name, true, false, false, true)
+      table.fnFilter("", this.name, true, false, false, true);
     });
   }
-
-/**
-
-  TODO:
-  - Build separate clear funtion for radio filters
-
- */
 
   /*==============================================
   =            Assign Event Listeners            =

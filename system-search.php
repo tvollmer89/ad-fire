@@ -11,21 +11,24 @@
     <div class="col-md-12">
       <h2>Firestop Systems</h2>
       <div class="row">
-        <div id="filters" class="col-md-4">
+        <div id="filters" class="col-xs-12 col-md-4">
           <!-- Text Search -->
           <div class="row">
-            <div class="col-sm-8 search-filter">
+            <div class="col-xs-12 col-md-7 search-filter">
               <label>
-                <input id="tableSearch" type="text" class="form-control" placeholder="Search Designs">
+                <input id="tableSearch" type="text" class="form-control" placeholder="SEARCH DESIGNS">
               </label>
             </div>
-            <div class="col-sm-4 clear-filter">
+            <div id="mobile-filter" class="col-xs-7">
+              <a data-toggle="collapse" href="#system-filters" aria-expanded="false">Show Filters</a>
+            </div>
+            <div class="col-xs-5 col-md-5 clear-filter">
               <a id="clear-all" href="#" class="pull-right">Clear All</a>
             </div>
           </div>
           <!-- Selectors -->
           <div class="row">
-            <form id="system-filters">
+            <form id="system-filters" class="collapse">
               <div id="accordion" class="panel-group">
                 <!-- TestingAuth -->
                 <div class="panel panel-default">
@@ -154,7 +157,6 @@
   </div>
 </div>
 
-<!-- <script type="text/javascript" src="scripts/dropdown.js"></script> -->
 <script type="text/javascript" src="//gyrocode.github.io/jquery-datatables-checkboxes/1.0.3/js/dataTables.checkboxes.min.js"></script>
 <script type="text/javascript" src="bundle-min.js"></script>
 <!-- <script type="text/javascript" src="scripts/system-search-min.js"></script> -->

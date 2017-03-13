@@ -1084,6 +1084,9 @@ ul.sectionBody li {
   padding-bottom: 0px;
 
 }
+.type {
+  color: #000 !important;
+}
 .panel-body {
   padding-left: 32px;
 }
@@ -2081,6 +2084,12 @@ footer ul li:last-child {
   .fa-bars {
     display: none;
   }
+  .search-filter label{
+    width: 80% !important;
+  }
+  #designs table tbody td.child {
+    padding-left: 40px;
+  }
 }
 @media (min-width: 992px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
@@ -2251,6 +2260,28 @@ footer ul li:last-child {
   .pdf-download {
     display: block;
   }
+  #mobile-filter {
+    display: none !important;
+  }
+  .search-filter {
+    text-align: left !important;
+    padding-left: 0px !important;
+  }
+  .search-filter label {
+    width: auto !important;
+  }
+  .search-filter input {
+    text-align: left !important;
+  }
+  .clear-filter {
+    padding-right: 15px !important;
+  }
+  .dataTables_wrapper .dataTables_length {
+    display: block;
+  }
+  #system-filters {
+    display: block !important;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .container {
@@ -2287,6 +2318,7 @@ footer ul li:last-child {
   #projects #project:nth-child(3n) {
     border: none;
   }
+
 }
 @media (min-width: 1200px) {
   .container {

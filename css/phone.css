@@ -585,9 +585,6 @@ a .box {
 #designs table .pdf-col {
   width: 20% !important;
 }
-#designs table thead th, #designs table tbody td {
-  font-size: 12px;
-}
 table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
   background: none;
 }

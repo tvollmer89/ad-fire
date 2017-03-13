@@ -16252,7 +16252,7 @@ $(document).ready(function() {
       },
     "order": [[1, 'asc']],
     //"scrollX": true,
-    "sDom": "<'row'<'col-sm-12'l>>" + "<'row'<'col-sm-12'tr>>" + "<'row'<'col-sm-5'i><'col-sm-7'p>>",
+    "sDom": "<'row'<'col-sm-12'l>>" + "<'row'<tr>>" + "<'row'<'col-sm-5'i><'col-sm-7'p>>",
     'rowCallback': function(row, data, dataIndex){
       // Get row ID
       var rowId = data.designNumber;

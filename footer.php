@@ -45,16 +45,17 @@
   <script type="text/javascript">
   $(document).ready(function() {
 
-    $("#my-menu").mmenu({
+    $("#menu").mmenu({
      // options
     }, {
      // configuration
      offCanvas: {
-      pageNodetype: "section"
+      pageNodetype: "section",
+      position:"right"
      }
 
    }); //mmenu close
-   var api = $("#my-menu").data( "mmenu" );
+   var api = $("#menu").data( "mmenu" );
 
     window.onresize = function closeMenu(e) {
 
