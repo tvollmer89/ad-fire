@@ -16479,6 +16479,7 @@ $(document).ready(function() {
       alert('This function is not supported by your browser. Please download files individally by clicking on the red icon in the "PDF Download" column.');
       document.getElementById("download-zip").disabled = true;
     } else {
+      console.log(filesArray.length);
       bar.animate(1);
       var zip = new JSZip();
       filesArray.reduce(function(p, o) {
