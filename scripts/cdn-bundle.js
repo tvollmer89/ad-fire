@@ -16107,10 +16107,10 @@ function updateDataTableSelectAllCtrl(table){
 
 function updateFilesArray(rowIds) {
   var allFiles = [];
-  var pre = "designs/";
+  var pre = "/designs/";
   var ext = ".pdf";
   $.each(rowIds, function(index, value){
-    var n = "designs/".concat(value, ".pdf");
+    var n = "/designs/".concat(value, ".pdf");
     var file = {
       "filename" : value.concat(".pdf"),
       "url" : n
@@ -16230,7 +16230,7 @@ $(document).ready(function() {
         "targets" : 23,
         "data" : "link",
         render: function ( data, type, full, meta ) {
-          return '<a href="designs/'+data+'.pdf" download><i class="fa fa-download" aria-hidden="true"></i></a>';
+          return '<a href="/designs/'+data+'.pdf" download><i class="fa fa-download" aria-hidden="true"></i></a>';
         }
       }
     ],
