@@ -7,8 +7,20 @@
 		"uuidString": "8281F02A-AB04-49BD-87A6-AF3DBA3813B8"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25704",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
+		"oF": 0
+		},
 	"\/about-us.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -59,7 +71,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/bootstrap-theme-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/carousel.css": {
 		"aP": 1,
@@ -69,7 +81,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/carousel-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/carousel.less": {
 		"aP": 0,
@@ -96,7 +108,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/demo-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/easy-responsive-tabs.css": {
 		"aP": 1,
@@ -106,7 +118,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/easy-responsive-tabs-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/grid.less": {
 		"aP": 0,
@@ -133,7 +145,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/jquery-ui.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/jquery-ui.structure.min.css": {
 		"aP": 1,
@@ -143,7 +155,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/jquery-ui.structure.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/jquery-ui.theme.min.css": {
 		"aP": 1,
@@ -153,7 +165,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/jquery-ui.theme.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/jquery.mmenu.all-min.css": {
 		"aP": 1,
@@ -163,7 +175,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/jquery.mmenu.all-min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/jquery.mmenu.all.css": {
 		"aP": 1,
@@ -173,7 +185,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/jquery.mmenu.all-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/main-min.css": {
 		"aP": 1,
@@ -183,7 +195,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/main-min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/main.css": {
 		"aP": 1,
@@ -193,7 +205,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/main-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/mixins.less": {
 		"aP": 0,
@@ -237,7 +249,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/newTablet-min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/newTablet.css": {
 		"aP": 1,
@@ -247,7 +259,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/newTablet-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/normalize.css": {
 		"aP": 1,
@@ -257,7 +269,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/normalize-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/phone-min.css": {
 		"aP": 1,
@@ -267,7 +279,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/phone-min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/phone.css": {
 		"aP": 1,
@@ -277,7 +289,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/phone-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/products.less": {
 		"aP": 0,
@@ -321,7 +333,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/slick-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/system-search.css": {
 		"aP": 1,
@@ -331,7 +343,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/system-search-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/system-search.css.map": {
 		"ft": 8192,
@@ -381,7 +393,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/ui.fancytree-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/ui.fancytree.min.css": {
 		"aP": 1,
@@ -391,7 +403,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/ui.fancytree.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/vollmer.css": {
 		"aP": 1,
@@ -401,7 +413,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/css\/vollmer-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/css\/vollmer.css.map": {
 		"ft": 8192,
@@ -434,7 +446,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/fonts\/MyFontsWebfontsKit\/MyFontsWebfontsKit-min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/fonts\/MyFontsWebfontsKit\/MyFontsWebfontsKit.css": {
 		"aP": 1,
@@ -444,15 +456,17 @@
 		"oA": 2,
 		"oAP": "\/aws\/fonts\/MyFontsWebfontsKit\/MyFontsWebfontsKit-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/fonts\/MyFontsWebfontsKit\/Start here files\/header.png": {
 		"ft": 32768,
 		"iS": 3167,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/aws\/fonts\/MyFontsWebfontsKit\/Start here files\/header.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/fonts\/MyFontsWebfontsKit\/Start here files\/highlight.js": {
 		"ft": 64,
@@ -471,7 +485,7 @@
 		"oA": 2,
 		"oAP": "\/aws\/fonts\/MyFontsWebfontsKit\/Start here files\/layout-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/aws\/fonts\/MyFontsWebfontsKit\/StartHere.html": {
 		"ft": 8192,
@@ -551,7 +565,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/header-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/header-2.jpg": {
 		"ft": 16384,
@@ -559,7 +574,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/header-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/header-3.jpg": {
 		"ft": 16384,
@@ -567,7 +583,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/header-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/icons\/arrows-left.svg": {
 		"ft": 2097152,
@@ -592,10 +609,12 @@
 	"\/aws\/images\/logo-text.png": {
 		"ft": 32768,
 		"iS": 2937,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/aws\/images\/logo-text.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/logo-text.svg": {
 		"ft": 2097152,
@@ -610,10 +629,12 @@
 	"\/aws\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 19325,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/aws\/images\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/logo.svg": {
 		"ft": 2097152,
@@ -639,7 +660,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/project-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/project-2.jpg": {
 		"ft": 16384,
@@ -647,7 +669,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/project-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/project-3.jpg": {
 		"ft": 16384,
@@ -655,7 +678,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/project-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-1-lg.jpg": {
 		"ft": 16384,
@@ -663,7 +687,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-1-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-1.jpg": {
 		"ft": 16384,
@@ -671,15 +696,18 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-1.png": {
 		"ft": 32768,
 		"iS": 1014844,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-10.jpg": {
 		"ft": 16384,
@@ -687,7 +715,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-2-lg.jpg": {
 		"ft": 16384,
@@ -695,15 +724,18 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-2-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-2.png": {
 		"ft": 32768,
 		"iS": 1002345,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-3-lg.jpg": {
 		"ft": 16384,
@@ -711,7 +743,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-3-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-7.jpg": {
 		"ft": 16384,
@@ -719,7 +752,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/images\/slide-9.jpg": {
 		"ft": 16384,
@@ -727,7 +761,8 @@
 		"oA": 0,
 		"oAP": "\/aws\/images\/slide-9.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/aws\/index.html": {
 		"ft": 8192,
@@ -3481,7 +3516,7 @@
 		"oA": 2,
 		"oAP": "\/css\/bootstrap-theme-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/carousel.css": {
 		"aP": 1,
@@ -3491,7 +3526,7 @@
 		"oA": 2,
 		"oAP": "\/css\/carousel-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/carousel.less": {
 		"aP": 0,
@@ -3518,7 +3553,7 @@
 		"oA": 2,
 		"oAP": "\/css\/demo-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/easy-responsive-tabs.css": {
 		"aP": 1,
@@ -3528,7 +3563,7 @@
 		"oA": 2,
 		"oAP": "\/css\/easy-responsive-tabs-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/grid.less": {
 		"aP": 0,
@@ -3555,7 +3590,7 @@
 		"oA": 2,
 		"oAP": "\/css\/jquery-ui.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/jquery-ui.structure.min.css": {
 		"aP": 1,
@@ -3565,7 +3600,7 @@
 		"oA": 2,
 		"oAP": "\/css\/jquery-ui.structure.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/jquery-ui.theme.min.css": {
 		"aP": 1,
@@ -3575,7 +3610,7 @@
 		"oA": 2,
 		"oAP": "\/css\/jquery-ui.theme.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/jquery.mmenu.all.css": {
 		"aP": 1,
@@ -3585,7 +3620,7 @@
 		"oA": 2,
 		"oAP": "\/css\/jquery.mmenu.all-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/main-min.css": {
 		"aP": 1,
@@ -3605,7 +3640,7 @@
 		"oA": 2,
 		"oAP": "\/css\/main-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/mixins.less": {
 		"aP": 0,
@@ -3649,7 +3684,7 @@
 		"oA": 2,
 		"oAP": "\/css\/newTablet-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/normalize.css": {
 		"aP": 1,
@@ -3659,7 +3694,7 @@
 		"oA": 2,
 		"oAP": "\/css\/normalize-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/phone-min.css": {
 		"aP": 1,
@@ -3679,7 +3714,7 @@
 		"oA": 2,
 		"oAP": "\/css\/phone-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/products.less": {
 		"aP": 0,
@@ -3723,7 +3758,17 @@
 		"oA": 2,
 		"oAP": "\/css\/slick-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
+		},
+	"\/css\/style-guide.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/style-guide-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/css\/system-search.css": {
 		"aP": 1,
@@ -3733,7 +3778,7 @@
 		"oA": 2,
 		"oAP": "\/css\/system-search-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/system-search.css.map": {
 		"ft": 8192,
@@ -3783,7 +3828,7 @@
 		"oA": 2,
 		"oAP": "\/css\/ui.fancytree-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/ui.fancytree.min.css": {
 		"aP": 1,
@@ -3793,7 +3838,7 @@
 		"oA": 2,
 		"oAP": "\/css\/ui.fancytree.min-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/vollmer.css": {
 		"aP": 1,
@@ -3803,7 +3848,7 @@
 		"oA": 2,
 		"oAP": "\/css\/vollmer-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/css\/vollmer.css.map": {
 		"ft": 8192,
@@ -7160,6 +7205,12 @@
 		"oAP": "\/designs\/ULC\/WW-S-0077.pdf",
 		"oF": 0
 		},
+	"\/directory.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/directory.html",
+		"oF": 0
+		},
 	"\/directory.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7180,15 +7231,17 @@
 		"oA": 2,
 		"oAP": "\/fonts\/MyFontsWebfontsKit\/MyFontsWebfontsKit-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/fonts\/MyFontsWebfontsKit\/Start here files\/header.png": {
 		"ft": 32768,
 		"iS": 3167,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/fonts\/MyFontsWebfontsKit\/Start here files\/header.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/fonts\/MyFontsWebfontsKit\/Start here files\/highlight.js": {
 		"ft": 64,
@@ -7207,7 +7260,7 @@
 		"oA": 2,
 		"oAP": "\/fonts\/MyFontsWebfontsKit\/Start here files\/layout-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/fonts\/MyFontsWebfontsKit\/StartHere.html": {
 		"ft": 8192,
@@ -7401,7 +7454,8 @@
 		"oA": 0,
 		"oAP": "\/images\/header-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/header-2.jpg": {
 		"ft": 16384,
@@ -7409,7 +7463,8 @@
 		"oA": 0,
 		"oAP": "\/images\/header-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/header-3.jpg": {
 		"ft": 16384,
@@ -7417,7 +7472,8 @@
 		"oA": 0,
 		"oAP": "\/images\/header-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/icons\/arrows-left.svg": {
 		"ft": 2097152,
@@ -7445,39 +7501,48 @@
 		"oA": 0,
 		"oAP": "\/images\/icons\/dropdown-arrow.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/icons\/dropdown-arrow.png": {
 		"ft": 32768,
 		"iS": 304,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/icons\/dropdown-arrow.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/icons\/sort-icon-down.png": {
 		"ft": 32768,
 		"iS": 300,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/icons\/sort-icon-down.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/icons\/sort-icon-up.png": {
 		"ft": 32768,
 		"iS": 296,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/icons\/sort-icon-up.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/logo-text.png": {
 		"ft": 32768,
 		"iS": 2937,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/logo-text.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/logo-text.svg": {
 		"ft": 2097152,
@@ -7492,10 +7557,12 @@
 	"\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 19325,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/logo.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/logo.svg": {
 		"ft": 2097152,
@@ -7521,7 +7588,8 @@
 		"oA": 0,
 		"oAP": "\/images\/project-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/project-2.jpg": {
 		"ft": 16384,
@@ -7529,7 +7597,8 @@
 		"oA": 0,
 		"oAP": "\/images\/project-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/project-3.jpg": {
 		"ft": 16384,
@@ -7537,7 +7606,8 @@
 		"oA": 0,
 		"oAP": "\/images\/project-3.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-1-lg.jpg": {
 		"ft": 16384,
@@ -7545,7 +7615,8 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-1-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-1.jpg": {
 		"ft": 16384,
@@ -7553,15 +7624,18 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-1.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-1.png": {
 		"ft": 32768,
 		"iS": 1025018,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/slide-1.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-10.jpg": {
 		"ft": 16384,
@@ -7569,7 +7643,8 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-10.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-2-lg.jpg": {
 		"ft": 16384,
@@ -7577,15 +7652,18 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-2-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-2.png": {
 		"ft": 32768,
 		"iS": 1060875,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/images\/slide-2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-3-lg.jpg": {
 		"ft": 16384,
@@ -7593,7 +7671,8 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-3-lg.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-7.jpg": {
 		"ft": 16384,
@@ -7601,7 +7680,8 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-7.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/slide-9.jpg": {
 		"ft": 16384,
@@ -7609,7 +7689,8 @@
 		"oA": 0,
 		"oAP": "\/images\/slide-9.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -7627,6 +7708,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/json\/all-designs-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/json\/filters-moved.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/json\/filters-moved-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -7683,6 +7772,14 @@
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "\/json\/test-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/json\/UL-test.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/json\/UL-test-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -9042,7 +9139,7 @@
 		"oA": 2,
 		"oAP": "\/resources\/themes\/bootstrap\/css\/style-min.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0
 		},
 	"\/resources\/themes\/bootstrap\/default_footer.php": {
 		"ft": 8192,
@@ -9059,10 +9156,12 @@
 	"\/resources\/themes\/bootstrap\/img\/folder.png": {
 		"ft": 32768,
 		"iS": 537,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/resources\/themes\/bootstrap\/img\/folder.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/resources\/themes\/bootstrap\/index.php": {
 		"ft": 8192,
@@ -9118,6 +9217,39 @@
 		"oA": 0,
 		"oAP": "\/scripts\/carousel-min.js",
 		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/cdn-bundle-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/cdn-bundle-min-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/cdn-bundle-min.js.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/scripts\/cdn-bundle-min.js.map",
+		"oF": 0
+		},
+	"\/scripts\/cdn-bundle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/cdn-bundle-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/cdn-bundle.min.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/scripts\/cdn-bundle.min-min.js",
+		"oF": 1,
 		"sC": 0,
 		"tS": 0
 		},
@@ -9270,6 +9402,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/scripts\/jquery.mmenu.min.all-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/jquery.mobile.custom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/jquery.mobile.custom-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/scripts\/jquery.mobile.custom.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/scripts\/jquery.mobile.custom.min-min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -9493,6 +9643,12 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/system-search.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/system-search.html",
+		"oF": 0
 		},
 	"\/system-search.js": {
 		"ft": 64,
@@ -10388,6 +10544,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -10585,6 +10745,10 @@
 			"optionString": "{'grouping': false, 'allowCall': false }"
 			},
 		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -10864,6 +11028,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -10915,6 +11083,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -11009,6 +11181,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -11455,7 +11631,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -11548,7 +11725,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
