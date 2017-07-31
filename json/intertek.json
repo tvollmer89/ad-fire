@@ -273,7 +273,7 @@
       "sleeve": "",
       "insulationType": "",
       "lRating": "",
-      "link": "AD-PF 120-01"
+      "link": "Intertek/AD-PF 120-01"
     },
     {
       "designNumber": "AD/PF 120-02",
@@ -298,7 +298,7 @@
       "sleeve": "",
       "insulationType": "",
       "lRating": "",
-      "link": "AD-PF 120-02"
+      "link": "Intertek/AD-PF 120-02"
     },
     {
       "designNumber": "AD/PF 120-03",
@@ -323,7 +323,7 @@
       "sleeve": "",
       "insulationType": "",
       "lRating": "",
-      "link": "AD-PF 120-03"
+      "link": "Intertek/AD-PF 120-03"
     },
     {
       "designNumber": "AD/PF 120-04",
@@ -348,7 +348,7 @@
       "sleeve": "",
       "insulationType": "",
       "lRating": "",
-      "link": "AD-PF 120-04"
+      "link": "Intertek/AD-PF 120-04"
     },
     {
       "designNumber": "AD/PF 120-05",
@@ -373,7 +373,7 @@
       "sleeve": "",
       "insulationType": "",
       "lRating": "",
-      "link": "AD-PF 120-05"
+      "link": "Intertek/AD-PF 120-05"
     }
   ]
 }
