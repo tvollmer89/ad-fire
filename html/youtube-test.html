@@ -49,8 +49,8 @@
 $(document).ready(function() {
   var result = document.getElementById("result");
   var videoList = [];
-  // var apiLink = "https://www.youtube.com/feeds/videos.xml?channel_id=UCruA2q3fBPh2YR05aMfxstw";
-  var apiLink = "https://tvollmer89.github.io/ad-fire/carb-youtube.json";
+  var apiLink = "https://www.youtube.com/feeds/videos.xml?channel_id=UCruA2q3fBPh2YR05aMfxstw";
+  // var apiLink = "https://tvollmer89.github.io/ad-fire/carb-youtube.json";
   class Video {
     constructor(videoId, title, thumbnail) {
       this.videoId = videoId;
@@ -62,13 +62,21 @@ $(document).ready(function() {
 
   function getVideos(url) {
     $.ajax({
-      "async": true,
-      "crossDomain": true,
+      "type": "GET",
       "url": url,
-      "method": "GET"
-    }).done(function(response) {
-    result.innerHTML = '<h3>Videos</h3>';
-      console.log(response);
+      "dataType": "xml",
+      success: function(response) {
+        result.innerHTML = '<h3>Videos</h3>';
+        handleData(response);
+      }
+    });
+  };
+
+  function handleData(xml) {
+    console.log(xml);
+    var data = $.parseXML( xml );
+    $(data).find('entry').each(function() {
+      console.log($(this).find('title').text());
     });
   };
 
