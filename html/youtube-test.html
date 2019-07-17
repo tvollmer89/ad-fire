@@ -1,3 +1,9 @@
+<!--
+
+  xml link: https://www.youtube.com/feeds/videos.xml?channel_id=UCruA2q3fBPh2YR05aMfxstw
+  json link: https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCruA2q3fBPh2YR05aMfxstw&order=date&key=AIzaSyBRjF5s85EGPr1Lcltiu3F1r_vF2Gd1avw
+-->
+
 <html>
 <head>
   <meta charset="utf-8" />
@@ -6,13 +12,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://tvollmer89.github.io/ad-fire/css/main.css" />
   <link rel="stylesheet" type="text/css" media="only screen and (min-width:801px) and (max-width:1100px), only screen and (max-device-width: 1100px)" href="https://tvollmer89.github.io/ad-fire/css/newTablet.css" />
-  <link rel="stylesheet" type="text/css" media="only screen and (max-width:800px), only screen and (max-device-width: 800px)" href="https://tvollmer89.github.io/ad-fire/css/Phone.css" />
   <link rel="stylesheet" type="text/css" href="https://tvollmer89.github.io/ad-fire/css/slick.css"/>
   <link type="text/css" rel="stylesheet" href="https://tvollmer89.github.io/ad-fire/css/demo.css" />
   <link type="text/css" rel="stylesheet" href="https://tvollmer89.github.io/ad-fire/css/jquery.mmenu.all.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <script src="scripts/jquery-1.11.0.min.js"></script>
-  <script src="scripts/slick.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <link rel="stylesheet" type="text/css" href="https://tvollmer89.github.io/ad-fire/css/vollmer.css"/>
   <!--load fonts-->
   <script src="https://use.typekit.net/rjn3are.js"></script>
@@ -21,114 +26,9 @@
 </head>
 <body>
   <div id="header">
-    <div class="wrapper">
-      <!-- Mobile Nav -->
-      <a id="themenu" href="#menu">
-        <div class="burg"></div>
-        <div class="burg"></div>
-        <div class="burg"></div>
-      </a>
-      <nav id="menu">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about-us/">About Us</a>
-          </li>
-          <li>
-            <a href="/products/">Products</a>
-          </li>
-          <li>
-            <a href="/projects/">Projects</a>
-          </li>
-          <li>
-            <a href="/links/">Links</a>
-          </li>
-        </ul>
-      </nav>
-
-      <!-- LogoTitle -->
-      <div id="nav1">
-        <a href="/">
-          <div class="logo-div">
-            <img src="images/logo.svg" class="logo-img" />
-          </div>
-          <div class="logo-div">
-            <h1 id="top-title">Fire Protection Systems</h1>
-          </div>
-        </a>
-      </div>
-      <!-- News, Contact, Search -->
-      <div id="nav2">
-        <div class="menu">
-
-          <div id="form">
-            <input type="search" id="searchBox" placeholder="Search AD Fire" />
-            <span> <i class="fa fa-search" id="m-glass"></i>
-            </span>
-          </div>
-          <ul class="news-contact">
-            <li class="top-li">
-              <a href="news.html">News</a>
-            </li>
-            <li class="top-li">|</li>
-            <li class="top-li">
-              <a href="contact-us.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Main Nav -->
-        <div class="menu">
-          <ul>
-            <li class="main-li">
-              <a href="adfire.html">Home</a>
-            </li>
-            <li class="main-li">
-              <a href="about-us.html">About Us</a>
-            </li>
-            <li class="main-li">
-              <a href="products.html">Products</a>
-            </li>
-            <li class="main-li">
-              <a href="projects.html">Projects</a>
-            </li>
-            <li class="main-li">
-              <a href="links.html">Links</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <script type="text/javascript">
-        ( function() {
-          var open = false;
-          $('#m-glass').on('click', function(e) {
-          e.preventDefault();
-            var searched = $("#searchBox").val();
-            if(searched.length > 2)
-            {
-              window.location.href = "/search-results/?ap-q="+searched;
-            }
-          });
-          $('#searchBox').on('keyup', function(e){
-            if(e.keyCode == 13){
-              var searched = $("#searchBox").val();
-              if(searched.length > 2)
-              {
-                window.location.href = "/search-results/?ap-q="+searched;
-              }
-            }
-          });
-
-        } () );
-      </script>
-
-    </div>
   </div>
 
   <div id="mainImage">
-    <img src="images/header-3.jpg" class="bg-img2">
 
     <section class="pink-box">
       <h1>Contact Us</h1>
@@ -137,204 +37,66 @@
 
   <div id="content" class="hq">
     <div id="contact-page" class="content-inner container">
-      <h1>Contact Us</h1>
-      <div class="row">
-        <h2>Corporate Headquarters</h2>
-        <p>420 Tapscott Road<br />Scarborough, ON M1B 1Y4</p>
-        <p>Tel: (416) 292-2361<br />Toll Free: (800)263-4087<br />Fax: (416) 298-5887</p>
-        <p>Direct to Order Desk: Call 1-877-735-6155 or Fax 416-292-6970</p>
-      </div>
+      <h1>youtube test</h1>
+      <div id="result" class="resources-list"></div>
+
     </div>
   </div>
   <div id="content" class="locations">
     <div id="contact-page" class="content-inner container">
-      <div class="row">
+      <script>
 
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>Western Canada</h3>
-          <p class="details">
-            (Alberta, British Columbia, Manitoba, Saskatchewan, Northwest Territories, Yukon Territory)
-          </p>
-          <h4>
-            Ron van Frankfoort
-            <br />
-            Director of Fireproofing Sales
-          </h4>
-          <p>
-            Tel: (314) 435-2570
-            <br />
-            Fax: (613) 482-3950
-            <br />
-            E-mail:
-            <a href='mailto:rvf@adfire.com'>rvf@adfire.com</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>Central Canada</h3>
-          <p class="details">(Ontario)</p>
-          <p>
-            Chris Row
-            <br />
-            Fireproofing Sales Specialist
-          </p>
-          <p>
-            Tel: (647) 308-4084
-            <br />
-            Fax: (416) 352-5655
-            <br />
-            E-mail:
-            <a href='mailto:crow@adfire.com'>crow@adfire.com</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>Eastern Canada</h3>
-          <p class="details">
-            (New Brunswick, Newfoundland, Nova Scotia, Prince Edward Island, Quebec)
-          </p>
-          <p>
-            Louis-Raymond Gratton
-            <br />
-            Fireproofing Sales Specialist
-          </p>
-          <p>
-            <p>
-              2820 Boulevard Saint-Martin Est
-              <br />
-              Bureau 100
-              <br />
-              Laval, QC H7E 5A1
-            </p>
-          </p>
-          <p>
-            Tel: (514) 942-9373
-            <br />
-            Tel: (800) 914-6506
-            <br />
-            E-mail:
-            <a href='mailto:lgratton@adfire.com'>lgratton@adfire.com</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>USA</h3>
-          <h4>
-            Stevo Miljatovich
-            <br />
-            Technical Services Representative
-          </h4>
-          <p>
-            <p>
-              420 Tapscott Rd.
-              <br />
-              Scarborough, Ontario
-              <br />
-              M1B 1Y4
-            </p>
-          </p>
-          <p>
-            Tel: (800) 263-4087
-            <br />
-            Tel: (416) 292-2361
-            <br />
-            Fax: (416) 298-5887
-            <br />
-            E-mail:
-            <a href='mailto:stevo@adfire.com'>stevo@adfire.com</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>Kuwait</h3>
-          <p>Naser Al-Kulaib General Trading and Contracting</p>
-          <p>
-            <p>
-              P.O. Box 17877
-              <br />
-              Khaldiya
-              <br />
-              Kuwait
-            </p>
-          </p>
-          <p>
-            Tel: 00965 4764222
-            <br />
-            Tel: 4769333
-            <br />
-            Fax: 00965 4768444
-            <br />
-            E-mail:
-            <a href='mailto:nktckwt@rediffmail.com'>nktckwt@rediffmail.com</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>China</h3>
-          <p class="details">(Hong Kong, Macau)</p>
-          <p>
-            Mr. Ken Chan
-            <br />
-            On Year Development Ltd
-          </p>
-          <p>
-            <p>
-              Room 2406
-              <br />
-              Cheung Tat Centre
-              <br />
-              18 Cheung Lee Street
-              <br />
-              Chaiwan, Hong Kong
-            </p>
-          </p>
-          <p>
-            Tel: +85 2 28895783
-            <br />
-            Fax: +85 2 28892028
-            <br />
-            E-mail:
-            <a href='mailto:info@onyear.com.hk'>info@onyear.com.hk</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>Israel</h3>
-          <p>
-            Mr. Avi Ben-Haim
-            <br />
-            M.H.S. Technologies
-          </p>
-          <p>
-            <p>
-              PO Box 4606
-              <br />
-              Petach Tikva
-              <br />
-              49277  Israel
-            </p>
-          </p>
-          <p>
-            Tel: 972 3 904 3495
-            <br />
-            Fax: 972 3 934 3002
-            <br />
-            E-mail:
-            <a href='mailto:benhaima@netvision.net.il'>benhaima@netvision.net.il</a>
-          </p>
-        </div>
-        <div id="location" class="col-sm-4 col-md-4 col-lg-4">
-          <h3>Trinidad and Tobago</h3>
-          <p>
-            Ron van Frankfoort
-            <br />
-            Director of Fireproofing Sales
-          </p>
-          <p>
-            Tel: (314) 435-2570
-            <br />
-            Fax: (613) 482-3950
-            <br />
-            E-mail:
-            <a href='mailto:rvf@adfire.com'>rvf@adfire.com</a>
-          </p>
-        </div>
+$(document).ready(function() {
+  var result = document.getElementById("result");
+  var videoList = [];
+  // var apiLink = "https://www.youtube.com/feeds/videos.xml?channel_id=UCruA2q3fBPh2YR05aMfxstw";
+  var apiLink = "https://tvollmer89.github.io/ad-fire/carb-youtube.json";
+  class Video {
+    constructor(videoId, title, thumbnail) {
+      this.videoId = videoId;
+      this.title = title;
+      this.thumbnail = thumbnail;
+    }
+  }
 
-      </div>
+
+  function getVideos(url) {
+    $.ajax({
+      "async": true,
+      "crossDomain": true,
+      "url": url,
+      "method": "GET"
+    }).done(function(response) {
+    result.innerHTML = '<h3>Videos</h3>';
+      console.log(response);
+    });
+  };
+
+  // function handleData(data) {
+  //   for (var item of data.items) {
+  //     if (item.id.kind === "youtube#video") {
+  //       var v = new Video(item.id.videoId, item.snippet.title, item.snippet.thumbnails.default.url);
+  //       videoList.push(v);      }
+  //   }
+  //   if (data.hasOwnProperty("nextPageToken")) {
+  //     var newLink = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCruA2q3fBPh2YR05aMfxstw&pageToken=${data.nextPageToken}&key=AIzaSyBRjF5s85EGPr1Lcltiu3F1r_vF2Gd1avw`;
+  //     getVideos(newLink);
+  //   } else {
+  //     displayVideos(videoList);
+  //   };
+  // };
+
+  // function displayVideos(videos) {
+  //   var allVideos = videos.map(function(video) {
+  //     return '<li class="video"><a href="https://www.youtube.com/watch?v=' + video.videoId + '" target="_blank">' + video.title + '</a></li>';
+  //   });
+  //   result.innerHTML += "<ul id='videos'>" + allVideos.join('') + "</ul>";
+  // };
+
+  getVideos(apiLink);
+
+});
+</script>
     </div>
   </div>
 
@@ -361,57 +123,7 @@
   </div>
 </footer>
 
-<script type="text/javascript">
-        $(document).ready(function(){
-            $('.slideshow').slick({
-        lazyLoad: 'ondemand',
-        dots: true,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        slide: 'div',
-        cssEase: 'linear',
-        autoplay: true,
-          autoplaySpeed: 2000,
-        arrows:true
-      });
-        });
-    </script>
 
-<script type="text/javascript" src="/scripts/jquery.mmenu.min.all.js"></script>
-<script type="text/javascript">
-    $(function() {
-      $('nav#menu').mmenu();
-    });
-  </script>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-
-    $("#my-menu").mmenu({
-     // options
-    }, {
-     // configuration
-     offCanvas: {
-      pageNodetype: "section"
-     }
-
-   }); //mmenu close
-   var api = $("#my-menu").data( "mmenu" );
-
-    window.onresize = function closeMenu(e) {
-
-       var windowWidth = window.innerWidth;
-       if(windowWidth > 800)
-        {
-
-          api.close();
-
-        }
-     } // end window resize
-
-  });
-  </script>
 
 </body>
 </html>
